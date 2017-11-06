@@ -1,0 +1,40 @@
+{
+  "domains": {
+    "root": "https://explorer.testnet.blockchain.info",
+    "webSocket": "wss://ws.testnet.blockchain.info/inv",
+    "api": "https://api.testnet.blockchain.info",
+    "walletHelperUrl": "https://wallet-helper.testnet.blockchain.info"
+  },
+  "network": "testnet",
+  "showBuySellTab": [],
+  "partners": {
+    "coinify": {
+      "countries": [],
+      "partnerId": 24,
+      "iSignThisDomain": "https://stage-verify.isignthis.com",
+      "surveyLinks": [],
+      "sellSurveyLinks": [],
+      "showSellFraction": 1
+    },
+    "sfox": {
+      "production": false,
+      "countries": [],
+      "states": [],
+      "inviteFormFraction": 0.25,
+      "showCheckoutFraction": 0.5,
+      "apiKey": "6CD61A0E965D48A7B1883A860490DC9E",
+      "plaid": "0b041cd9e9fbf1e7d93a0d5a39f5b9",
+      "plaidEnv": "tartan",
+      "siftScience": "3884e5fae5",
+      "surveyLinks": []
+    },
+    "unocoin": {
+      "countries": [],
+      "showCheckoutFraction": 0,
+      "production": false
+    }
+  },
+  "service_charge": {
+  },
+  "iosBuyPercent": 0
+}

@@ -1,0 +1,5 @@
+# Generic
+*.DS_Store
+
+# JS
+node_modules/
