@@ -13,6 +13,8 @@ Validate options files: `yarn test`
 
 Watch mode: `yarn test --watch`
 
+JSON format options: `yarn format [env?]`
+
 ## Deploy
 
 To deploy to different environments (dev/staging/testnet/prod):

@@ -8,6 +8,7 @@
   "author": "Justin Tormey <justin@blockchain.com>",
   "license": "MIT",
   "scripts": {
+    "format": "node scripts/json-format.js",
     "test": "jest"
   },
   "standard": {
