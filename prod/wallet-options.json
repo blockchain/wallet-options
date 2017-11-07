@@ -12,6 +12,12 @@
                     "MC", "NL", "NO", "PL", "PT", "RE", "BL", "MF", "PM", "SM",
                     "SK", "SI", "ES", "SE", "CH", "IN"
                   ],
+  "buySell": {
+    "disabled": false,
+    "disabledReason": {
+      "en": ""
+    }
+  },
   "partners": {
     "coinify": {
       "countries": ["GB", "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI",
