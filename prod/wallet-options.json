@@ -35,6 +35,7 @@
       "disabled": false
     },
     "sfox": {
+      "disabled": false,
       "production": true,
       "countries": [],
       "states": ["AL", "AZ", "CA", "CO", "DE", "GA", "IN", "KS", "ME", "MD", "MA", "MO", "MT", "NY", "PA", "SC", "TN", "TX", "UT"],
@@ -87,7 +88,11 @@
   "iosBuyPercent": 1.00,
   "androidBuyPercent": 1.00,
   "android": {
-    "showUnocoin": false
+    "showUnocoin": false,
+    "showShapeshift": false
+  },
+  "ios": {
+    "showShapeshift": false
   },
   "web": {
     "serviceAlert": {}

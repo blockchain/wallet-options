@@ -1,4 +1,4 @@
-const { object, string, bool, either, nullable, arrayOf, enumOf, just, country, state, integer, fraction } = require('./types')
+const { object, string, bool, either, nullable, optional, arrayOf, enumOf, just, country, state, integer, fraction, localizedMessage } = require('./types')
 
 module.exports = object({
   domains: object({
@@ -11,6 +11,8 @@ module.exports = object({
   showBuySellTab: arrayOf(country()),
   partners: object({
     coinify: object({
+      disabled: bool(),
+      disabledReason: optional(localizedMessage()),
       countries: arrayOf(country()),
       partnerId: integer(),
       iSignThisDomain: string(),
@@ -19,6 +21,8 @@ module.exports = object({
       showSellFraction: fraction()
     }),
     sfox: object({
+      disabled: bool(),
+      disabledReason: optional(localizedMessage()),
       production: bool(),
       countries: arrayOf(country()),
       states: arrayOf(state()),
@@ -31,6 +35,8 @@ module.exports = object({
       surveyLinks: arrayOf(nullable(string()))
     }),
     unocoin: object({
+      disabled: bool(),
+      disabledReason: optional(localizedMessage()),
       countries: arrayOf(country()),
       showCheckoutFraction: fraction(),
       production: bool(),
@@ -40,12 +46,18 @@ module.exports = object({
   }),
   service_charge: object({}),
   showMobileLogin: bool(),
+  buySell: object({
+    disabled: bool(),
+    disabledReason: optional(localizedMessage())
+  }),
   ethereum: object({
     countries: either(just('*'), arrayOf(country())),
     rolloutFraction: fraction(),
     surveyLinks: arrayOf(nullable(string()))
   }),
   shapeshift: object({
+    disabled: bool(),
+    disabledReason: optional(localizedMessage()),
     apiKey: string(),
     countriesBlacklist: arrayOf(country()),
     statesWhitelist: arrayOf(state()),
@@ -58,7 +70,16 @@ module.exports = object({
   }),
   iosBuyPercent: fraction(),
   androidBuyPercent: fraction(),
+  web: object({
+    serviceAlert: object({})
+  }),
   android: object({
-    showUnocoin: bool()
-  })
+    showUnocoin: bool(),
+    showShapeshift: bool()
+  }),
+  ios: object({
+    showShapeshift: bool()
+  }),
+  mobile_notice: optional(localizedMessage()),
+  webHardFork: object({})
 })

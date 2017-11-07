@@ -15,6 +15,7 @@
   },
   "partners": {
     "coinify": {
+      "disabled": false,
       "countries": ["GB", "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI",
                     "FR", "GF", "DE", "GI", "GR", "GP", "GG", "HU", "IS", "IE",
                     "IM", "IT", "JE", "LV", "LI", "LT", "LU", "MT", "MQ", "YT",
@@ -34,6 +35,7 @@
       "showSellFraction": 1
     },
     "sfox": {
+      "disabled": false,
       "production": false,
       "countries": ["US"],
       "states": ["AL", "AZ", "CA", "CO", "DE", "GA", "IN", "KS", "ME", "MD", "MA", "MO", "MT", "NY", "PA", "SC", "TN", "TX", "UT"],
@@ -49,6 +51,7 @@
                       "https://blockchain.co1.qualtrics.com/SE/?SID=SV_78S6RzM5ipN66fb"]
     },
     "unocoin": {
+      "disabled": false,
       "countries": ["IN"],
       "showCheckoutFraction": 0,
       "production": false,
@@ -70,6 +73,7 @@
                     "https://blockchain.co1.qualtrics.com/jfe/form/SV_b8A9pKaGE30Qb9X"]
   },
   "shapeshift": {
+    "disabled": false,
     "apiKey": "b7a7c320c19ea3a8e276c8921bc3ff79ec064d2cd9d98ab969acc648246b4be5ab2379af704c5d3a3021c0ddf82b3e479590718847c1301e1a85331d2d2a8370",
     "countriesBlacklist": [],
     "statesWhitelist": ["AR", "AZ", "CA", "CO", "ID", "IL", "IN", "KS", "KY", "LA", "MA", "MD", "MI", "MN", "MO", "MT", "NE", "NV", "OK", "PA", "SC", "SD", "TN", "TX", "VA", "WI", "WV"],
@@ -109,5 +113,9 @@
     "de": "Text warning German.",
     "nl": "Text warning Dutch.",
     "cs": "Text warning Czech."
-  }
+  },
+  "web": {
+    "serviceAlert": {}
+  },
+  "webHardFork": {}
 }
