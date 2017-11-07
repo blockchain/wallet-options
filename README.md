@@ -1,4 +1,4 @@
-# wallet-options [![Build Status](https://travis-ci.org/blockchain/wallet-options.png?branch=master)](https://travis-ci.org/blockchain/wallet-options)
+# wallet-options [![Build Status](https://travis-ci.org/blockchain/wallet-options.svg?branch=master)](https://travis-ci.org/blockchain/wallet-options)
 
 Settings file used by Blockchain wallet clients:
  * [My-Wallet-V3-Frontend](https://github.com/blockchain/My-Wallet-V3-Frontend)
