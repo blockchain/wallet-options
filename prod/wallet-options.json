@@ -13,10 +13,7 @@
                     "SK", "SI", "ES", "SE", "CH", "IN"
                   ],
   "buySell": {
-    "disabled": false,
-    "disabledReason": {
-      "en": ""
-    }
+    "disabled": false
   },
   "partners": {
     "coinify": {
@@ -34,7 +31,8 @@
       "sellSurveyLinks": ["https://blockchain.co1.qualtrics.com/jfe/form/SV_56iZITjrjyMOrzL",
                          "https://blockchain.co1.qualtrics.com/jfe/form/SV_9u8XxkrkiUUy6z3",
                          "https://blockchain.co1.qualtrics.com/jfe/form/SV_9ysiGRC4rkMFwFv"],
-      "showSellFraction": 1
+      "showSellFraction": 1,
+      "disabled": false
     },
     "sfox": {
       "production": true,
@@ -60,7 +58,8 @@
                       "https://blockchain.co1.qualtrics.com/jfe/form/SV_25JUYJLoLoHQ5b7"],
       "surveyTradeLinks": ["https://blockchain.co1.qualtrics.com/jfe/form/SV_87YRZx6LVdaF4kR",
                            "",
-                           "https://docs.google.com/forms/d/e/1FAIpQLSfzk27LixcjpCiLn5BlhZHDLqG6mXiZgPA-b1T0fFCWpyxqAA/viewform"]
+                           "https://docs.google.com/forms/d/e/1FAIpQLSfzk27LixcjpCiLn5BlhZHDLqG6mXiZgPA-b1T0fFCWpyxqAA/viewform"],
+      "disabled": false
     }
   },
   "service_charge": {
@@ -78,7 +77,8 @@
     "rolloutFraction": 1,
     "upperLimit": 500,
     "surveyLinks": ["https://blockchain.co1.qualtrics.com/jfe/form/SV_1MuVnVEtWhiVIQl",
-                    "https://blockchain.co1.qualtrics.com/jfe/form/SV_3QV1OgysGUC0hXD"]
+                    "https://blockchain.co1.qualtrics.com/jfe/form/SV_3QV1OgysGUC0hXD"],
+    "disabled": false
   },
   "bcash": {
     "feePerByte": 2
@@ -88,5 +88,9 @@
   "androidBuyPercent": 1.00,
   "android": {
     "showUnocoin": false
-  }
+  },
+  "web": {
+    "serviceAlert": {}
+  },
+  "webHardFork": {}
 }
