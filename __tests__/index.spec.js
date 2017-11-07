@@ -5,7 +5,7 @@ const { validate } = require('../src')
 let runTestFor = (env) => {
   describe(env, () => {
     let optionsPath = path.resolve(__dirname, '..', env, 'wallet-options.json')
-    let options = fs.readFileSync(optionsPath).toString()
+    let options = fs.readFileSync(optionsPath).toString().trim()
 
     it('should be valid', () => {
       let result = validate(JSON.parse(options))
