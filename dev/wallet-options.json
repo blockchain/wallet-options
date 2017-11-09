@@ -73,7 +73,8 @@
         "https://blockchain.co1.qualtrics.com/jfe/form/SV_9u8XxkrkiUUy6z3",
         "https://blockchain.co1.qualtrics.com/jfe/form/SV_9ysiGRC4rkMFwFv"
       ],
-      "showSellFraction": 1
+      "showSellFraction": 1,
+      "showRecurringBuy": true
     },
     "sfox": {
       "disabled": false,
