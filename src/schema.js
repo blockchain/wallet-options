@@ -18,7 +18,8 @@ module.exports = object({
       iSignThisDomain: string(),
       surveyLinks: arrayOf(nullable(string())),
       sellSurveyLinks: arrayOf(string()),
-      showSellFraction: fraction()
+      showSellFraction: fraction(),
+      showRecurringBuy: bool()
     }),
     sfox: object({
       disabled: bool(),
