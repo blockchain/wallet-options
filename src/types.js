@@ -28,4 +28,18 @@ exports.integer = () => Object.assign(exports.number(), { divisibleBy: 1 })
 
 exports.fraction = () => Object.assign(exports.number(), { minimum: 0, maximum: 1 })
 
-exports.localizedMessage = () => ({ type: 'object', properties: { 'en': exports.string() } })
+exports.localizedMessage = () => ({ type: 'object', required: true, properties: { 'en': exports.string() } })
+
+exports.webServiceAlert = () => exports.object({
+  type: exports.enumOf(['info', 'warning', 'danger']),
+  hideType: exports.optional(exports.enumOf(['collapse', 'dismiss'])),
+  header: exports.optional(exports.localizedMessage()),
+  sections: exports.arrayOf(exports.object({
+    title: exports.optional(exports.localizedMessage()),
+    body: exports.localizedMessage()
+  })),
+  action: exports.optional(exports.object({
+    title: exports.localizedMessage(),
+    link: exports.optional(exports.string())
+  }))
+})

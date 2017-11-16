@@ -1,4 +1,4 @@
-const { object, string, bool, either, nullable, optional, arrayOf, enumOf, just, country, state, integer, fraction, localizedMessage } = require('./types')
+const { object, string, bool, either, nullable, optional, arrayOf, enumOf, just, country, state, integer, fraction, localizedMessage, webServiceAlert } = require('./types')
 
 module.exports = object({
   domains: object({
@@ -72,7 +72,13 @@ module.exports = object({
   iosBuyPercent: fraction(),
   androidBuyPercent: fraction(),
   web: object({
-    serviceAlert: object({})
+    serviceAlert: object({
+      global: optional(webServiceAlert()),
+      sendBtc: optional(webServiceAlert()),
+      sendBtcBanner: optional(webServiceAlert()),
+      requestBtc: optional(webServiceAlert()),
+      requestBtcBanner: optional(webServiceAlert())
+    })
   }),
   android: object({
     showUnocoin: bool(),
