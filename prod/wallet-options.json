@@ -247,14 +247,17 @@
     "feePerByte": 2
   },
   "showMobileLogin": true,
-  "iosBuyPercent": 1,
-  "androidBuyPercent": 1,
+  "iosBuyPercent": 0,
+  "androidBuyPercent": 0,
   "android": {
     "showUnocoin": false,
     "showShapeshift": false
   },
   "ios": {
     "showShapeshift": false
+  },
+  "mobile_notice": {
+    "en": "The Bitcoin network is currently unstable. To continue protecting your funds, we are briefly suspending all outgoing bitcoin transactions. We anticipate restoring full service to your wallet within the hour.\nTo learn more, check out our recent blog post."
   },
   "web": {
     "serviceAlert": {
