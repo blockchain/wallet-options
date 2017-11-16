@@ -252,7 +252,6 @@
       },
       "sendBtc": {
         "type": "danger",
-        "hideType": "collapse",
         "header": {
           "en": "Ongoing Service Interruption"
         },
@@ -272,7 +271,6 @@
       },
       "requestBtc": {
         "type": "danger",
-        "hideType": "collapse",
         "header": {
           "en": "Ongoing Service Interruption"
         },
