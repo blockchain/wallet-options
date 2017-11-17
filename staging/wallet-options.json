@@ -199,8 +199,8 @@
   "bcash": {
     "feePerByte": 2
   },
-  "iosBuyPercent": 0,
-  "androidBuyPercent": 0,
+  "iosBuyPercent": 1,
+  "androidBuyPercent": 1,
   "android": {
     "showUnocoin": false,
     "showShapeshift": true
@@ -209,7 +209,24 @@
     "showShapeshift": true
   },
   "mobile_notice": {
-    "en": "The Bitcoin network is currently unstable. To continue protecting your funds, we are briefly suspending all outgoing bitcoin transactions. We anticipate restoring full service to your wallet within the hour.\nTo learn more, check out our recent blog post."
+    "en": "Generic warning retrieved from wallet-options. This warning will display on each session. English.",
+    "zh-CN": "Text warning Chinese Simplified.",
+    "es-US": "Text warning Spanish Latin America.",
+    "pt-BR": "Text warning Portuguese Brazil.",
+    "fr": "Text warning French.",
+    "ru": "Text warning Russian.",
+    "in": "Text warning Indonesian.",
+    "tr": "Text warning Turkish.",
+    "vi": "Text warning Vietnamese.",
+    "uk": "Text warning Ukrainian.",
+    "th": "Text warning Thai.",
+    "pl": "Text warning Polish.",
+    "ko": "Text warning Korean.",
+    "ja": "Text warning Japanese.",
+    "it": "Text warning Italian.",
+    "de": "Text warning German.",
+    "nl": "Text warning Dutch.",
+    "cs": "Text warning Czech."
   },
   "web": {
     "serviceAlert": {
