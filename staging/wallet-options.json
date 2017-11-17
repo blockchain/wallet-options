@@ -10,9 +10,9 @@
     "US"
   ],
   "buySell": {
-    "disabled": true,
+    "disabled": false,
     "disabledReason": {
-      "en": "The Bitcoin network is currently unstable. To continue protecting your funds, we are briefly suspending all outgoing bitcoin transactions. We anticipate restoring full service to your wallet within the hour."
+      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
   },
   "partners": {
@@ -154,10 +154,7 @@
     ]
   },
   "shapeshift": {
-    "disabled": true,
-    "disabledReason": {
-      "en": "The Bitcoin network is currently unstable. To continue protecting your funds, we are briefly suspending all outgoing bitcoin transactions. We anticipate restoring full service to your wallet within the hour."
-    },
+    "disabled": false,
     "apiKey": "b7a7c320c19ea3a8e276c8921bc3ff79ec064d2cd9d98ab969acc648246b4be5ab2379af704c5d3a3021c0ddf82b3e479590718847c1301e1a85331d2d2a8370",
     "countriesBlacklist": [],
     "statesWhitelist": [
@@ -199,8 +196,8 @@
   "bcash": {
     "feePerByte": 2
   },
-  "iosBuyPercent": 0,
-  "androidBuyPercent": 0,
+  "iosBuyPercent": 1,
+  "androidBuyPercent": 1,
   "android": {
     "showUnocoin": false,
     "showShapeshift": true
@@ -209,69 +206,27 @@
     "showShapeshift": true
   },
   "mobile_notice": {
-    "en": "The Bitcoin network is currently unstable. To continue protecting your funds, we are briefly suspending all outgoing bitcoin transactions. We anticipate restoring full service to your wallet within the hour.\nTo learn more, check out our recent blog post."
+    "en": "Generic warning retrieved from wallet-options. This warning will display on each session. English.",
+    "zh-CN": "Text warning Chinese Simplified.",
+    "es-US": "Text warning Spanish Latin America.",
+    "pt-BR": "Text warning Portuguese Brazil.",
+    "fr": "Text warning French.",
+    "ru": "Text warning Russian.",
+    "in": "Text warning Indonesian.",
+    "tr": "Text warning Turkish.",
+    "vi": "Text warning Vietnamese.",
+    "uk": "Text warning Ukrainian.",
+    "th": "Text warning Thai.",
+    "pl": "Text warning Polish.",
+    "ko": "Text warning Korean.",
+    "ja": "Text warning Japanese.",
+    "it": "Text warning Italian.",
+    "de": "Text warning German.",
+    "nl": "Text warning Dutch.",
+    "cs": "Text warning Czech."
   },
   "web": {
-    "serviceAlert": {
-      "global": {
-        "type": "danger",
-        "hideType": "collapse",
-        "header": {
-          "en": "Ongoing Service Interruption"
-        },
-        "sections": [
-          {
-            "body": {
-              "en": "The Bitcoin network is currently unstable. To continue protecting your funds, we are briefly suspending all outgoing bitcoin transactions. We anticipate restoring full service to your wallet within the hour."
-            }
-          }
-        ],
-        "action": {
-          "title": {
-            "en": "To learn more, check out our recent blog post"
-          },
-          "link": "https://blog.blockchain.com/2017/11/15/segwit-bitcoin-cash-update/"
-        }
-      },
-      "sendBtc": {
-        "type": "danger",
-        "header": {
-          "en": "Ongoing Service Interruption"
-        },
-        "sections": [
-          {
-            "body": {
-              "en": "The Bitcoin network is currently unstable. To continue protecting your funds, we are briefly suspending all outgoing bitcoin transactions. We anticipate restoring full service to your wallet within the hour."
-            }
-          }
-        ],
-        "action": {
-          "title": {
-            "en": "To learn more, check out our recent blog post"
-          },
-          "link": "https://blog.blockchain.com/2017/11/15/segwit-bitcoin-cash-update/"
-        }
-      },
-      "requestBtc": {
-        "type": "danger",
-        "header": {
-          "en": "Ongoing Service Interruption"
-        },
-        "sections": [
-          {
-            "body": {
-              "en": "The Bitcoin network is currently unstable. To continue protecting your funds, we are briefly suspending all outgoing bitcoin transactions. We anticipate restoring full service to your wallet within the hour."
-            }
-          }
-        ],
-        "action": {
-          "title": {
-            "en": "To learn more, check out our recent blog post"
-          },
-          "link": "https://blog.blockchain.com/2017/11/15/segwit-bitcoin-cash-update/"
-        }
-      }
-    }
+    "serviceAlert": {}
   },
   "webHardFork": {}
 }
