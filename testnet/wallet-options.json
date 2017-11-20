@@ -1,27 +1,103 @@
 {
   "domains": {
-    "root": "https://explorer.testnet.blockchain.info",
+    "root": "https://testnet.blockchain.info",
     "webSocket": "wss://ws.testnet.blockchain.info/inv",
     "api": "https://api.testnet.blockchain.info",
     "walletHelperUrl": "https://wallet-helper.testnet.blockchain.info"
   },
   "network": "testnet",
-  "showBuySellTab": [],
+  "showBuySellTab": [
+    "US"
+  ],
   "partners": {
     "coinify": {
-      "countries": [],
+      "countries": [
+        "GB",
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "GF",
+        "DE",
+        "GI",
+        "GR",
+        "GP",
+        "GG",
+        "HU",
+        "IS",
+        "IE",
+        "IM",
+        "IT",
+        "JE",
+        "LV",
+        "LI",
+        "LT",
+        "LU",
+        "MT",
+        "MQ",
+        "YT",
+        "MC",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RE",
+        "BL",
+        "MF",
+        "PM",
+        "SM",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "CH"
+      ],
       "partnerId": 24,
       "iSignThisDomain": "https://stage-verify.isignthis.com",
       "surveyLinks": [],
       "sellSurveyLinks": [],
-      "showSellFraction": 1
+      "showSellFraction": 1,
+      "showRecurringBuy": true
     },
     "sfox": {
+      "disabled": false,
       "production": false,
-      "countries": [],
-      "states": [],
-      "inviteFormFraction": 0.25,
-      "showCheckoutFraction": 0.5,
+      "countries": [
+        "US"
+      ],
+      "states": [
+        "AZ",
+        "CA",
+        "CO",
+        "DE",
+        "IN",
+        "ID",
+        "IL",
+        "KS",
+        "KY",
+        "MA",
+        "MD",
+        "ME",
+        "MI",
+        "MO",
+        "MT",
+        "OH",
+        "NY",
+        "PA",
+        "SC",
+        "TN",
+        "TX",
+        "UT",
+        "VA"
+      ],
+      "inviteFormFraction": 0,
+      "showCheckoutFraction": 0,
       "apiKey": "6CD61A0E965D48A7B1883A860490DC9E",
       "plaid": "0b041cd9e9fbf1e7d93a0d5a39f5b9",
       "plaidEnv": "tartan",
@@ -29,7 +105,9 @@
       "surveyLinks": []
     },
     "unocoin": {
-      "countries": [],
+      "countries": [
+        "IN"
+      ],
       "showCheckoutFraction": 0,
       "production": false
     }
