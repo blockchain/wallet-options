@@ -2,7 +2,7 @@
   "domains": {
     "root": "https://testnet.blockchain.info",
     "webSocket": "wss://ws.testnet.blockchain.info/inv",
-    "api": "https://api.testnet.blockchain.info",
+    "api": "https://api-testnet.blockchain.info",
     "walletHelperUrl": "https://wallet-helper.testnet.blockchain.info"
   },
   "network": "testnet",
