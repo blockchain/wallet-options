@@ -9,8 +9,24 @@
   "showBuySellTab": [
     "US"
   ],
+  "buySell": {
+    "disabled": false
+  },
+  "ethereum": {
+    "rolloutFraction": 1
+  },
+  "shapeshift": {
+    "disabled": true,
+    "apiKey": "b7a7c320c19ea3a8e276c8921bc3ff79ec064d2cd9d98ab969acc648246b4be5ab2379af704c5d3a3021c0ddf82b3e479590718847c1301e1a85331d2d2a8370",
+    "upperLimit": 500,
+    "rolloutFraction": 1
+  },
+  "bcash": {
+    "feePerByte": 2
+  },
   "partners": {
     "coinify": {
+      "disabled": false,
       "countries": [
         "GB",
         "AT",
@@ -105,6 +121,7 @@
       "surveyLinks": []
     },
     "unocoin": {
+      "disabled": false,
       "countries": [
         "IN"
       ],
@@ -112,7 +129,19 @@
       "production": false
     }
   },
-  "service_charge": {
+  "service_charge": {},
+  "android": {
+    "showUnocoin": false,
+    "showShapeshift": false
   },
+  "ios": {
+    "showShapeshift": false
+  },
+  "web": {
+    "serviceAlert": {}
+  },
+  "webHardFork": {},
+  "showMobileLogin": true,
+  "androidBuyPercent": 1,
   "iosBuyPercent": 0
 }

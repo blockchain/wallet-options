@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
-let envs = ['prod', 'staging', 'dev']
+let envs = ['prod', 'staging', 'dev', 'testnet']
 let input = process.argv[2]
 
 let formatEnvs = []
