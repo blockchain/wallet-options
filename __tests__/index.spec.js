@@ -24,4 +24,5 @@ describe('wallet-options', () => {
   runTestFor('prod')
   runTestFor('staging')
   runTestFor('dev')
+  runTestFor('testnet')
 })
