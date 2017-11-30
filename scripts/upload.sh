@@ -55,10 +55,6 @@ gsutil -m -h "Cache-Control:private, max-age=600" rsync -e -r ${LOCAL_DIR} ${REM
 
 
 if [ "$BC_ENV" == "prod" ]; then
-    # Slack message when deploying to prod
-    WEBHOOK_URL="https://hooks.slack.com/services/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"
-curl -X POST --data-urlencode 'payload={"channel": "#monitoring-systems", "username": "wallet-options-bot", "text": "Deployed https://blockchain.info/Resources/wallet-options.json", "icon_emoji": ":tra-la-la:"}' $WEBHOOK_URL
-
     BASEDIR="prod"
     OUTDIR="Checksum-Explorer"
     OUTFILE=${OUTDIR}/manifest.txt
