@@ -120,7 +120,7 @@
         "https://blockchain.co1.qualtrics.com/jfe/form/SV_9ysiGRC4rkMFwFv"
       ],
       "showSellFraction": 1,
-      "showRecurringBuy": false
+      "showRecurringBuy": true
     },
     "sfox": {
       "disabled": false,
