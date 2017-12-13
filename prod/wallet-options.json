@@ -251,7 +251,59 @@
     "showShapeshift": false
   },
   "web": {
-    "serviceAlert": {}
+    "serviceAlert": {
+      "global": {
+        "type": "warning",
+        "hideType": "collapse",
+        "header": {
+          "en": "ALERT: INCREASED NETWORK TRAFFIC"
+        },
+        "sections": [
+          {
+            "title": {
+              "en": "The Bitcoin and Ethereum networks are currently experiencing record high traffic, resulting in higher miners fees and longer confirmation times for transactions."
+            },
+            "body": {
+              "en": "Blockchain does not collect transaction fees. Transaction fees are paid to bitcoin miners and are determined by demand in the market for transaction confirmation. We do our best to try and provide you with the lowest possible fee that aims to achieve transaction confirmation in an acceptable timeframe. If you do not wish to pay the fee currently recommended, we recommend you check back later as fees will become lower once network activity has subsided."
+            }
+          }
+        ]
+      },
+      "sendBtcBanner": {
+        "type": "warning",
+        "hideType": "collapse",
+        "header": {
+          "en": "ALERT: INCREASED NETWORK TRAFFIC"
+        },
+        "sections": [
+          {
+            "title": {
+              "en": "The Bitcoin and Ethereum networks are currently experiencing record high traffic, resulting in higher miners fees and longer confirmation times for transactions."
+            },
+            "body": {
+              "en": "Blockchain does not collect transaction fees. Transaction fees are paid to bitcoin miners and are determined by demand in the market for transaction confirmation. We do our best to try and provide you with the lowest possible fee that aims to achieve transaction confirmation in an acceptable timeframe. If you do not wish to pay the fee currently recommended, we recommend you check back later as fees will become lower once network activity has subsided."
+            }
+          }
+        ]
+      },
+      "requestBtcBanner": {
+        "type": "warning",
+        "hideType": "collapse",
+        "header": {
+          "en": "ALERT: INCREASED NETWORK TRAFFIC"
+        },
+        "sections": [
+          {
+            "title": {
+              "en": "The Bitcoin and Ethereum networks are currently experiencing record high traffic, resulting in higher miners fees and longer confirmation times for transactions."
+            },
+            "body": {
+              "en": "Blockchain does not collect transaction fees. Transaction fees are paid to bitcoin miners and are determined by demand in the market for transaction confirmation. We do our best to try and provide you with the lowest possible fee that aims to achieve transaction confirmation in an acceptable timeframe. If you do not wish to pay the fee currently recommended, we recommend you check back later as fees will become lower once network activity has subsided."
+            }
+          }
+        ]
+      }
+    }
   },
   "webHardFork": {}
 }
