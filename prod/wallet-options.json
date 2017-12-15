@@ -264,10 +264,10 @@
         "sections": [
           {
             "title": {
-              "en": "The Bitcoin and Ethereum networks are currently experiencing record high traffic, resulting in higher miners fees and longer confirmation times for transactions."
+              "en": "The Bitcoin and Ethereum networks are currently experiencing record high traffic, resulting in longer confirmation times and higher miner’s fees for transactions."
             },
             "body": {
-              "en": "Don’t know what this means for you? You can expect delays in bitcoin and ether transaction confirmation times until the network traffic decreases."
+              "en": "Blockchain does not collect transaction fees, they are paid to network miners and are determined by market demand. Don't know what this means for you? Until the network traffic decreases, you can expect delays in bitcoin and ether transaction confirmation times."
             }
           }
         ]
@@ -281,10 +281,10 @@
         "sections": [
           {
             "title": {
-              "en": "The Bitcoin and Ethereum networks are currently experiencing record high traffic, resulting in higher miners fees and longer confirmation times for transactions."
+              "en": "The Bitcoin and Ethereum networks are currently experiencing record high traffic, resulting in longer confirmation times and higher miner’s fees for transactions."
             },
             "body": {
-              "en": "Don’t know what this means for you? You can expect delays in bitcoin and ether transaction confirmation times until the network traffic decreases."
+              "en": "Blockchain does not collect transaction fees, they are paid to network miners and are determined by market demand. Don't know what this means for you? Until the network traffic decreases, you can expect delays in bitcoin and ether transaction confirmation times."
             }
           }
         ]
@@ -298,10 +298,10 @@
         "sections": [
           {
             "title": {
-              "en": "The Bitcoin and Ethereum networks are currently experiencing record high traffic, resulting in higher miner’s fees and longer confirmation times for transactions."
+              "en": "The Bitcoin and Ethereum networks are currently experiencing record high traffic, resulting in longer confirmation times and higher miner’s fees for transactions."
             },
             "body": {
-              "en": "Don’t know what this means for you? You can expect delays in bitcoin and ether transaction confirmation times until the network traffic decreases."
+              "en": "Blockchain does not collect transaction fees, they are paid to network miners and are determined by market demand. Don't know what this means for you? Until the network traffic decreases, you can expect delays in bitcoin and ether transaction confirmation times."
             }
           }
         ]
