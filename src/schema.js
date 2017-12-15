@@ -88,5 +88,6 @@ module.exports = object({
     showShapeshift: bool()
   }),
   mobile_notice: optional(localizedMessage()),
+  mobileInfo: optional(localizedMessage()),
   webHardFork: object({})
 })
