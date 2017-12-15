@@ -250,6 +250,9 @@
   "ios": {
     "showShapeshift": false
   },
+  "mobile_notice": {
+    "en": "The Bitcoin and Ethereum networks are currently experiencing record high traffic, resulting in higher miner's fees and longer confirmation times for transactions."
+  },
   "mobileInfo": {
     "en": "The Bitcoin and Ethereum networks are currently experiencing record high traffic, resulting in higher miner's fees and longer confirmation times for transactions."
   },
