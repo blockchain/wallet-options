@@ -52,7 +52,8 @@
     "ES",
     "SE",
     "CH",
-    "IN"
+    "IN",
+    "US"
   ],
   "buySell": {
     "disabled": false
@@ -125,27 +126,33 @@
     "sfox": {
       "disabled": false,
       "production": true,
-      "countries": [],
+      "countries": [
+        "US"
+      ],
       "states": [
-        "AL",
         "AZ",
         "CA",
         "CO",
         "DE",
-        "GA",
+        "ID",
         "IN",
+        "IL",
         "KS",
-        "ME",
+        "KY",
         "MD",
+        "ME",
         "MA",
+        "MI",
         "MO",
         "MT",
-        "NY",
-        "PA",
+        "OH",
         "SC",
         "TN",
         "TX",
-        "UT"
+        "UT",
+        "VA",
+        "NY",
+        "PA"
       ],
       "inviteFormFraction": 0,
       "showCheckoutFraction": 0,
