@@ -252,7 +252,7 @@
   "androidBuyPercent": 1,
   "android": {
     "showUnocoin": false,
-    "showShapeshift": false
+    "showShapeshift": true
   },
   "ios": {
     "showShapeshift": false
