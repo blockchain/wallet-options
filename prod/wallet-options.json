@@ -235,12 +235,6 @@
   "ios": {
     "showShapeshift": false
   },
-  "mobile_notice": {
-    "en": "The Bitcoin network is currently experiencing record high traffic, resulting in higher miner's fees and longer confirmation times for transactions."
-  },
-  "mobileInfo": {
-    "en": "The Bitcoin network is currently experiencing record high traffic, resulting in higher miner's fees and longer confirmation times for transactions."
-  },
   "web": {
     "serviceAlert": {
       "global": {
