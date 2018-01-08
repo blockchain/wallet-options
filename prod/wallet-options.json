@@ -130,7 +130,10 @@
         "US"
       ],
       "states": [
-        "TX"
+        "IL",
+        "MA",
+        "TX",
+        "VA"
       ],
       "inviteFormFraction": 0,
       "showCheckoutFraction": 0,
