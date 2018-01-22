@@ -256,26 +256,6 @@
   "ios": {
     "showShapeshift": false
   },
-  "web": {
-    "serviceAlert": {
-      "global": {
-        "type": "warning",
-        "hideType": "collapse",
-        "header": {
-          "en": "ALERT: INCREASED NETWORK TRAFFIC"
-        },
-        "sections": [
-          {
-            "title": {
-              "en": "The Bitcoin network is currently experiencing record usage, resulting in longer confirmation times and higher miner’s fees for transactions. Transactions are likely to be more expensive and/or take longer to complete and additional fees go directly to miners."
-            },
-            "body": {
-              "en": ""
-            }
-          }
-        ]
-      }
-    }
-  },
+  "web": {},
   "webHardFork": {}
 }
