@@ -256,6 +256,8 @@
   "ios": {
     "showShapeshift": false
   },
-  "web": {},
+  "web": {
+    "serviceAlert": {}
+  },
   "webHardFork": {}
 }
