@@ -205,8 +205,8 @@
   "ios": {
     "showShapeshift": true
   },
-  "mobile_notice": {
-    "en": "Generic warning retrieved from wallet-options. This warning will display on each session. English.",
+  "mobileInfo": {
+    "en": "Generic warning retrieved from wallet-options. English. (Currently android only)",
     "zh-CN": "Text warning Chinese Simplified.",
     "es-US": "Text warning Spanish Latin America.",
     "pt-BR": "Text warning Portuguese Brazil.",
