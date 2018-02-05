@@ -189,6 +189,7 @@
   "ethereum": {
     "countries": "*",
     "rolloutFraction": 1,
+    "lastTxFuse": 86400,
     "surveyLinks": [
       "https://blockchain.co1.qualtrics.com/jfe/form/SV_7Q987NPvIT4f6xn",
       "https://blockchain.co1.qualtrics.com/jfe/form/SV_b8A9pKaGE30Qb9X"

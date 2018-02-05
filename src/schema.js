@@ -1,4 +1,4 @@
-const { object, string, bool, either, nullable, optional, arrayOf, enumOf, just, country, state, integer, fraction, localizedMessage, webServiceAlert } = require('./types')
+const { object, string, bool, either, number, nullable, optional, arrayOf, enumOf, just, country, state, integer, fraction, localizedMessage, webServiceAlert } = require('./types')
 
 module.exports = object({
   domains: object({
@@ -53,6 +53,7 @@ module.exports = object({
   }),
   ethereum: object({
     countries: either(just('*'), arrayOf(country())),
+    lastTxFuse: number(),
     rolloutFraction: fraction(),
     surveyLinks: arrayOf(nullable(string()))
   }),

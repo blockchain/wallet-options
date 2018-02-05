@@ -144,6 +144,7 @@
     "countries": [
       "US"
     ],
+    "lastTxFuse": 600,
     "rolloutFraction": 1
   },
   "shapeshift": {
