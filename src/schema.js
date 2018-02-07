@@ -27,13 +27,15 @@ module.exports = object({
       production: bool(),
       countries: arrayOf(country()),
       states: arrayOf(state()),
+      showBuyFraction: fraction(),
       inviteFormFraction: fraction(),
       showCheckoutFraction: fraction(),
       apiKey: string(),
       plaid: string(),
       plaidEnv: string(),
       siftScience: string(),
-      surveyLinks: arrayOf(nullable(string()))
+      surveyLinks: arrayOf(nullable(string())),
+      buySurveyLinks: arrayOf(nullable(string()))
     }),
     unocoin: object({
       disabled: bool(),

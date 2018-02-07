@@ -103,6 +103,7 @@
         "TX",
         "UT"
       ],
+      "showBuyFraction": 0,
       "inviteFormFraction": 0.25,
       "showCheckoutFraction": 0.5,
       "apiKey": "6CD61A0E965D48A7B1883A860490DC9E",
@@ -114,6 +115,10 @@
         "https://blockchain.co1.qualtrics.com/jfe/form/SV_8cE4saqzhlLXngN",
         "https://blockchain.co1.qualtrics.com/jfe/form/SV_50v2ta2RiXMGx7v",
         "https://blockchain.co1.qualtrics.com/jfe/form/SV_4GEMndhhy58lapT"
+      ],
+      "buySurveyLinks": [
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_8G431wYyJnciCHj",
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_78S6RzM5ipN66fb"
       ]
     },
     "unocoin": {

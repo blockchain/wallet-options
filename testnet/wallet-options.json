@@ -113,6 +113,7 @@
         "UT",
         "VA"
       ],
+      "showBuyFraction": 0,
       "inviteFormFraction": 0,
       "showCheckoutFraction": 0,
       "apiKey": "6fbfb80536564af8bbedb7e3be4ec439",
@@ -124,6 +125,10 @@
         "https://blockchain.co1.qualtrics.com/jfe/form/SV_8cE4saqzhlLXngN",
         "https://blockchain.co1.qualtrics.com/jfe/form/SV_50v2ta2RiXMGx7v",
         "https://blockchain.co1.qualtrics.com/jfe/form/SV_4GEMndhhy58lapT"
+      ],
+      "buySurveyLinks": [
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_8G431wYyJnciCHj",
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_78S6RzM5ipN66fb"
       ]
     },
     "unocoin": {
