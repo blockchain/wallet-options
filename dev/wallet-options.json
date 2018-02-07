@@ -103,6 +103,7 @@
         "TX",
         "UT"
       ],
+      "showBuyFraction": 0,
       "inviteFormFraction": 0.25,
       "showCheckoutFraction": 0.5,
       "apiKey": "6CD61A0E965D48A7B1883A860490DC9E",

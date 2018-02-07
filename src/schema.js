@@ -27,6 +27,7 @@ module.exports = object({
       production: bool(),
       countries: arrayOf(country()),
       states: arrayOf(state()),
+      showBuyFraction: fraction(),
       inviteFormFraction: fraction(),
       showCheckoutFraction: fraction(),
       apiKey: string(),

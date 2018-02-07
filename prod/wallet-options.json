@@ -153,6 +153,7 @@
         "UT",
         "VA"
       ],
+      "showBuyFraction": 0,
       "inviteFormFraction": 0,
       "showCheckoutFraction": 0,
       "apiKey": "f31614a7-5074-49f2-8c2a-bfb8e55de2bd",
