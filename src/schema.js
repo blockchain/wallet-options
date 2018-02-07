@@ -34,7 +34,8 @@ module.exports = object({
       plaid: string(),
       plaidEnv: string(),
       siftScience: string(),
-      surveyLinks: arrayOf(nullable(string()))
+      surveyLinks: arrayOf(nullable(string())),
+      buySurveyLinks: arrayOf(nullable(string()))
     }),
     unocoin: object({
       disabled: bool(),
