@@ -206,7 +206,8 @@
   "androidBuyPercent": 1,
   "android": {
     "showUnocoin": false,
-    "showShapeshift": true
+    "showShapeshift": true,
+    "showSfox": true
   },
   "ios": {
     "showShapeshift": true

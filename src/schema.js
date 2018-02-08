@@ -85,7 +85,8 @@ module.exports = object({
   }),
   android: object({
     showUnocoin: bool(),
-    showShapeshift: bool()
+    showShapeshift: bool(),
+    showSfox: bool()
   }),
   ios: object({
     showShapeshift: bool()
