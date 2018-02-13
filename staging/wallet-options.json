@@ -149,7 +149,7 @@
   "service_charge": {},
   "showMobileLogin": true,
   "ethereum": {
-    "mew": false,
+    "mew": true,
     "countries": [
       "US"
     ],
