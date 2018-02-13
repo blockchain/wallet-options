@@ -13,6 +13,7 @@
     "disabled": false
   },
   "ethereum": {
+    "mew": true,
     "rolloutFraction": 1,
     "lastTxFuse": 600
   },

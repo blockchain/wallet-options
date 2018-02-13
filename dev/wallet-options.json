@@ -146,6 +146,7 @@
     "disabled": false
   },
   "ethereum": {
+    "mew": true,
     "countries": [
       "US"
     ],
