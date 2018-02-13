@@ -54,6 +54,7 @@ module.exports = object({
     disabledReason: optional(localizedMessage())
   }),
   ethereum: object({
+    mew: bool(),
     countries: either(just('*'), arrayOf(country())),
     lastTxFuse: number(),
     rolloutFraction: fraction(),
