@@ -194,7 +194,7 @@
   },
   "service_charge": {},
   "ethereum": {
-    "mew": false,
+    "mew": true,
     "countries": "*",
     "rolloutFraction": 1,
     "lastTxFuse": 86400,
