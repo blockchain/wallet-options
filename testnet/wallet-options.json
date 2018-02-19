@@ -147,6 +147,9 @@
     "showShapeshift": false,
     "showSfox": true
   },
+  "mobile": {
+    "walletRoot": "https://testnet.blockchain.info/wallet"
+  },
   "ios": {
     "showShapeshift": false
   },
