@@ -205,6 +205,9 @@
   },
   "iosBuyPercent": 1,
   "androidBuyPercent": 1,
+  "mobile": {
+    "walletRoot": "https://explorer.staging.blockchain.info/wallet"
+  },
   "android": {
     "showUnocoin": false,
     "showShapeshift": true,

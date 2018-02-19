@@ -84,6 +84,9 @@ module.exports = object({
       requestBtcBanner: optional(webServiceAlert())
     })
   }),
+  mobile: object({
+    walletRoot: string()
+  }),
   android: object({
     showUnocoin: bool(),
     showShapeshift: bool(),
