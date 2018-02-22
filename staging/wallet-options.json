@@ -216,26 +216,6 @@
   "ios": {
     "showShapeshift": true
   },
-  "mobileInfo": {
-    "en": "Generic warning retrieved from wallet-options. English. (Currently android only)",
-    "zh-CN": "Text warning Chinese Simplified.",
-    "es-US": "Text warning Spanish Latin America.",
-    "pt-BR": "Text warning Portuguese Brazil.",
-    "fr": "Text warning French.",
-    "ru": "Text warning Russian.",
-    "in": "Text warning Indonesian.",
-    "tr": "Text warning Turkish.",
-    "vi": "Text warning Vietnamese.",
-    "uk": "Text warning Ukrainian.",
-    "th": "Text warning Thai.",
-    "pl": "Text warning Polish.",
-    "ko": "Text warning Korean.",
-    "ja": "Text warning Japanese.",
-    "it": "Text warning Italian.",
-    "de": "Text warning German.",
-    "nl": "Text warning Dutch.",
-    "cs": "Text warning Czech."
-  },
   "web": {
     "serviceAlert": {}
   },
