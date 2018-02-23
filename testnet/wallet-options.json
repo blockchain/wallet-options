@@ -151,7 +151,8 @@
     "walletRoot": "https://testnet.blockchain.info/wallet"
   },
   "ios": {
-    "showShapeshift": false
+    "showShapeshift": false,
+    "showSfox": true
   },
   "web": {
     "serviceAlert": {}
