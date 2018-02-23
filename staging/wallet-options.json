@@ -214,7 +214,8 @@
     "showSfox": true
   },
   "ios": {
-    "showShapeshift": true
+    "showShapeshift": true,
+    "showSfox": true
   },
   "web": {
     "serviceAlert": {}
