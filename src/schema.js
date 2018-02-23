@@ -93,7 +93,8 @@ module.exports = object({
     showSfox: bool()
   }),
   ios: object({
-    showShapeshift: bool()
+    showShapeshift: bool(),
+    showSfox: bool()
   }),
   mobile_notice: optional(localizedMessage()),
   mobileInfo: optional(localizedMessage()),
