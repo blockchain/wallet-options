@@ -178,7 +178,8 @@
     "showSfox": true
   },
   "ios": {
-    "showShapeshift": true
+    "showShapeshift": true,
+    "showSfox": true
   },
   "mobile_notice": {
     "en": "Text warning English.",
