@@ -267,7 +267,7 @@
     "showSfox": false
   },
   "ios": {
-    "showShapeshift": false
+    "showShapeshift": true
   },
   "web": {
     "serviceAlert": {}
