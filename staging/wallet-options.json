@@ -211,11 +211,11 @@
   "android": {
     "showUnocoin": false,
     "showShapeshift": true,
-    "showSfox": false
+    "showSfox": true
   },
   "ios": {
     "showShapeshift": true,
-    "showSfox": false
+    "showSfox": true
   },
   "web": {
     "serviceAlert": {}
