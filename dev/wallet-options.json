@@ -1,4 +1,5 @@
 {
+  "status": "ok",
   "domains": {
     "root": "https://explorer.dev.blockchain.info",
     "webSocket": "wss://ws.dev.blockchain.info/inv",

@@ -1,6 +1,7 @@
 const { object, string, bool, either, number, nullable, optional, arrayOf, enumOf, just, country, state, integer, fraction, localizedMessage, webServiceAlert } = require('./types')
 
 module.exports = object({
+  status: enumOf(['ok', 'downForMaintenance']),
   domains: object({
     root: string(),
     webSocket: string(),
