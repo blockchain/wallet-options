@@ -158,6 +158,7 @@
     "serviceAlert": {}
   },
   "webHardFork": {},
+  "maintenance": true,
   "showMobileLogin": true,
   "androidBuyPercent": 1,
   "iosBuyPercent": 0

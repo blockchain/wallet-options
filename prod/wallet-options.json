@@ -273,5 +273,6 @@
   "web": {
     "serviceAlert": {}
   },
-  "webHardFork": {}
+  "webHardFork": {},
+  "maintenance": false
 }
