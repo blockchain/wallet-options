@@ -98,5 +98,6 @@ module.exports = object({
   }),
   mobile_notice: optional(localizedMessage()),
   mobileInfo: optional(localizedMessage()),
-  webHardFork: object({})
+  webHardFork: object({}),
+  maintenance: bool()
 })
