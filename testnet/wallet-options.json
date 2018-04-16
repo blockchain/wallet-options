@@ -158,7 +158,7 @@
     "serviceAlert": {}
   },
   "webHardFork": {},
-  "maintenance": true,
+  "maintenance": false,
   "mobileInfo": {
     "en": "Our systems are currently down for planned maintenance. We'll be back shortly, apologies for the inconvenience."
   },
