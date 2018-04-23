@@ -128,7 +128,7 @@
       ]
     },
     "unocoin": {
-      "disabled": false,
+      "disabled": true,
       "countries": [
         "IN"
       ],
