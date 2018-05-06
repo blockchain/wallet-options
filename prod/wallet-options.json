@@ -189,7 +189,7 @@
         "",
         "https://docs.google.com/forms/d/e/1FAIpQLSfzk27LixcjpCiLn5BlhZHDLqG6mXiZgPA-b1T0fFCWpyxqAA/viewform"
       ],
-      "disabled": false
+      "disabled": true
     }
   },
   "service_charge": {},
