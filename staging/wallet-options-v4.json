@@ -144,9 +144,7 @@
   "domains": {
     "root": "https://explorer.staging.blockchain.info",
     "api": "https://api.staging.blockchain.info",
-    "btcSocket": "wss://ws.staging.blockchain.info/inv",
-    "ethSocket": "wss://ws.staging.blockchain.info/eth/inv",
-    "bchSocket": "wss://ws.staging.blockchain.info/bch/inv",
+    "webSocket": "wss://ws.staging.blockchain.info/inv",
     "walletHelper": "https://wallet-helper.staging.blockchain.info"
   }
 }
