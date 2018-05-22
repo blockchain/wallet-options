@@ -45,7 +45,8 @@
         "states": "*",
         "config": {
           "availability": true,
-          "partnerId": 19,
+          "partnerId": 24,
+          "production": false,
           "iSignThisDomain": "https://stage-verify.isignthis.com",
           "surveyLinks": [
             "https://blockchain.co1.qualtrics.com/SE/?SID=SV_8pupOEQPGkXx8Kp",
