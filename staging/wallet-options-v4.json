@@ -70,6 +70,7 @@
           "fiat": true
         },
         "fraction": 1,
+        "lastTxFuse": 600,
         "countries": "*",
         "states": "*",
         "config": {
