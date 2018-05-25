@@ -271,7 +271,31 @@
     "showSfox": false
   },
   "web": {
-    "serviceAlert": {}
+    "serviceAlert": {
+      "global": {
+        "type": "info",
+        "hideType": "collapse",
+        "header": {
+          "en": "Updates to Privacy Policy and Cookie Policy"
+        },
+        "sections": [
+          {
+            "title": {
+              "en": ""
+            },
+            "body": {
+              "en": "We’re updating our Privacy Policy and Cookie Policy to make it easier for you to understand the limited information we collect and why we collect it. We thrive on collecting the least amount of data on our users. Please review our updated policies."
+            }
+          }
+        ],
+        "action": {
+          "title": {
+            "en": "More details."
+          },
+          "link": "https://www.blockchain.com/privacy"
+        }
+      }
+    }
   },
   "webHardFork": {},
   "maintenance": false
