@@ -274,7 +274,7 @@
     "serviceAlert": {
       "global": {
         "type": "info",
-        "hideType": "collapse",
+        "hideType": "dismiss",
         "header": {
           "en": "Updates to Privacy Policy and Cookie Policy"
         },
