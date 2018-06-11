@@ -141,7 +141,10 @@
       }
     },
     "ios": {},
-    "android": {}
+    "android": {},
+    "mobile": {
+      "walletRoot": "https://explorer.dev.blockchain.info/wallet-buy-sell"
+    }
   },
   "domains": {
     "root": "https://explorer.staging.blockchain.info",
