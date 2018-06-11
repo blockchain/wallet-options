@@ -206,7 +206,7 @@
   "iosBuyPercent": 1,
   "androidBuyPercent": 1,
   "mobile": {
-    "walletRoot": "https://explorer.staging.blockchain.info/wallet"
+    "walletRoot": "https://explorer.staging.blockchain.info/wallet-buy-sell"
   },
   "android": {
     "showUnocoin": false,

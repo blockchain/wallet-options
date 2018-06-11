@@ -259,7 +259,7 @@
   "iosBuyPercent": 1,
   "androidBuyPercent": 1,
   "mobile": {
-    "walletRoot": "https://blockchain.info/wallet"
+    "walletRoot": "https://blockchain.info/wallet-buy-sell"
   },
   "android": {
     "showUnocoin": false,
