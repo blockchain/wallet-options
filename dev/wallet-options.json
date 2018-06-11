@@ -170,7 +170,7 @@
   "iosBuyPercent": 1,
   "androidBuyPercent": 1,
   "mobile": {
-    "walletRoot": "https://explorer.dev.blockchain.info/wallet"
+    "walletRoot": "https://explorer.dev.blockchain.info/wallet-buy-sell"
   },
   "android": {
     "showUnocoin": false,
