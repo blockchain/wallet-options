@@ -1,6 +1,6 @@
 {
   "domains": {
-    "root": "",
+    "root": "https://blockchain.info",
     "webSocket": "wss://ws.blockchain.info/inv",
     "api": "https://api.blockchain.info",
     "walletHelperUrl": "https://wallet-helper.blockchain.info"
