@@ -1,4 +1,5 @@
 {
+  "enableDomainMigrationRedirects": false,
   "domains": {
     "root": "https://blockchain.info",
     "webSocket": "wss://ws.blockchain.info/inv",
