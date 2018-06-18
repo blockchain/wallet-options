@@ -1,6 +1,7 @@
 const { object, string, bool, either, number, nullable, optional, arrayOf, enumOf, just, country, state, integer, fraction, localizedMessage, webServiceAlert } = require('./types')
 
 module.exports = object({
+  enableDomainMigrationRedirects: bool(),
   domains: object({
     root: string(),
     webSocket: string(),
