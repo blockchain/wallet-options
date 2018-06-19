@@ -78,6 +78,7 @@ module.exports = object({
   androidBuyPercent: fraction(),
   web: object({
     serviceAlert: object({
+      public: optional(webServiceAlert()),
       global: optional(webServiceAlert()),
       sendBtc: optional(webServiceAlert()),
       sendBtcBanner: optional(webServiceAlert()),
