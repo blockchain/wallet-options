@@ -2,6 +2,8 @@
   "enableDomainMigrationRedirects": false,
   "domains": {
     "root": "https://explorer.dev.blockchain.info",
+    "comRoot": null,
+    "comWalletApp": null,
     "webSocket": "wss://ws.dev.blockchain.info/inv",
     "api": "https://api.dev.blockchain.info",
     "walletHelperUrl": "https://wallet-helper.dev.blockchain.info"
