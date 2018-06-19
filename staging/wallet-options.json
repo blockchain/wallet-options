@@ -2,8 +2,8 @@
   "enableDomainMigrationRedirects": false,
   "domains": {
     "root": "https://explorer.staging.blockchain.info",
-    "comRoot": null,
-    "comWalletApp": null,
+    "comRoot": "https://staging.blockchain.com",
+    "comWalletApp": "https://wallet.staging.blockchain.com",
     "webSocket": "wss://ws.staging.blockchain.info/inv",
     "api": "https://api.staging.blockchain.info",
     "walletHelperUrl": "https://wallet-helper.staging.blockchain.info"
