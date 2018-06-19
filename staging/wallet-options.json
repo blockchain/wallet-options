@@ -251,14 +251,14 @@
         ],
         "action": {
           "title": {
-            "en": "here.",
-            "ru": "здесь.",
-            "zh": "在这里。",
-            "ko": "여기입니다.",
-            "es": "aquí.",
-            "de": "hier.",
-            "fr": "ici.",
-            "ja": "こちらからご確認ください。"
+            "en": "Read more about what to expect.",
+            "ru": "Узнайте больше о том, чего ожидать.",
+            "zh": "阅读更多了解会发生什么。",
+            "ko": "어떤 일이 생기는지 자세히 알아보세요.",
+            "es": "Lea más sobre qué puede esperar.",
+            "de": "Mehr über das Bevorstehende erfahren Sie.",
+            "fr": "Pour mieux savoir à quoi vous attendre, lisez.",
+            "ja": "今後の予定については。"
           },
           "link": "https://www.example.com/"
         }
