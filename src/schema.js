@@ -4,6 +4,8 @@ module.exports = object({
   enableDomainMigrationRedirects: bool(),
   domains: object({
     root: string(),
+    comRoot: nullable(string()),
+    comWalletApp: nullable(string()),
     webSocket: string(),
     api: string(),
     walletHelperUrl: string()
