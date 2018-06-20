@@ -1,5 +1,5 @@
 {
-  "enableDomainMigrationRedirects": false,
+  "enableDomainMigrationRedirects": true,
   "domains": {
     "root": "https://explorer.staging.blockchain.info",
     "webSocket": "wss://ws.staging.blockchain.info/inv",
