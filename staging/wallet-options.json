@@ -1,5 +1,5 @@
 {
-  "enableDomainMigrationRedirects": true,
+  "enableDomainMigrationRedirects": false,
   "domains": {
     "root": "https://explorer.staging.blockchain.info",
     "comRoot": "https://staging.blockchain.com",
