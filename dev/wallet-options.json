@@ -1,5 +1,5 @@
 {
-  "enableDomainMigrationRedirects": false,
+  "enableDomainMigrationRedirects": true,
   "domains": {
     "root": "https://explorer.dev.blockchain.info",
     "comRoot": "https://dev.blockchain.com",
@@ -205,7 +205,95 @@
     "cs": "Text warning Czech."
   },
   "web": {
-    "serviceAlert": {}
+    "serviceAlert": {
+      "public": {
+        "type": "info",
+        "header": {
+          "en": "We’re packing our bags and preparing to move...domains!",
+          "ru": "Мы пакуем вещи и готовимся к переезду... доменов!",
+          "zh": "我们正在打包，准备搬迁……域名！",
+          "ko": "도메인 이전을 준비하고 있습니다!",
+          "es": "Estamos haciendo las maletas y preparándonos para transferir nuestros... ¡dominios!",
+          "de": "Wir sind dabei umzuziehen und haben bald eine andere ... Domain!",
+          "fr": "Nous faisons nos valises et nous nous préparons à changer ... de domaine !",
+          "ja": "ドメインの移動が予定されています！"
+        },
+        "sections": [
+          {
+            "title": {
+              "en": ""
+            },
+            "body": {
+              "en": "To make way for our new and exciting products coming this year, we’re saying hello to our new home. Your Blockchain Wallet will soon be changing URLs as it's combined with our company site, blockchain.com.",
+              "ru": "Чтобы освободить место для новых и интересных продуктов, ожидаемых в этом году, мы переезжаем в новый дом. Ваш кошелек Blockchain скоро изменит URL-адреса, поскольку будет объединен с сайтом нашей компании, blockchain.com.",
+              "zh": "为了给今年推出的全新精彩产品铺路，我们要向新家打招呼了。您的区块链钱包很快会更改URL，因为它和我们的公司blockchain.com网站相结合。",
+              "ko": "저희는 올해 출시되는 새롭고 흥미로운 제품에 걸맞은 새 보금자리로 이전할 예정입니다. 당사의 사이트 blockchain.com과 통합되면서 고객님의 블록체인 지갑은 조만간 URL이 변경됩니다.",
+              "es": "Para dar paso a nuestros nuevos y emocionantes productos que lanzaremos este año, saludamos a nuestro nuevo hogar. En breve, su Cartera Blockchain cambiará de URL y se combinará con el sitio web de nuestra empresa, blockchain.com.",
+              "de": "Um alles für unsere neuen und aufregenden Produkte, die wir in diesem Jahr präsentieren, vorzubereiten, haben wir uns nach einem neuen Zuhause umgeschaut. Ihre Blockchain-Wallet erhält schon bald eine andere URL, da sie mit unserer Firmenwebsite blockchain.com kombiniert wird.",
+              "fr": "Pour préparer l'arrivée de nouveaux produits excitants cette année, nous déménageons. Votre portefeuille Blockchain aura bientôt une nouvelle adresse associée au site de notre société, blockchain.com.",
+              "ja": "本年の新しくエキサイティングな製品を迎えるため、新しいホームページをご紹介します。ブロックチェーンウォレットはまもなく当社企業サイトと統合され、URLがblockchain.com"
+            }
+          }
+        ],
+        "action": {
+          "title": {
+            "en": "Read more about what to expect.",
+            "ru": "Узнайте больше о том, чего ожидать.",
+            "zh": "阅读更多了解会发生什么。",
+            "ko": "어떤 일이 생기는지 자세히 알아보세요.",
+            "es": "Lea más sobre qué puede esperar.",
+            "de": "Mehr über das Bevorstehende erfahren Sie.",
+            "fr": "Pour mieux savoir à quoi vous attendre, lisez.",
+            "ja": "今後の予定については。"
+          },
+          "link": "https://blog.blockchain.com/2018/06/19/blockchain-infos-moving-domains/"
+        }
+      },
+      "global": {
+        "type": "info",
+        "hideType": "collapse",
+        "header": {
+          "en": "We’re packing our bags and preparing to move...domains!",
+          "ru": "Мы пакуем вещи и готовимся к переезду... доменов!",
+          "zh": "我们正在打包，准备搬迁……域名！",
+          "ko": "도메인 이전을 준비하고 있습니다!",
+          "es": "Estamos haciendo las maletas y preparándonos para transferir nuestros... ¡dominios!",
+          "de": "Wir sind dabei umzuziehen und haben bald eine andere ... Domain!",
+          "fr": "Nous faisons nos valises et nous nous préparons à changer ... de domaine !",
+          "ja": "ドメインの移動が予定されています！"
+        },
+        "sections": [
+          {
+            "title": {
+              "en": ""
+            },
+            "body": {
+              "en": "To make way for our new and exciting products coming this year, we’re saying hello to our new home. Your Blockchain Wallet will soon be changing URLs as it's combined with our company site, blockchain.com.",
+              "ru": "Чтобы освободить место для новых и интересных продуктов, ожидаемых в этом году, мы переезжаем в новый дом. Ваш кошелек Blockchain скоро изменит URL-адреса, поскольку будет объединен с сайтом нашей компании, blockchain.com.",
+              "zh": "为了给今年推出的全新精彩产品铺路，我们要向新家打招呼了。您的区块链钱包很快会更改URL，因为它和我们的公司blockchain.com网站相结合。",
+              "ko": "저희는 올해 출시되는 새롭고 흥미로운 제품에 걸맞은 새 보금자리로 이전할 예정입니다. 당사의 사이트 blockchain.com과 통합되면서 고객님의 블록체인 지갑은 조만간 URL이 변경됩니다.",
+              "es": "Para dar paso a nuestros nuevos y emocionantes productos que lanzaremos este año, saludamos a nuestro nuevo hogar. En breve, su Cartera Blockchain cambiará de URL y se combinará con el sitio web de nuestra empresa, blockchain.com.",
+              "de": "Um alles für unsere neuen und aufregenden Produkte, die wir in diesem Jahr präsentieren, vorzubereiten, haben wir uns nach einem neuen Zuhause umgeschaut. Ihre Blockchain-Wallet erhält schon bald eine andere URL, da sie mit unserer Firmenwebsite blockchain.com kombiniert wird.",
+              "fr": "Pour préparer l'arrivée de nouveaux produits excitants cette année, nous déménageons. Votre portefeuille Blockchain aura bientôt une nouvelle adresse associée au site de notre société, blockchain.com.",
+              "ja": "本年の新しくエキサイティングな製品を迎えるため、新しいホームページをご紹介します。ブロックチェーンウォレットはまもなく当社企業サイトと統合され、URLがblockchain.com"
+            }
+          }
+        ],
+        "action": {
+          "title": {
+            "en": "Read more about what to expect.",
+            "ru": "Узнайте больше о том, чего ожидать.",
+            "zh": "阅读更多了解会发生什么。",
+            "ko": "어떤 일이 생기는지 자세히 알아보세요.",
+            "es": "Lea más sobre qué puede esperar.",
+            "de": "Mehr über das Bevorstehende erfahren Sie.",
+            "fr": "Pour mieux savoir à quoi vous attendre, lisez.",
+            "ja": "今後の予定については。"
+          },
+          "link": "https://blog.blockchain.com/2018/06/19/blockchain-infos-moving-domains/"
+        }
+      }
+    }
   },
   "webHardFork": {},
   "maintenance": false,
