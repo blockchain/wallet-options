@@ -93,15 +93,7 @@
             "https://blockchain.co1.qualtrics.com/SE/?SID=SV_4HIEh5KIodM8UTP",
             "https://blockchain.co1.qualtrics.com/SE/?SID=SV_51qOIk4EXHshNFX",
             "https://blockchain.co1.qualtrics.com/SE/?SID=SV_78S6RzM5ipN66fb"
-          ],
-          "service_charge": {
-            "US": {
-              "min_tx_amount": 0,
-              "max_service_charge": 100000,
-              "percent": 0.02,
-              "send_to_miner": true
-            }
-          }
+          ]
         }
       },
       "shapeshift": {
