@@ -10,7 +10,9 @@
         "countries": "*",
         "states": "*",
         "config": {
-          "announcements": ["Partial service from 16/11/2017 4:00PM to 17/11/2017 4:00PM due to SegWit2X"]
+          "announcements": [
+            "Partial service from 16/11/2017 4:00PM to 17/11/2017 4:00PM due to SegWit2X"
+          ]
         }
       },
       "bitcoin": {
@@ -35,19 +37,70 @@
           "history": true
         },
         "fraction": 1,
-        "countries": ["GB", "NL", "DE", "US"],
+        "countries": [
+          "GB",
+          "NL",
+          "DE",
+          "US"
+        ],
         "states": "*",
         "config": {}
       },
       "coinify": {
         "fraction": 1,
-        "countries": ["GB", "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "GF", "DE", "GI", "GR", "GP", "GG", "HU", "IS", "IE", "IM", "IT", "JE", "LV", "LI", "LT", "LU", "MT", "MQ", "YT", "MC", "NL", "NO", "PL", "PT", "RE", "BL", "MF", "PM", "SM", "SK", "SI", "ES", "SE", "CH"],
+        "countries": [
+          "GB",
+          "AT",
+          "BE",
+          "BG",
+          "HR",
+          "CY",
+          "CZ",
+          "DK",
+          "EE",
+          "FI",
+          "FR",
+          "GF",
+          "DE",
+          "GI",
+          "GR",
+          "GP",
+          "GG",
+          "HU",
+          "IS",
+          "IE",
+          "IM",
+          "IT",
+          "JE",
+          "LV",
+          "LI",
+          "LT",
+          "LU",
+          "MT",
+          "MQ",
+          "YT",
+          "MC",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RE",
+          "BL",
+          "MF",
+          "PM",
+          "SM",
+          "SK",
+          "SI",
+          "ES",
+          "SE",
+          "CH"
+        ],
         "states": "*",
         "config": {
           "availability": true,
-          "partnerId": 24,
-          "production": false,
-          "iSignThisDomain": "https://stage-verify.isignthis.com",
+          "partnerId": 19,
+          "production": true,
+          "iSignThisDomain": "https://verify.isignthis.com",
           "surveyLinks": [
             "https://blockchain.co1.qualtrics.com/SE/?SID=SV_8pupOEQPGkXx8Kp",
             "https://blockchain.co1.qualtrics.com/jfe/form/SV_205rqJvYy7mRxnn",
@@ -79,15 +132,45 @@
       },
       "sfox": {
         "fraction": 1,
-        "countries": ["US"],
-        "states": ["AR", "AZ", "CA", "CO", "ID", "IL", "IN", "KS", "KY", "LA", "MA", "MD", "MI", "MN", "MO", "MT", "NE", "NV", "OK", "PA", "SC", "SD", "TN", "TX", "VA", "WI", "WV"],
+        "countries": [
+          "US"
+        ],
+        "states": [
+          "AR",
+          "AZ",
+          "CA",
+          "CO",
+          "ID",
+          "IL",
+          "IN",
+          "KS",
+          "KY",
+          "LA",
+          "MA",
+          "MD",
+          "MI",
+          "MN",
+          "MO",
+          "MT",
+          "NE",
+          "NV",
+          "OK",
+          "PA",
+          "SC",
+          "SD",
+          "TN",
+          "TX",
+          "VA",
+          "WI",
+          "WV"
+        ],
         "config": {
-          "production": false,
+          "production": true,
           "availability": true,
-          "apiKey": "6CD61A0E965D48A7B1883A860490DC9E",
+          "apiKey": "f31614a7-5074-49f2-8c2a-bfb8e55de2bd",
           "plaid": "0b041cd9e9fbf1e7d93a0d5a39f5b9",
-          "plaidEnv": "tartan",
-          "siftScience": "3884e5fae5",
+          "plaidEnv": "production",
+          "siftScience": "a19cc360a1",
           "surveyLinks": [
             "https://blockchain.co1.qualtrics.com/SE/?SID=SV_bPCcv7eZgqlQSrP",
             "https://blockchain.co1.qualtrics.com/SE/?SID=SV_4HIEh5KIodM8UTP",
@@ -104,7 +187,35 @@
         },
         "fraction": 1,
         "countries": "*",
-        "states": ["AR", "AZ", "CA", "CO", "ID", "IL", "IN", "KS", "KY", "LA", "MA", "MD", "MI", "MN", "MO", "MT", "NE", "NV", "OK", "PA", "SC", "SD", "TN", "TX", "VA", "WI", "WV"],
+        "states": [
+          "AR",
+          "AZ",
+          "CA",
+          "CO",
+          "ID",
+          "IL",
+          "IN",
+          "KS",
+          "KY",
+          "LA",
+          "MA",
+          "MD",
+          "MI",
+          "MN",
+          "MO",
+          "MT",
+          "NE",
+          "NV",
+          "OK",
+          "PA",
+          "SC",
+          "SD",
+          "TN",
+          "TX",
+          "VA",
+          "WI",
+          "WV"
+        ],
         "config": {
           "apiKey": "b7a7c320c19ea3a8e276c8921bc3ff79ec064d2cd9d98ab969acc648246b4be5ab2379af704c5d3a3021c0ddf82b3e479590718847c1301e1a85331d2d2a8370",
           "upperLimit": 500,
@@ -116,10 +227,12 @@
       },
       "unocoin": {
         "fraction": 0,
-        "countries": ["IN"],
+        "countries": [
+          "IN"
+        ],
         "states": "*",
         "config": {
-          "production": "REPLACED_BY_DEV_SERVER",
+          "production": true,
           "surveyLinks": [
             "https://blockchain.co1.qualtrics.com/jfe/form/SV_0wAlAEnwlumr4XP",
             "https://blockchain.co1.qualtrics.com/jfe/form/SV_8jmvSfjqqPzNWVn",
@@ -135,13 +248,13 @@
     "ios": {},
     "android": {},
     "mobile": {
-      "walletRoot": "https://explorer.dev.blockchain.info/wallet-buy-sell"
+      "walletRoot": "https://blockchain.info/wallet-buy-sell"
     }
   },
   "domains": {
-    "root": "https://explorer.staging.blockchain.info",
-    "api": "https://api.staging.blockchain.info",
-    "webSocket": "wss://ws.staging.blockchain.info/inv",
-    "walletHelper": "https://wallet-helper.staging.blockchain.info"
+    "root": "https://blockchain.info",
+    "api": "https://api.blockchain.info",
+    "webSocket": "wss://ws.blockchain.info/inv",
+    "walletHelper": "https://wallet-helper.blockchain.info"
   }
 }
