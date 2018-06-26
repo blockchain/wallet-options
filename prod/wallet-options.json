@@ -1,5 +1,5 @@
 {
-  "enableDomainMigrationRedirects": false,
+  "enableDomainMigrationRedirects": true,
   "domains": {
     "root": "https://blockchain.info",
     "comRoot": "https://www.blockchain.com",
