@@ -3,7 +3,7 @@
   "domains": {
     "root": "https://explorer.dev.blockchain.info",
     "comRoot": "https://dev.blockchain.com",
-    "comWalletApp": "https://wallet.dev.blockchain.com",
+    "comWalletApp": "https://login-dev.blockchain.com",
     "webSocket": "wss://ws.dev.blockchain.info/inv",
     "api": "https://api.dev.blockchain.info",
     "walletHelperUrl": "https://wallet-helper.dev.blockchain.info"
