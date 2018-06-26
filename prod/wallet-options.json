@@ -275,11 +275,18 @@
   },
   "web": {
     "serviceAlert": {
-      "global": {
+      "public": {
         "type": "info",
         "hideType": "dismiss",
         "header": {
-          "en": "Updates to Privacy Policy and Cookie Policy"
+          "en": "We’ve moved...domains!",
+          "ru": "Наши домены... переехали!",
+          "zh": "我们搬迁了……域名！",
+          "ko": "새로운 도메인으로 이전했습니다!",
+          "es": "Hemos transferido... ¡nuestros dominios!",
+          "de": "Wir haben eine andere ... Domain!",
+          "fr": "Nous avons changé ... de domaine !",
+          "ja": "ドメインが移動しました！"
         },
         "sections": [
           {
@@ -287,15 +294,29 @@
               "en": ""
             },
             "body": {
-              "en": "We’re updating our Privacy Policy and Cookie Policy to make it easier for you to understand the limited information we collect and why we collect it. We thrive on collecting the least amount of data on our users. Please review our updated policies."
+              "en": "You may notice that your Blockchain Wallet’s URL has now been redirected to live on blockchain.com. You can bookmark this new URL to make sure you’re always logging in at the right place. Still have questions about this move?",
+              "ru": "Вы могли заметить, что URL-адрес вашего кошелька Blockchain теперь перенаправлен на сайт blockchain.com. Вы можете добавить этот новый URL-адрес в закладки, чтобы наверняка всегда попадать в нужное место. У вас все еще есть вопросы по поводу переезда?",
+              "zh": "您可能注意到，您的区块链钱包的URL现已重新引导到blockchain.com上。您能把这个新URL标记为书签，保证您总是登录到正确的地方。对这个转移还有问题吗？",
+              "ko": "블록체인 지갑 URL이 blockchain.com으로 이전한 사실을 알고 계실 수도 있습니다. 항상 올바른 곳에서 로그인할 수 있도록 이 새로운 URL을 북마크하실 수 있습니다. 이번 이전에 관해 아직 궁금한 점이 있으신가요? ",
+              "es": "Quizá haya notado que la URL de su cartera Blockchain se ha redirigido a blockchain.com. Puede añadir a favoritos esta URL nueva para asegurarse de iniciar sesión siempre en el lugar correcto. ¿Aún tiene preguntas sobre este cambio?",
+              "de": "Sie werden vielleicht bemerken, dass die URL Ihrer Blockchain-Wallet jetzt auf blockchain.com angesiedelt ist. Sie können diese neue URL zu den Lesezeichen hinzufügen, um immer den richtigen Ort zur Anmeldung parat zu haben. Haben Sie noch weitere Fragen bezüglich dieses Wechsels?",
+              "fr": "Vous pouvez remarquer que l'adresse de votre portefeuille Blockchain est maintenant redirigée vers blockchain.com. Vous pouvez enregistrer cette nouvelle adresse dans vos favoris our être sûr(e) de toujours accéder à la page d'identification correcte. Si vous avez des questions concernant notre changement de domaine.",
+              "ja": "ブロックチェーンウォレットのURLがblockchain.comに移動されました。常に正しいウェブサイトからログインするため、この新しいURLをブックマークに追加することをおすすめします。この移動についてご質問がありますか？"
             }
           }
         ],
         "action": {
           "title": {
-            "en": "More details."
+            "en": "Read our FAQ.",
+            "ru": "Обратитесь к разделу вопросов и ответов.",
+            "zh": "请阅读我们的常见问题",
+            "ko": "저희 FAQ를 참고해 주세요",
+            "es": "Lea nuestras Preguntas frecuentes.",
+            "de": "Lesen Sie unsere FAQs.",
+            "fr": "Veuillez lire notre FAQ.",
+            "ja": "よくあるご質問を"
           },
-          "link": "https://www.blockchain.com/privacy"
+          "link": "https://blog.blockchain.com/2018/06/22/what-you-need-to-know-about-blockchain-infos-domain-move/"
         }
       }
     }
