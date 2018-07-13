@@ -67,6 +67,8 @@ if [ "$BC_ENV" == "prod" ]; then
     echo "Calculating wallet-options.json checksum ... "
     NEW_SHA=`shasum -a 256 ${BASEDIR}/wallet-options.json | sed -e s,${BASEDIR}/,,g`
     cat ${OUTFILE} | sed -e "s,^.* wallet-options.json,${NEW_SHA},g" > ${TMP_FILE}
+    NEW_SHA=`shasum -a 256 ${BASEDIR}/wallet-options-v4.json | sed -e s,${BASEDIR}/,,g`
+    cat ${OUTFILE} | sed -e "s,^.* wallet-options-v4.json,${NEW_SHA},g" > ${TMP_FILE}
     mv ${TMP_FILE} ${OUTFILE}
 
 
