@@ -140,6 +140,8 @@
     "root": "https://explorer.staging.blockchain.info",
     "api": "https://api.staging.blockchain.info",
     "webSocket": "wss://ws.staging.blockchain.info/inv",
-    "walletHelper": "https://wallet-helper.staging.blockchain.info"
+    "walletHelper": "https://wallet-helper.staging.blockchain.info",
+    "comWalletApp": "https://wallet-frontend-v4.staging.blockchain.info",
+    "comRoot": "https://staging.blockchain.com"
   }
 }
