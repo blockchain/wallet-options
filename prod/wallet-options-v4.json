@@ -255,6 +255,8 @@
     "root": "https://blockchain.info",
     "api": "https://api.blockchain.info",
     "webSocket": "wss://ws.blockchain.info/inv",
-    "walletHelper": "https://wallet-helper.blockchain.info"
+    "walletHelper": "https://wallet-helper.blockchain.info",
+    "comWalletApp": "https://login.blockchain.com",
+    "comRoot": "https://www.blockchain.com"
   }
 }

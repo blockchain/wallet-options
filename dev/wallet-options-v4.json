@@ -139,6 +139,8 @@
     "root": "https://explorer.dev.blockchain.info",
     "api": "https://api.dev.blockchain.info",
     "webSocket": "wss://ws.dev.blockchain.info/inv",
-    "walletHelper": "https://wallet-helper.dev.blockchain.info"
+    "walletHelper": "https://wallet-helper.dev.blockchain.info",
+    "comWalletApp": "https://login-dev.blockchain.com",
+    "comRoot": "https://dev.blockchain.com"
   }
 }
