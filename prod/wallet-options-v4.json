@@ -123,7 +123,7 @@
           "fiat": true
         },
         "fraction": 1,
-        "lastTxFuse": 600,
+        "lastTxFuse": 86400,
         "countries": "*",
         "states": "*",
         "config": {
