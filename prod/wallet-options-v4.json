@@ -9,8 +9,55 @@
         "fraction": 1,
         "countries": "*",
         "states": "*",
-        "config": {
-          "announcements": {}
+        "announcements": {
+          "public": {
+            "id": "next-big-thing",
+            "type": "info",
+            "hideType": "dismiss",
+            "header": {
+              "en": "Our next big thing is small!"
+            },
+            "sections": [
+              {
+                "title": {
+                  "en": ""
+                },
+                "body": {
+                  "en": "Get notified when we announce the secret so you can be the first one to know."
+                }
+              }
+            ],
+            "action": {
+              "title": {
+                "en": "blockchain.com/countdown"
+              },
+              "link": "https://blockchain.com/countdown"
+            }
+          },
+          "wallet": {
+            "id": "next-big-thing",
+            "type": "info",
+            "hideType": "dismiss",
+            "header": {
+              "en": "Our next big thing is small!"
+            },
+            "sections": [
+              {
+                "title": {
+                  "en": ""
+                },
+                "body": {
+                  "en": "Get notified when we announce the secret so you can be the first one to know."
+                }
+              }
+            ],
+            "action": {
+              "title": {
+                "en": "blockchain.com/countdown"
+              },
+              "link": "https://blockchain.com/countdown"
+            }
+          }
         }
       },
       "bitcoin": {
