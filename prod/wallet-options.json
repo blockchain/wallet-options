@@ -274,30 +274,7 @@
     "showSfox": false
   },
   "web": {
-    "serviceAlert": {
-      "public": {
-        "type": "info",
-        "header": {
-          "en": "Our next big thing is small!"
-        },
-        "sections": [
-          {
-            "title": {
-              "en": ""
-            },
-            "body": {
-              "en": "Get notified when we announce the secret so you can be the first one to know."
-            }
-          }
-        ],
-        "action": {
-          "title": {
-            "en": "blockchain.com/countdown"
-          },
-          "link": "https://blockchain.com/countdown"
-        }
-      }
-    }
+    "serviceAlert": {}
   },
   "webHardFork": {},
   "maintenance": false

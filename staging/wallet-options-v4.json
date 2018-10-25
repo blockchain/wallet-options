@@ -142,6 +142,8 @@
     "webSocket": "wss://ws.staging.blockchain.info",
     "walletHelper": "https://wallet-helper.staging.blockchain.info",
     "comWalletApp": "https://wallet-frontend-v4.staging.blockchain.info",
-    "comRoot": "https://staging.blockchain.com"
+    "comRoot": "https://staging.blockchain.com",
+    "ledger": "https://manager.api.live.ledger.com",
+    "ledgerSocket": "wss://api.ledgerwallet.com"
   }
 }
