@@ -33,12 +33,7 @@
           "history": true
         },
         "fraction": 1,
-        "countries": [
-          "GB",
-          "NL",
-          "DE",
-          "US"
-        ],
+        "countries": ["GB", "NL", "DE", "US"],
         "states": "*",
         "config": {}
       },
@@ -128,9 +123,7 @@
       },
       "sfox": {
         "fraction": 1,
-        "countries": [
-          "US"
-        ],
+        "countries": ["US"],
         "states": [
           "AR",
           "AZ",
@@ -213,7 +206,8 @@
           "WV"
         ],
         "config": {
-          "apiKey": "b7a7c320c19ea3a8e276c8921bc3ff79ec064d2cd9d98ab969acc648246b4be5ab2379af704c5d3a3021c0ddf82b3e479590718847c1301e1a85331d2d2a8370",
+          "apiKey":
+            "b7a7c320c19ea3a8e276c8921bc3ff79ec064d2cd9d98ab969acc648246b4be5ab2379af704c5d3a3021c0ddf82b3e479590718847c1301e1a85331d2d2a8370",
           "upperLimit": 750,
           "surveyLinks": [
             "https://blockchain.co1.qualtrics.com/jfe/form/SV_1MuVnVEtWhiVIQl",
@@ -223,9 +217,7 @@
       },
       "unocoin": {
         "fraction": 0,
-        "countries": [
-          "IN"
-        ],
+        "countries": ["IN"],
         "states": "*",
         "config": {
           "production": true,
@@ -238,6 +230,11 @@
             "https://blockchain.co1.qualtrics.com/jfe/form/SV_87YRZx6LVdaF4kR",
             "https://blockchain.co1.qualtrics.com/jfe/form/SV_bBDOyGwj5WOb0hL"
           ]
+        }
+      },
+      "xlm": {
+        "config": {
+          "network": "public"
         }
       }
     },
@@ -255,6 +252,7 @@
     "comWalletApp": "https://login.blockchain.com",
     "comRoot": "https://www.blockchain.com",
     "ledger": "https://manager.api.live.ledger.com",
-    "ledgerSocket": "wss://api.ledgerwallet.com"
+    "ledgerSocket": "wss://api.ledgerwallet.com",
+    "horizon": "https://horizon.stellar.org"
   }
 }

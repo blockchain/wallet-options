@@ -1,6 +1,6 @@
 const { object, string, bool, either, number, nullable, optional, arrayOf, enumOf, just, country, state, integer, fraction, localizedMessage, webServiceAlert } = require('./types')
 
-module.exports = object({
+const v3 = object({
   enableDomainMigrationRedirects: bool(),
   domains: object({
     root: string(),
@@ -105,3 +105,29 @@ module.exports = object({
   webHardFork: object({}),
   maintenance: bool()
 })
+
+const v4 = object({
+  platforms: object({
+    web: object({
+      application: object({
+        availability: object({}),
+        fraction: number(),
+        countries: either(just('*'), arrayOf(country())),
+        states: either(just('*'), arrayOf(country())),
+        announcements: optional(object({
+          public: optional(webServiceAlert())
+        }))
+      }),
+      bitcoin: object({
+        availability: object({}),
+        fraction: number()
+      })
+    })
+  }),
+  domains: object({})
+})
+
+module.exports = {
+  v3,
+  v4
+}
