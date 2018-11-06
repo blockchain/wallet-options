@@ -126,6 +126,11 @@
           "network": "mainnet"
         }
       },
+      "xlm": {
+        "config": {
+          "network": "public"
+        }
+      },
       "sfox": {
         "fraction": 1,
         "countries": [
@@ -255,6 +260,7 @@
     "comWalletApp": "https://login.blockchain.com",
     "comRoot": "https://www.blockchain.com",
     "ledger": "https://manager.api.live.ledger.com",
-    "ledgerSocket": "wss://api.ledgerwallet.com"
+    "ledgerSocket": "wss://api.ledgerwallet.com",
+    "horizon": "https://horizon.stellar.org"
   }
 }
