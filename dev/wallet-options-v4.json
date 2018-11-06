@@ -127,6 +127,11 @@
             "https://blockchain.co1.qualtrics.com/jfe/form/SV_bBDOyGwj5WOb0hL"
           ]
         }
+      },
+      "xlm": {
+        "config": {
+          "network": "public"
+        }
       }
     },
     "ios": {},
@@ -141,6 +146,9 @@
     "webSocket": "wss://ws.dev.blockchain.info",
     "walletHelper": "https://wallet-helper.dev.blockchain.info",
     "comWalletApp": "https://login-dev.blockchain.com",
-    "comRoot": "https://dev.blockchain.com"
+    "comRoot": "https://dev.blockchain.com",
+    "ledger": "https://manager.api.live.ledger.com",
+    "ledgerSocket": "wss://api.ledgerwallet.com",
+    "horizon": "https://horizon.stellar.org"
   }
 }
