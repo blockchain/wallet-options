@@ -2,16 +2,10 @@
   "platforms": {
     "web": {
       "application": {
-        "availability": {
-          "adverts": true,
-          "mobile_login": true
-        },
-        "fraction": 1,
-        "countries": "*",
-        "states": "*",
+        "enableDomainMigrationRedirects": true,
         "announcements": {}
       },
-      "bitcoin": {
+      "btc": {
         "availability": {
           "send": true,
           "request": true,
@@ -24,6 +18,26 @@
         "states": "*",
         "config": {
           "network": "bitcoin"
+        }
+      },
+      "eth": {
+        "availability": {
+          "send": true,
+          "request": true,
+          "history": true,
+          "fiat": true
+        },
+        "fraction": 1,
+        "lastTxFuse": 600,
+        "countries": "*",
+        "states": "*",
+        "config": {
+          "network": "mainnet"
+        }
+      },
+      "xlm": {
+        "config": {
+          "network": "public"
         }
       },
       "buysell": {
@@ -104,21 +118,6 @@
             "https://blockchain.co1.qualtrics.com/jfe/form/SV_9u8XxkrkiUUy6z3",
             "https://blockchain.co1.qualtrics.com/jfe/form/SV_9ysiGRC4rkMFwFv"
           ]
-        }
-      },
-      "ethereum": {
-        "availability": {
-          "send": true,
-          "request": true,
-          "history": true,
-          "fiat": true
-        },
-        "fraction": 1,
-        "lastTxFuse": 600,
-        "countries": "*",
-        "states": "*",
-        "config": {
-          "network": "mainnet"
         }
       },
       "sfox": {
@@ -214,30 +213,10 @@
             "https://blockchain.co1.qualtrics.com/jfe/form/SV_3QV1OgysGUC0hXD"
           ]
         }
-      },
-      "unocoin": {
-        "fraction": 0,
-        "countries": ["IN"],
-        "states": "*",
-        "config": {
-          "production": "REPLACED_BY_DEV_SERVER",
-          "surveyLinks": [
-            "https://blockchain.co1.qualtrics.com/jfe/form/SV_0wAlAEnwlumr4XP",
-            "https://blockchain.co1.qualtrics.com/jfe/form/SV_8jmvSfjqqPzNWVn",
-            "https://blockchain.co1.qualtrics.com/jfe/form/SV_25JUYJLoLoHQ5b7"
-          ],
-          "surveyTradeLinks": [
-            "https://blockchain.co1.qualtrics.com/jfe/form/SV_87YRZx6LVdaF4kR",
-            "https://blockchain.co1.qualtrics.com/jfe/form/SV_bBDOyGwj5WOb0hL"
-          ]
-        }
       }
     },
     "ios": {},
-    "android": {},
-    "mobile": {
-      "walletRoot": "https://explorer.dev.blockchain.info/wallet-buy-sell"
-    }
+    "android": {}
   },
   "domains": {
     "root": "https://explorer.staging.blockchain.info",

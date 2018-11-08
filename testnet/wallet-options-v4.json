@@ -2,16 +2,10 @@
   "platforms": {
     "web": {
       "application": {
-        "availability": {
-          "adverts": true,
-          "mobile_login": true
-        },
-        "fraction": 1,
-        "countries": "*",
-        "states": "*",
+        "enableDomainMigrationRedirects": true,
         "announcements": {}
       },
-      "bitcoin": {
+      "btc": {
         "availability": {
           "send": true,
           "request": true,
@@ -22,6 +16,26 @@
         "fraction": 1,
         "countries": "*",
         "states": "*",
+        "config": {
+          "network": "testnet"
+        }
+      },
+      "eth": {
+        "availability": {
+          "send": true,
+          "request": true,
+          "history": true,
+          "fiat": true
+        },
+        "fraction": 1,
+        "lastTxFuse": 600,
+        "countries": "*",
+        "states": "*",
+        "config": {
+          "network": "mainnet"
+        }
+      },
+      "xlm": {
         "config": {
           "network": "testnet"
         }
@@ -91,22 +105,19 @@
           "availability": true,
           "partnerId": 24,
           "production": false,
-          "iSignThisDomain": "https://stage-verify.isignthis.com"
-        }
-      },
-      "ethereum": {
-        "availability": {
-          "send": true,
-          "request": true,
-          "history": true,
-          "fiat": true
-        },
-        "fraction": 1,
-        "lastTxFuse": 600,
-        "countries": "*",
-        "states": "*",
-        "config": {
-          "network": "mainnet"
+          "iSignThisDomain": "https://stage-verify.isignthis.com",
+          "surveyLinks": [
+            "https://blockchain.co1.qualtrics.com/SE/?SID=SV_8pupOEQPGkXx8Kp",
+            "https://blockchain.co1.qualtrics.com/jfe/form/SV_205rqJvYy7mRxnn",
+            "https://blockchain.co1.qualtrics.com/jfe/form/SV_ac9wCotxdlnCzU9",
+            "https://blockchain.co1.qualtrics.com/jfe/form/SV_agg8sRcpEsWbEnb",
+            "https://blockchain.co1.qualtrics.com/SE/?SID=SV_1RF9VhC96M8xXh3"
+          ],
+          "sellSurveyLinks": [
+            "https://blockchain.co1.qualtrics.com/jfe/form/SV_56iZITjrjyMOrzL",
+            "https://blockchain.co1.qualtrics.com/jfe/form/SV_9u8XxkrkiUUy6z3",
+            "https://blockchain.co1.qualtrics.com/jfe/form/SV_9ysiGRC4rkMFwFv"
+          ]
         }
       },
       "sfox": {
@@ -147,7 +158,13 @@
           "apiKey": "6CD61A0E965D48A7B1883A860490DC9E",
           "plaid": "0b041cd9e9fbf1e7d93a0d5a39f5b9",
           "plaidEnv": "sandbox",
-          "siftScience": "3884e5fae5"
+          "siftScience": "3884e5fae5",
+          "surveyLinks": [
+            "https://blockchain.co1.qualtrics.com/SE/?SID=SV_bPCcv7eZgqlQSrP",
+            "https://blockchain.co1.qualtrics.com/SE/?SID=SV_4HIEh5KIodM8UTP",
+            "https://blockchain.co1.qualtrics.com/SE/?SID=SV_51qOIk4EXHshNFX",
+            "https://blockchain.co1.qualtrics.com/SE/?SID=SV_78S6RzM5ipN66fb"
+          ]
         }
       },
       "shapeshift": {
@@ -188,32 +205,27 @@
           "WV"
         ],
         "config": {
-          "apiKey":
-            "b7a7c320c19ea3a8e276c8921bc3ff79ec064d2cd9d98ab969acc648246b4be5ab2379af704c5d3a3021c0ddf82b3e479590718847c1301e1a85331d2d2a8370",
-          "upperLimit": 750
-        }
-      },
-      "unocoin": {
-        "fraction": 0,
-        "countries": ["IN"],
-        "states": "*",
-        "config": {
-          "production": "REPLACED_BY_DEV_SERVER"
+          "apiKey": "b7a7c320c19ea3a8e276c8921bc3ff79ec064d2cd9d98ab969acc648246b4be5ab2379af704c5d3a3021c0ddf82b3e479590718847c1301e1a85331d2d2a8370",
+          "upperLimit": 750,
+          "surveyLinks": [
+            "https://blockchain.co1.qualtrics.com/jfe/form/SV_1MuVnVEtWhiVIQl",
+            "https://blockchain.co1.qualtrics.com/jfe/form/SV_3QV1OgysGUC0hXD"
+          ]
         }
       }
     },
     "ios": {},
-    "android": {},
-    "mobile": {
-      "walletRoot": "https://explorer.dev.blockchain.info/wallet-buy-sell"
-    }
+    "android": {}
   },
   "domains": {
-    "root": "https://testnet.blockchain.info",
-    "api": "https://api-testnet.blockchain.info",
-    "webSocket": "wss://ws.blockchain.info/testnet3",
-    "walletHelper": "https://wallet-helper.blockchain.info",
+    "root": "https://explorer.testnet.blockchain.info",
+    "api": "https://api.testnet.blockchain.info",
+    "webSocket": "wss://ws.testnet.blockchain.info",
+    "walletHelper": "https://wallet-helper.testnet.blockchain.info",
     "comWalletApp": "https://wallet-frontend-v4.testnet.blockchain.info",
-    "comRoot": "https://www.blockchain.com"
+    "comRoot": "https://testnet.blockchain.com",
+    "ledger": "https://manager.api.live.ledger.com",
+    "ledgerSocket": "wss://api.ledgerwallet.com",
+    "horizon": "https://horizon.stellar.org"
   }
 }
