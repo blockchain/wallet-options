@@ -201,7 +201,7 @@
     "api": "https://api.dev.blockchain.info",
     "webSocket": "wss://ws.dev.blockchain.info",
     "walletHelper": "https://wallet-helper.dev.blockchain.info",
-    "comWalletApp": "https://wallet-frontend-v4.dev.blockchain.info",
+    "comWalletApp": "https://login-dev.blockchain.com",
     "comRoot": "https://dev.blockchain.com",
     "ledger": "https://manager.api.live.ledger.com",
     "ledgerSocket": "wss://api.ledgerwallet.com",
