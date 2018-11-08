@@ -13,9 +13,6 @@
           "report": true,
           "fiat": true
         },
-        "fraction": 1,
-        "countries": "*",
-        "states": "*",
         "config": {
           "network": "bitcoin"
         }
@@ -27,10 +24,7 @@
           "history": true,
           "fiat": true
         },
-        "fraction": 1,
         "lastTxFuse": 600,
-        "countries": "*",
-        "states": "*",
         "config": {
           "network": "mainnet"
         }
@@ -40,19 +34,7 @@
           "network": "public"
         }
       },
-      "buysell": {
-        "availability": {
-          "buy": true,
-          "sell": true,
-          "history": true
-        },
-        "fraction": 1,
-        "countries": ["GB", "NL", "DE", "US"],
-        "states": "*",
-        "config": {}
-      },
       "coinify": {
-        "fraction": 1,
         "countries": [
           "GB",
           "AT",
@@ -100,9 +82,7 @@
           "SE",
           "CH"
         ],
-        "states": "*",
         "config": {
-          "availability": true,
           "partnerId": 24,
           "production": false,
           "iSignThisDomain": "https://stage-verify.isignthis.com",
@@ -121,8 +101,9 @@
         }
       },
       "sfox": {
-        "fraction": 1,
-        "countries": ["US"],
+        "countries": [
+          "US"
+        ],
         "states": [
           "AR",
           "AZ",
@@ -154,7 +135,6 @@
         ],
         "config": {
           "production": false,
-          "availability": true,
           "apiKey": "6CD61A0E965D48A7B1883A860490DC9E",
           "plaid": "0b041cd9e9fbf1e7d93a0d5a39f5b9",
           "plaidEnv": "sandbox",
@@ -173,7 +153,6 @@
           "sell": true,
           "history": true
         },
-        "fraction": 1,
         "countries": "*",
         "states": [
           "AR",
@@ -205,8 +184,7 @@
           "WV"
         ],
         "config": {
-          "apiKey":
-            "b7a7c320c19ea3a8e276c8921bc3ff79ec064d2cd9d98ab969acc648246b4be5ab2379af704c5d3a3021c0ddf82b3e479590718847c1301e1a85331d2d2a8370",
+          "apiKey": "b7a7c320c19ea3a8e276c8921bc3ff79ec064d2cd9d98ab969acc648246b4be5ab2379af704c5d3a3021c0ddf82b3e479590718847c1301e1a85331d2d2a8370",
           "upperLimit": 750,
           "surveyLinks": [
             "https://blockchain.co1.qualtrics.com/jfe/form/SV_1MuVnVEtWhiVIQl",
@@ -226,6 +204,7 @@
     "comWalletApp": "https://wallet-frontend-v4.staging.blockchain.info",
     "comRoot": "https://staging.blockchain.com",
     "ledger": "https://manager.api.live.ledger.com",
-    "ledgerSocket": "wss://api.ledgerwallet.com"
+    "ledgerSocket": "wss://api.ledgerwallet.com",
+    "horizon": "https://horizon.stellar.org"
   }
 }
