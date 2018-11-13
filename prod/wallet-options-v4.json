@@ -29,9 +29,9 @@
       },
       "bch": {
         "availability": {
-          "send": true,
-          "request": true,
-          "exchange": true,
+          "send": false,
+          "request": false,
+          "exchange": false,
           "history": true,
           "report": true,
           "fiat": true
