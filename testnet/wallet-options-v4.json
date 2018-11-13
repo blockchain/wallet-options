@@ -15,6 +15,7 @@
         "availability": {
           "send": true,
           "request": true,
+          "exchange": true,
           "history": true,
           "report": true,
           "fiat": true
@@ -24,6 +25,16 @@
         "states": "*",
         "config": {
           "network": "testnet"
+        }
+      },
+      "bch": {
+        "availability": {
+          "send": false,
+          "request": false,
+          "exchange": false,
+          "history": true,
+          "report": true,
+          "fiat": true
         }
       },
       "buysell": {
@@ -52,6 +63,7 @@
         "availability": {
           "send": true,
           "request": true,
+          "exchange": true,
           "history": true,
           "fiat": true
         },
@@ -96,6 +108,18 @@
         "states": "*",
         "config": {
           "production": "REPLACED_BY_DEV_SERVER"
+        }
+      },
+      "xlm": {
+        "availability": {
+          "send": true,
+          "request": true,
+          "exchange": true,
+          "history": true,
+          "fiat": true
+        },
+        "config": {
+          "network": "public"
         }
       }
     },

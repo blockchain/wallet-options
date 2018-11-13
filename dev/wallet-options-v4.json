@@ -9,12 +9,106 @@
         "fraction": 1,
         "countries": "*",
         "states": "*",
-        "announcements": {}
+        "announcements": {
+          "public": {},
+          "wallet": {
+            "id": "bch-hardfork-wallet",
+            "type": "info",
+            "icon": "alert-filled",
+            "hideType": "collapse",
+            "header": {
+              "en": "Bitcoin Cash Service Interruption"
+            },
+            "sections": [
+              {
+                "title": {
+                  "en": ""
+                },
+                "body": {
+                  "en": "A fork of Bitcoin Cash will take place at 16:40 UTC on Thursday 15th November. The Bitcoin Cash network is currently experiencing stability issues in the run up to the fork - meaning Bitcoin Cash transactions made over the past few days are taking longer to reflect in your wallets."
+                }
+              },
+              {
+                "title": {
+                  "en": ""
+                },
+                "body": {
+                  "en": "Your funds are safe and will reflect in your wallet as soon as the network stabilizes. To ensure they remain safe throughout this time of uncertainty, we will also be temporarily suspending Bitcoin Cash send, request, and exchange functionality roughly 24 hours before the time of the fork until the network stabilizes."
+                }
+              },
+              {
+                "title": {
+                  "en": ""
+                },
+                "body": {
+                  "en": "While no immediate action is required, we encourage you to write down your recovery phrase if you haven't already. During this time, you will still be able to access Bitcoin, Ether and Stellar send & request, transaction history, and balances at the time of the fork, and your recovery phrase. "
+                }
+              }
+            ],
+            "action": {
+              "title": {
+                "en": "Read More"
+              },
+              "link": "https://blog.blockchain.com"
+            }
+          },
+          "sendBch": {
+            "id": "bch-hardfork-send",
+            "type": "info",
+            "icon": "alert-filled",
+            "hideType": "collapse",
+            "header": {
+              "en": "Bitcoin Cash Service Interruption"
+            },
+            "sections": [
+              {
+                "title": {
+                  "en": ""
+                },
+                "body": {
+                  "en": "A Bitcoin Cash hard fork will occur at 16:40 UTC on Thursday 15th November. To ensure your funds remain safe throughout this time of uncertainty, we will temporarily be suspending Bitcoin Cash send and request roughly 24 hours before the time of the fork."
+                }
+              }
+            ],
+            "action": {
+              "title": {
+                "en": "Read More"
+              },
+              "link": "https://blog.blockchain.com"
+            }
+          },
+          "receiveBch": {
+            "id": "bch-hardfork-recieve",
+            "type": "info",
+            "icon": "alert-filled",
+            "hideType": "collapse",
+            "header": {
+              "en": "Bitcoin Cash Service Interruption"
+            },
+            "sections": [
+              {
+                "title": {
+                  "en": ""
+                },
+                "body": {
+                  "en": "A Bitcoin Cash hard fork will occur at 16:40 UTC on Thursday 15th November. To ensure your funds remain safe throughout this time of uncertainty, we will temporarily be suspending Bitcoin Cash send and request roughly 24 hours before the time of the fork."
+                }
+              }
+            ],
+            "action": {
+              "title": {
+                "en": "Read More"
+              },
+              "link": "https://blog.blockchain.com"
+            }
+          }
+        }
       },
       "bitcoin": {
         "availability": {
           "send": true,
           "request": true,
+          "exchange": true,
           "history": true,
           "report": true,
           "fiat": true
@@ -24,6 +118,16 @@
         "states": "*",
         "config": {
           "network": "bitcoin"
+        }
+      },
+      "bch": {
+        "availability": {
+          "send": false,
+          "request": false,
+          "exchange": false,
+          "history": true,
+          "report": true,
+          "fiat": true
         }
       },
       "buysell": {
@@ -64,6 +168,7 @@
         "availability": {
           "send": true,
           "request": true,
+          "exchange": true,
           "history": true,
           "fiat": true
         },
@@ -129,6 +234,13 @@
         }
       },
       "xlm": {
+        "availability": {
+          "send": true,
+          "request": true,
+          "exchange": true,
+          "history": true,
+          "fiat": true
+        },
         "config": {
           "network": "public"
         }
