@@ -220,6 +220,12 @@
   "mobile": {
     "walletRoot": "https://explorer.staging.blockchain.info/wallet-buy-sell"
   },
+  "mobile_notice": {
+    "en": "Due to the upcoming Bitcoin Cash hard fork at 16:40 UTC on Thursday 15th November, we are facing network stability issues, meaning Bitcoin Cash transactions made over the past few days are taking longer to reflect in your wallets. Your funds are safe and will reflect in your wallet as soon as the network stabilizes. We will also be temporarily suspending Bitcoin Cash wallet services from roughly 24 hours before the time of the fork, until the network stabilizes."
+  },
+  "mobileInfo": {
+    "en": "Due to the upcoming Bitcoin Cash hard fork at 16:40 UTC on Thursday 15th November, we are facing network stability issues, meaning Bitcoin Cash transactions made over the past few days are taking longer to reflect in your wallets. Your funds are safe and will reflect in your wallet as soon as the network stabilizes. We will also be temporarily suspending Bitcoin Cash wallet services from roughly 24 hours before the time of the fork, until the network stabilizes."
+  },
   "android": {
     "showUnocoin": false,
     "showShapeshift": true,
