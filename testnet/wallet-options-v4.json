@@ -106,9 +106,7 @@
             "icon": "alert-filled",
             "hideType": "collapse",
             "header": {
-              "body": {
-                "en": "Bitcoin Cash Service Interruption"
-              }
+              "en": "Bitcoin Cash Service Interruption"
             },
             "sections": [
               {
