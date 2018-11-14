@@ -17,39 +17,65 @@
             "icon": "alert-filled",
             "hideType": "collapse",
             "header": {
-              "en": "Bitcoin Cash Service Interruption"
+              "en": "Bitcoin Cash Service Interruption",
+              "de": "Bitcoin-Cash-Dienstunterbrechung",
+              "es": "Interrupción del servicio de Bitcoin Cash",
+              "fr": "Interruption des services de Bitcoin Cash",
+              "pt": "Interrupção do Serviço do Bitcoin Cash",
+              "ru": "Прерывание обслуживания Bitcoin Cash",
+              "vi": "Gián đoạn dịch vụ Bitcoin Cash",
+              "zh-cn": "比特币现金服务中断"
             },
             "sections": [
               {
-                "title": {
-                  "en": ""
-                },
                 "body": {
-                  "en": "A fork of Bitcoin Cash will take place at 16:40 UTC on Thursday 15th November. The Bitcoin Cash network is currently experiencing stability issues in the run up to the fork - meaning Bitcoin Cash transactions made over the past few days are taking longer to reflect in your wallets."
+                  "en": "A fork of Bitcoin Cash will take place at 16:40 UTC on Thursday 15th November. The Bitcoin Cash network is currently experiencing stability issues in the run up to the fork - meaning Bitcoin Cash transactions made over the past few days are taking longer to reflect in your wallets.",
+                  "de": "Um 16:40 Uhr UTC am Donnerstag, 15. November, wird ein Bitcoin-Cash-Fork stattfinden. Das Bitcoin-Cash-Netzwerk hat gegenwärtig Stabilitätsprobleme im Vorfeld des Forks. Dies bedeutet, dass es länger dauert, bis sich in den vergangenen Tagen vorgenommene Bitcoin-Cash-Transaktionen in Ihren Wallets widerspiegeln.",
+                  "es": "El jueves 15 de noviembre a las 16:40 UTC tendrá lugar un fork de Bitcoin Cash. La red de Bitcoin Cash está en estos momentos sufriendo problemas de estabilidad mientras se acerca el momento del fork, lo que quiere decir que las transacciones de Bitcoin Cash hechas en los últimos días están tardando más de lo habitual en aparecer en vuestras carteras.",
+                  "fr": "Un fork de Bitcoin Cash se déroulera le jeudi 15 novembre à 16 h 40 (UTC). À l'approche du fork, le réseau de Bitcoin Cash est confronté à des problèmes de stabilité – ce qui signifie que les transactions réalisées via Bitcoin Cash ces derniers jours prennent plus de temps à apparaître dans vos portefeuilles.",
+                  "pt": "Vai decorrer um fork do Bitcoin Cash no dia 15 de novembro, quinta-feira, às 16:40 UTC. A rede do Bitcoin Cash está a ter problemas de estabilidade no período que antecede o fork - o que significa que as transações do Bitcoin Cash feitas nos últimos dias estão a demorar mais para aparecerem nas suas carteiras.",
+                  "ru": "Форк Bitcoin Cash начнется в четверг 15 ноября в 16:40 UTC. На данный момент в преддверии форка сеть Bitcoin Cash испытывает проблемы со стабильностью — на отображение транзакций Bitcoin Cash, выполненных за последние несколько дней, в ваших кошельках уходит больше времени.",
+                  "vi": "Một đợt phân tách Bitcoin Cash sẽ diễn ra vào lúc 16:40 UTC (23:40 theo giờ Việt Nam) thứ Năm, ngày 15 tháng 11. Mạng lưới Bitcoin Cash hiện đang gặp phải các vấn đề về tính ổn định trong quá trình chuẩn bị diễn ra đợt phân tách - tức là các giao dịch Bitcoin Cash được thực hiện trong vài ngày trước sẽ mất nhiều thời gian hơn để được ghi nhận trong ví của bạn.",
+                  "zh-cn": "比特币现金分叉将于 11 月 15 日星期四 16:40 UTC 进行。比特币现金网络目前正面临稳定性问题——这意味着过去几天内的比特币现金交易需要更长的时间才能您的钱包中反映出来。"
                 }
               },
               {
-                "title": {
-                  "en": ""
-                },
                 "body": {
-                  "en": "Your funds are safe and will reflect in your wallet as soon as the network stabilizes. To ensure they remain safe throughout this time of uncertainty, we will also be temporarily suspending Bitcoin Cash send, request, and exchange functionality roughly 24 hours before the time of the fork until the network stabilizes."
+                  "en": "Your funds are safe and will reflect in your wallet as soon as the network stabilizes. To ensure they remain safe throughout this time of uncertainty, we will also be temporarily suspending Bitcoin Cash send, request, and exchange functionality roughly 24 hours before the time of the fork until the network stabilizes.",
+                  "de": "Ihr Geld ist sicher und wird in Ihrem Wallet erscheinen, sobald sich das Netzwerk stabilisiert. Um zu gewährleisten, dass es während dieser gesamten Zeit der Ungewissheit sicher bleibt, werden wir zudem ab etwa 24 Stunden vor dem Zeitpunkt des Forks vorübergehend die Sende-, Anforderungs- und Wechselfunktionen von Bitcoin Cash aussetzen, bis sich das Netzwerk stabilisiert.",
+                  "es": "Vuestros fondos están a a salvo y aparecerán en vuestra cartera en cuanto la red se estabilice. Para garantizar que se mantengan seguros en este periodo de inestabilidad además suspenderemos temporalmente las funciones de envío, solicitud e intercambio aproximadamente 24 horas antes de que tenga lugar el fork y hasta que la red se estabilice.",
+                  "fr": "Vos fonds sont en sécurité et apparaîtront dans votre portefeuille dès que le réseau sera de nouveau stable. Pour garantir leur sécurité tout au long de cette période d'incertitude, nous suspendrons temporairement les fonctionnalités d'envoi, de demande et d'échange sur Bitcoin Cash environ 24 heures avant la réalisation du fork et jusqu'à stabilisation du réseau.",
+                  "pt": "Os seus fundos estão seguros e vão aparecer na sua carteira assim que a rede estabilizar. Para garantir que permanecem seguros durante este período de indefinição, também vamos suspender temporariamente a funcionalidade de envio, solicitação e troca do Bitcoin Cash, aproximadamente 24 horas antes da hora do fork, até que a rede estabilize.",
+                  "ru": "Ваши средства в безопасности и, как только сеть стабилизируется, они будут отображены в вашем кошельке. Чтобы обеспечить безопасность средств в данный период неопределенности, мы также временно приостановим функции отправки, запроса и обмена Bitcoin Cash примерно за 24 часа до форка и до стабилизации сети.",
+                  "vi": "Tiền của bạn vẫn an toàn và sẽ được ghi nhận trong ví ngay khi mạng lưới ổn định trở lại. Nhằm đảm bảo tiền của bạn được an toàn trong thời gian bất ổn này, chúng tôi cũng sẽ tạm thời tạm ngưng chức năng trao đổi, yêu cầu và gửi Bitcoin Cash từ khoảng 24 giờ trước thời điểm diễn ra phân tách đến khi mạng lưới ổn định trở lại.",
+                  "zh-cn": "您的资金是安全的,一旦网络稳定,就会在您的钱包中反映出来。为了确保在这段不确定的时间内保持它们的安全,我们还将在分叉前大约 24 小时暂停比特币现金的付款,收款和兑换功能,直到网络稳定为止。"
                 }
               },
               {
-                "title": {
-                  "en": ""
-                },
                 "body": {
-                  "en": "While no immediate action is required, we encourage you to write down your recovery phrase if you haven't already. During this time, you will still be able to access Bitcoin, Ether and Stellar send & request, transaction history, and balances at the time of the fork, and your recovery phrase. "
+                  "en": "While no immediate action is required, we encourage you to write down your recovery phrase if you haven't already. During this time, you will still be able to access Bitcoin, Ether and Stellar send & request, transaction history, and balances at the time of the fork, and your recovery phrase.",
+                  "de": "Obgleich kein umgehendes Handeln erforderlich ist, raten wir Ihnen, Ihre Wiederherstellungsphrase aufzuschreiben, sofern Sie dies nicht bereits getan haben. Während dieses Zeitraums haben Sie weiterhin Zugriff auf das Senden und Anfordern, den Transaktionsverlauf und den Kontostand zum Zeitpunkt des Forks für Bitcoin, Ether und Stellar sowie auf Ihre Wiederherstellungsphrase.",
+                  "es": "Aunque no se requiere ninguna acción inmediata, aconsejamos anotar vuestra frase de recuperación si es que no la tenéis anotada. Durante este tiempo seguiréis pudiendo acceder a envíos y solicitudes de Bitcoin, Ether y Stellar, al historial de transacciones y al saldo en el momento del fork y a vuestra frase de recuperación.",
+                  "fr": "Bien qu'aucune mesure immédiate ne soit nécessaire, nous vous recommandons de noter votre phrase de récupération si vous ne l'avez pas encore fait. Au cours de cette période, vous pourrez continuer d'accéder aux envois et demandes, à l'historique de vos transactions, à vos soldes au moment du fork ainsi qu'à votre phrase de récupération sur Bitcoin, Ether et Stellar.",
+                  "pt": "Embora não seja necessária nenhuma medida imediata, recomendamos que anote a sua frase de recuperação se ainda não o fez. Durante este período, poderá ainda assim aceder ao envio e solicitação de Bitcoin, Ether e Stellar, ao histórico de transações, aos saldos no momento do fork e à sua frase de recuperação.",
+                  "ru": "Несмотря на то, что никаких немедленных действий не требуется, мы рекомендуем записать фразу для восстановления, если вы этого еще не сделали. Во время форка и фазы вашего восстановления вы по-прежнему будете иметь доступ к отправке и запросу Bitcoin, Ether и Stellar, а также к истории транзакций и балансу.",
+                  "vi": "Bạn không cần thực hiện hành động nào ngay lập tức, nhưng bạn nên viết ra cụm từ khôi phục (recovery phrase) nếu chưa thực hiện điều này. Trong thời gian này, bạn vẫn có thể truy cập vào số dư, lịch sử giao dịch, gửi và yêu cầu Bitcoin Ether và Stellar tại thời điểm diễn ra phân tách, cùng với cụm từ khôi phục của mình.",
+                  "zh-cn": "虽然不需要立即采取行动,但如果您还没有将您的恢复短语 (recovery phrase) 写下来,我们建议您这样做。在此期间,您仍然可以在分叉时访问比特币,以太坊和恒星币的付款,收款,交易历史记录和余额,以及您的恢复短语。"
                 }
               }
             ],
             "action": {
               "title": {
-                "en": "Read More"
+                "en": "Read More",
+                "de": "Mehr Erfahren",
+                "es": "Más Información",
+                "fr": "En Savoir Plus Sur",
+                "pt": "Leia Mais",
+                "ru": "Читать Дальше",
+                "vi": "Đọc Thêm",
+                "zh-cn": "阅读更多"
               },
-              "link": "https://blog.blockchain.com"
+              "link": "https://blog.blockchain.com/2018/11/14/the-bch-hard-fork/"
             }
           },
           "sendBch": {
@@ -62,9 +88,6 @@
             },
             "sections": [
               {
-                "title": {
-                  "en": ""
-                },
                 "body": {
                   "en": "A Bitcoin Cash hard fork will occur at 16:40 UTC on Thursday 15th November. To ensure your funds remain safe throughout this time of uncertainty, we will temporarily be suspending Bitcoin Cash send and request roughly 24 hours before the time of the fork."
                 }
@@ -74,7 +97,7 @@
               "title": {
                 "en": "Read More"
               },
-              "link": "https://blog.blockchain.com"
+              "link": "https://blog.blockchain.com/2018/11/14/the-bch-hard-fork/"
             }
           },
           "receiveBch": {
@@ -83,13 +106,12 @@
             "icon": "alert-filled",
             "hideType": "collapse",
             "header": {
-              "en": "Bitcoin Cash Service Interruption"
+              "body": {
+                "en": "Bitcoin Cash Service Interruption"
+              }
             },
             "sections": [
               {
-                "title": {
-                  "en": ""
-                },
                 "body": {
                   "en": "A Bitcoin Cash hard fork will occur at 16:40 UTC on Thursday 15th November. To ensure your funds remain safe throughout this time of uncertainty, we will temporarily be suspending Bitcoin Cash send and request roughly 24 hours before the time of the fork."
                 }
@@ -99,7 +121,7 @@
               "title": {
                 "en": "Read More"
               },
-              "link": "https://blog.blockchain.com"
+              "link": "https://blog.blockchain.com/2018/11/14/the-bch-hard-fork/"
             }
           }
         }
