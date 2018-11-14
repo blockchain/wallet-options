@@ -41,14 +41,14 @@
               },
               {
                 "body": {
-                  "en": "Your funds are safe and will reflect in your wallet as soon as the network stabilizes. To ensure they remain safe throughout this time of uncertainty, we will also be temporarily suspending Bitcoin Cash send, request, and exchange functionality roughly 24 hours before the time of the fork until the network stabilizes.",
-                  "de": "Ihr Geld ist sicher und wird in Ihrem Wallet erscheinen, sobald sich das Netzwerk stabilisiert. Um zu gewährleisten, dass es während dieser gesamten Zeit der Ungewissheit sicher bleibt, werden wir zudem ab etwa 24 Stunden vor dem Zeitpunkt des Forks vorübergehend die Sende-, Anforderungs- und Wechselfunktionen von Bitcoin Cash aussetzen, bis sich das Netzwerk stabilisiert.",
-                  "es": "Vuestros fondos están a a salvo y aparecerán en vuestra cartera en cuanto la red se estabilice. Para garantizar que se mantengan seguros en este periodo de inestabilidad además suspenderemos temporalmente las funciones de envío, solicitud e intercambio aproximadamente 24 horas antes de que tenga lugar el fork y hasta que la red se estabilice.",
-                  "fr": "Vos fonds sont en sécurité et apparaîtront dans votre portefeuille dès que le réseau sera de nouveau stable. Pour garantir leur sécurité tout au long de cette période d'incertitude, nous suspendrons temporairement les fonctionnalités d'envoi, de demande et d'échange sur Bitcoin Cash environ 24 heures avant la réalisation du fork et jusqu'à stabilisation du réseau.",
-                  "pt": "Os seus fundos estão seguros e vão aparecer na sua carteira assim que a rede estabilizar. Para garantir que permanecem seguros durante este período de indefinição, também vamos suspender temporariamente a funcionalidade de envio, solicitação e troca do Bitcoin Cash, aproximadamente 24 horas antes da hora do fork, até que a rede estabilize.",
-                  "ru": "Ваши средства в безопасности и, как только сеть стабилизируется, они будут отображены в вашем кошельке. Чтобы обеспечить безопасность средств в данный период неопределенности, мы также временно приостановим функции отправки, запроса и обмена Bitcoin Cash примерно за 24 часа до форка и до стабилизации сети.",
-                  "vi": "Tiền của bạn vẫn an toàn và sẽ được ghi nhận trong ví ngay khi mạng lưới ổn định trở lại. Nhằm đảm bảo tiền của bạn được an toàn trong thời gian bất ổn này, chúng tôi cũng sẽ tạm thời tạm ngưng chức năng trao đổi, yêu cầu và gửi Bitcoin Cash từ khoảng 24 giờ trước thời điểm diễn ra phân tách đến khi mạng lưới ổn định trở lại.",
-                  "zh-cn": "您的资金是安全的,一旦网络稳定,就会在您的钱包中反映出来。为了确保在这段不确定的时间内保持它们的安全,我们还将在分叉前大约 24 小时暂停比特币现金的付款,收款和兑换功能,直到网络稳定为止。"
+                  "en": "Your funds are safe and will reflect in your wallet as soon as the network stabilizes. To ensure they remain safe throughout this time of uncertainty, we will also be temporarily suspending Bitcoin Cash send, request, and exchange functionality roughly 3 hours before the time of the fork until the network stabilizes.",
+                  "de": "Ihr Geld ist sicher und wird in Ihrem Wallet erscheinen, sobald sich das Netzwerk stabilisiert. Um zu gewährleisten, dass es während dieser gesamten Zeit der Ungewissheit sicher bleibt, werden wir zudem ab etwa 3 Stunden vor dem Zeitpunkt des Forks vorübergehend die Sende-, Anforderungs- und Wechselfunktionen von Bitcoin Cash aussetzen, bis sich das Netzwerk stabilisiert.",
+                  "es": "Vuestros fondos están a a salvo y aparecerán en vuestra cartera en cuanto la red se estabilice. Para garantizar que se mantengan seguros en este periodo de inestabilidad además suspenderemos temporalmente las funciones de envío, solicitud e intercambio aproximadamente 3 horas antes de que tenga lugar el fork y hasta que la red se estabilice.",
+                  "fr": "Vos fonds sont en sécurité et apparaîtront dans votre portefeuille dès que le réseau sera de nouveau stable. Pour garantir leur sécurité tout au long de cette période d'incertitude, nous suspendrons temporairement les fonctionnalités d'envoi, de demande et d'échange sur Bitcoin Cash environ 3 heures avant la réalisation du fork et jusqu'à stabilisation du réseau.",
+                  "pt": "Os seus fundos estão seguros e vão aparecer na sua carteira assim que a rede estabilizar. Para garantir que permanecem seguros durante este período de indefinição, também vamos suspender temporariamente a funcionalidade de envio, solicitação e troca do Bitcoin Cash, aproximadamente 3 horas antes da hora do fork, até que a rede estabilize.",
+                  "ru": "Ваши средства в безопасности и, как только сеть стабилизируется, они будут отображены в вашем кошельке. Чтобы обеспечить безопасность средств в данный период неопределенности, мы также временно приостановим функции отправки, запроса и обмена Bitcoin Cash примерно за 3 часа до форка и до стабилизации сети.",
+                  "vi": "Tiền của bạn vẫn an toàn và sẽ được ghi nhận trong ví ngay khi mạng lưới ổn định trở lại. Nhằm đảm bảo tiền của bạn được an toàn trong thời gian bất ổn này, chúng tôi cũng sẽ tạm thời tạm ngưng chức năng trao đổi, yêu cầu và gửi Bitcoin Cash từ khoảng 3 giờ trước thời điểm diễn ra phân tách đến khi mạng lưới ổn định trở lại.",
+                  "zh-cn": "您的资金是安全的,一旦网络稳定,就会在您的钱包中反映出来。为了确保在这段不确定的时间内保持它们的安全,我们还将在分叉前大约 3 小时暂停比特币现金的付款,收款和兑换功能,直到网络稳定为止。"
                 }
               },
               {
@@ -89,7 +89,7 @@
             "sections": [
               {
                 "body": {
-                  "en": "A Bitcoin Cash hard fork will occur at 16:40 UTC on Thursday 15th November. To ensure your funds remain safe throughout this time of uncertainty, we will temporarily be suspending Bitcoin Cash send and request roughly 24 hours before the time of the fork."
+                  "en": "A Bitcoin Cash hard fork will occur at 16:40 UTC on Thursday 15th November. To ensure your funds remain safe throughout this time of uncertainty, we will temporarily be suspending Bitcoin Cash send and request roughly 3 hours before the time of the fork."
                 }
               }
             ],
@@ -111,7 +111,7 @@
             "sections": [
               {
                 "body": {
-                  "en": "A Bitcoin Cash hard fork will occur at 16:40 UTC on Thursday 15th November. To ensure your funds remain safe throughout this time of uncertainty, we will temporarily be suspending Bitcoin Cash send and request roughly 24 hours before the time of the fork."
+                  "en": "A Bitcoin Cash hard fork will occur at 16:40 UTC on Thursday 15th November. To ensure your funds remain safe throughout this time of uncertainty, we will temporarily be suspending Bitcoin Cash send and request roughly 3 hours before the time of the fork."
                 }
               }
             ],
