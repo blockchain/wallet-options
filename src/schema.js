@@ -112,13 +112,17 @@ const v4 = object({
       application: object({
         enableDomainMigrationRedirects: bool(),
         announcements: optional(object({
-          public: optional(webServiceAlert())
+          public: optional(webServiceAlert()),
+          wallet: optional(webServiceAlert()),
+          sendBch: optional(webServiceAlert()),
+          receiveBch: optional(webServiceAlert())
         }))
       }),
       btc: object({
         availability: object({
           send: bool(),
           request: bool(),
+          exchange: bool(),
           history: bool(),
           report: bool(),
           fiat: bool()
@@ -127,10 +131,21 @@ const v4 = object({
           network: enumOf(['bitcoin', 'testnet'])
         })
       }),
+      bch: object({
+        availability: object({
+          send: bool(),
+          request: bool(),
+          exchange: bool(),
+          history: bool(),
+          report: bool(),
+          fiat: bool()
+        })
+      }),
       eth: object({
         availability: object({
           send: bool(),
           request: bool(),
+          exchange: bool(),
           history: bool(),
           fiat: bool()
         }),
@@ -140,6 +155,13 @@ const v4 = object({
         }
       }),
       xlm: object({
+        availability: object({
+          send: bool(),
+          request: bool(),
+          exchange: bool(),
+          history: bool(),
+          fiat: bool()
+        }),
         config: object({
           network: enumOf(['public', 'testnet'])
         })
@@ -149,9 +171,7 @@ const v4 = object({
         config: object({
           partnerId: enumOf([19, 24]),
           production: bool(),
-          iSignThisDomain: string(),
-          surveyLinks: arrayOf(nullable(string())),
-          sellSurveyLinks: arrayOf(nullable(string()))
+          iSignThisDomain: string()
         })
       }),
       sfox: object({
@@ -162,8 +182,7 @@ const v4 = object({
           apiKey: string(),
           plaid: string(),
           plaidEnv: enumOf(['production', 'sandbox']),
-          siftScience: string(),
-          surveyLinks: arrayOf(nullable(string()))
+          siftScience: string()
         })
       }),
       shapeshift: object({
@@ -176,8 +195,7 @@ const v4 = object({
         states: arrayOf(state()),
         config: object({
           apiKey: string(),
-          upperLimit: number(),
-          surveyLinks: arrayOf(nullable(string()))
+          upperLimit: number()
         })
       })
     }),
