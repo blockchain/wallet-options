@@ -269,14 +269,6 @@
           "upperLimit": 750
         }
       },
-      "unocoin": {
-        "fraction": 0,
-        "countries": ["IN"],
-        "states": "*",
-        "config": {
-          "production": "REPLACED_BY_DEV_SERVER"
-        }
-      },
       "xlm": {
         "availability": {
           "send": true,
