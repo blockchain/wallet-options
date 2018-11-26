@@ -41,7 +41,7 @@ exports.webServiceAlert = () => exports.object({
     body: exports.localizedMessage()
   })),
   action: exports.optional(exports.object({
-    title: exports.localizedMessage(),
+    title: exports.optional(exports.localizedMessage()),
     link: exports.optional(exports.string())
   }))
 })
