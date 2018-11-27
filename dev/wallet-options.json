@@ -206,7 +206,7 @@
     ]
   },
   "bcash": {
-    "feePerByte": 2
+    "feePerByte": 4
   },
   "iosBuyPercent": 1,
   "androidBuyPercent": 1,
