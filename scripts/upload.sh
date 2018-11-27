@@ -40,8 +40,16 @@ echo "Dry run ..."
 gsutil -m rsync -e -r -n ${LOCAL_DIR} ${REMOTE_BUCKET}
 
 if [ "$BC_ENV" == "prod" ]; then
-    printf "Do you want to proceed (YES/NO)? "
+    # compare to current prod before uploading
+    printf "\nwallet-options-v4 changes against prod:\n"
+    curl -s https://login.blockchain.com/Resources/wallet-options-v4.json | diff - prod/wallet-options-v4.json || true
+
+    printf "\nwallet-options changes against prod:\n"
+    curl -s https://blockchain.info/Resources/wallet-options.json | diff - prod/wallet-options.json || true
+
+    printf "\nDo you want to proceed (YES/NO)? "
     read ANSWER
+
     if echo "${ANSWER}" | grep -q "^YES" ; then
         echo "Uploading to production bucket ..."
     else
