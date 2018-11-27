@@ -256,7 +256,7 @@
     "disabled": false
   },
   "bcash": {
-    "feePerByte": 2
+    "feePerByte": 4
   },
   "showMobileLogin": true,
   "iosBuyPercent": 1,
