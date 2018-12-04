@@ -1,6 +1,6 @@
 const { object, string, bool, either, number, nullable, optional, arrayOf, enumOf, just, country, state, integer, fraction, localizedMessage, webServiceAlert } = require('./types')
 
-module.exports = object({
+const v3 = object({
   enableDomainMigrationRedirects: bool(),
   domains: object({
     root: string(),
@@ -105,3 +105,117 @@ module.exports = object({
   webHardFork: object({}),
   maintenance: bool()
 })
+
+const v4 = object({
+  platforms: object({
+    web: object({
+      application: object({
+        enableDomainMigrationRedirects: bool(),
+        announcements: optional(object({
+          public: optional(webServiceAlert()),
+          wallet: optional(webServiceAlert()),
+          sendBch: optional(webServiceAlert()),
+          receiveBch: optional(webServiceAlert())
+        }))
+      }),
+      btc: object({
+        availability: object({
+          send: bool(),
+          request: bool(),
+          exchange: bool(),
+          history: bool(),
+          report: bool(),
+          fiat: bool()
+        }),
+        config: object({
+          network: enumOf(['bitcoin', 'testnet'])
+        })
+      }),
+      bch: object({
+        availability: object({
+          send: bool(),
+          request: bool(),
+          exchange: bool(),
+          history: bool(),
+          report: bool(),
+          fiat: bool()
+        })
+      }),
+      eth: object({
+        availability: object({
+          send: bool(),
+          request: bool(),
+          exchange: bool(),
+          history: bool(),
+          fiat: bool()
+        }),
+        lastTxFuse: enumOf([600, 86400]),
+        config: {
+          network: enumOf(['mainnet', 'testnet'])
+        }
+      }),
+      xlm: object({
+        availability: object({
+          send: bool(),
+          request: bool(),
+          exchange: bool(),
+          history: bool(),
+          fiat: bool()
+        }),
+        config: object({
+          network: enumOf(['public', 'testnet'])
+        })
+      }),
+      coinify: object({
+        countries: arrayOf(country()),
+        config: object({
+          partnerId: enumOf([19, 24]),
+          production: bool(),
+          iSignThisDomain: string()
+        })
+      }),
+      sfox: object({
+        countries: arrayOf(country()),
+        states: arrayOf(state()),
+        config: object({
+          production: bool(),
+          apiKey: string(),
+          plaid: string(),
+          plaidEnv: enumOf(['production', 'sandbox']),
+          siftScience: string()
+        })
+      }),
+      shapeshift: object({
+        availability: object({
+          buy: bool(),
+          sell: bool(),
+          history: bool()
+        }),
+        countries: enumOf([arrayOf(country()), '*']),
+        states: arrayOf(state()),
+        config: object({
+          apiKey: string(),
+          upperLimit: number()
+        })
+      })
+    }),
+    ios: object({}),
+    android: object({})
+  }),
+  domains: object({
+    root: string(),
+    api: string(),
+    webSocket: string(),
+    walletHelper: string(),
+    comWalletApp: string(),
+    comRoot: string(),
+    ledger: string(),
+    ledgerSocket: string(),
+    horizon: string()
+  })
+})
+
+module.exports = {
+  v3,
+  v4
+}
