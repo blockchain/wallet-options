@@ -48,7 +48,23 @@
               "link": "https://blog.blockchain.com/bch-service-will-resume/"
             }
           },
-          "sendBch": {},
+          "sendBch": {
+            "id": "bch-lockbox-send-service-update",
+            "type": "info",
+            "icon": "alert-filled",
+            "hideType": "collapse",
+            "header": {
+              "en": "BCH Service Update"
+            },
+            "sections": [
+              {
+                "body": {
+                  "en": "Due to the Bitcoin Cash fork on Thursday 15th November, Lockbox Bitcoin Cash services are currently limited to payment requests. We will resume full services soon."
+                }
+              }
+            ],
+            "action": {}
+          },
           "receiveBch": {}
         }
       },
