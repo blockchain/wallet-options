@@ -31,6 +31,8 @@ exports.fraction = () => Object.assign(exports.number(), { minimum: 0, maximum: 
 exports.localizedMessage = () => ({ type: 'object', required: true, properties: { 'en': exports.string() } })
 
 exports.webServiceAlert = () => exports.object({
+  id: exports.optional(exports.string()),
+  icon: exports.optional(exports.string()),
   type: exports.enumOf(['info', 'warning', 'danger']),
   hideType: exports.optional(exports.enumOf(['collapse', 'dismiss'])),
   header: exports.optional(exports.localizedMessage()),
@@ -39,7 +41,7 @@ exports.webServiceAlert = () => exports.object({
     body: exports.localizedMessage()
   })),
   action: exports.optional(exports.object({
-    title: exports.localizedMessage(),
+    title: exports.optional(exports.localizedMessage()),
     link: exports.optional(exports.string())
   }))
 })
