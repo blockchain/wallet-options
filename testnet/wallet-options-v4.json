@@ -215,10 +215,10 @@
     "android": {}
   },
   "domains": {
-    "root": "https://explorer.testnet.blockchain.info",
+    "root": "https://testnet.blockchain.info",
     "api": "https://api-testnet.blockchain.info",
     "webSocket": "wss://ws.testnet.blockchain.info",
-    "walletHelper": "https://wallet-helper.testnet.blockchain.info",
+    "walletHelper": "https://wallet-testnet3-helper.blockchain.info/",
     "comWalletApp": "https://wallet-frontend-v4.testnet.blockchain.info",
     "comRoot": "https://testnet.blockchain.com",
     "ledger": "https://manager.api.live.ledger.com",
