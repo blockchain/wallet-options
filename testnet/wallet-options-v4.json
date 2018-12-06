@@ -216,7 +216,7 @@
   },
   "domains": {
     "root": "https://explorer.testnet.blockchain.info",
-    "api": "https://api.testnet.blockchain.info",
+    "api": "https://api-testnet.blockchain.info",
     "webSocket": "wss://ws.testnet.blockchain.info",
     "walletHelper": "https://wallet-helper.testnet.blockchain.info",
     "comWalletApp": "https://wallet-frontend-v4.testnet.blockchain.info",
