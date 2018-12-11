@@ -31,6 +31,7 @@
           "send": true,
           "request": true,
           "exchange": true,
+          "lockbox": true,
           "history": true,
           "report": true,
           "fiat": true
@@ -44,6 +45,7 @@
           "send": false,
           "request": false,
           "exchange": false,
+          "lockbox": true,
           "history": false,
           "report": false,
           "fiat": false
@@ -54,6 +56,7 @@
           "send": false,
           "request": false,
           "exchange": false,
+          "lockbox": true,
           "history": false,
           "fiat": false
         },
@@ -67,6 +70,7 @@
           "send": true,
           "request": true,
           "exchange": true,
+          "lockbox": true,
           "history": true,
           "fiat": true
         },
