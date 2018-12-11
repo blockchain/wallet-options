@@ -123,6 +123,7 @@ const v4 = object({
           send: bool(),
           request: bool(),
           exchange: bool(),
+          lockbox: bool(),
           history: bool(),
           report: bool(),
           fiat: bool()
@@ -136,6 +137,7 @@ const v4 = object({
           send: bool(),
           request: bool(),
           exchange: bool(),
+          lockbox: bool(),
           history: bool(),
           report: bool(),
           fiat: bool()
@@ -146,6 +148,7 @@ const v4 = object({
           send: bool(),
           request: bool(),
           exchange: bool(),
+          lockbox: bool(),
           history: bool(),
           fiat: bool()
         }),
@@ -159,6 +162,7 @@ const v4 = object({
           send: bool(),
           request: bool(),
           exchange: bool(),
+          lockbox: bool(),
           history: bool(),
           fiat: bool()
         }),
