@@ -215,7 +215,8 @@ const v4 = object({
     comRoot: string(),
     ledger: string(),
     ledgerSocket: string(),
-    horizon: string()
+    horizon: string(),
+    veriff: string()
   })
 })
 
