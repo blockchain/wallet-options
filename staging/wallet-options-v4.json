@@ -5,49 +5,7 @@
         "enableDomainMigrationRedirects": true,
         "announcements": {
           "public": {},
-          "wallet": {
-            "id": "bch-service-resumed-wallet",
-            "type": "info",
-            "icon": "alert-filled",
-            "hideType": "collapse",
-            "header": {
-              "en": "Bitcoin Cash services resumed",
-              "de": "Bitcoin-Cash-Dienste wiederaufgenommen",
-              "es": "Restablecidos los servicios de Bitcoin Cash ",
-              "fr": "Rétablissement des services de Bitcoin Cash",
-              "pt": "Serviços de Bitcoin Cash retomados",
-              "ru": "Возобновлено действие услуг Bitcoin Cash",
-              "vi": "Các dịch vụ Bitcoin Cash đã mở lại",
-              "zh-cn": "比特现金服务恢复了"
-            },
-            "sections": [
-              {
-                "body": {
-                  "en": "Bitcoin Cash services within the Wallet have resumed following the Bitcoin Cash hard fork.",
-                  "de": "Bitcoin-Cash-Dienste im Wallet wurden nach dem harten Bitcoin-Cash-Fork wiederaufgenommen.",
-                  "es": "Los servicios de Bitcoin Cash en la cartera se han restablecido después de la bifurcación fuerte de Bitcoin Cash.",
-                  "fr": "Le hard fork de Bitcoin Cash étant terminé, les services de Bitcoin Cash à l'intérieur du portefeuille ont été rétablis.",
-                  "pt": "Bitcoin-Cash-Dienste im Wallet wurden nach dem harten Bitcoin-Cash-Fork wiederaufgenommen.",
-                  "ru": "Услуги кошелька Bitcoin Cash возобновлены после хардфорка Bitcoin Cash.",
-                  "vi": "Các dịch vụ Bitcoin Cash trong phạm vi Ví đã mở lại sau đợt phân tách Bitcoin Cash",
-                  "zh-cn": "钱包内的比特现金服务已恢复,遵循比特现金硬分叉。"
-                }
-              }
-            ],
-            "action": {
-              "title": {
-                "en": "Read More",
-                "de": "Mehr Erfahren",
-                "es": "Más Información",
-                "fr": "En Savoir Plus",
-                "pt": "Leia Mais",
-                "ru": "Читать Дальше",
-                "vi": "Đọc Thêm",
-                "zh-cn": "阅读更多"
-              },
-              "link": "https://blog.blockchain.com/2018/12/03/bch-service-will-resume/"
-            }
-          },
+          "wallet": {},
           "sendBch": {
             "id": "bch-lockbox-send-service-update",
             "type": "info",
