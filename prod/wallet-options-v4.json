@@ -5,23 +5,7 @@
         "enableDomainMigrationRedirects": true,
         "announcements": {
           "public": {},
-          "wallet": {
-            "id": "id-tier-maintenance",
-            "type": "info",
-            "icon": "alert-filled",
-            "hideType": "collapse",
-            "header": {
-              "en": "Identity Verification: Tier 2 under maintenance"
-            },
-            "sections": [
-              {
-                "body": {
-                  "en": "We're working hard to fix this. In the meantime, you can still verify for Tier 1, and use all other Wallet services as usual."
-                }
-              }
-            ],
-            "action": {}
-          },
+          "wallet": {},
           "sendBch": {
             "id": "bch-lockbox-send-service-update",
             "type": "info",
