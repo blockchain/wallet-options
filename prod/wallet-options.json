@@ -267,9 +267,6 @@
   "mobile_notice": {
     "en": "Identity Verification: Tier 2 under maintenance. We're working hard to fix this. In the meantime, you can still verify for Tier 1, and use all other Wallet services as usual."
   },
-  "mobileInfo": {
-    "en": "Identity Verification: Tier 2 under maintenance. We're working hard to fix this. In the meantime, you can still verify for Tier 1, and use all other Wallet services as usual."
-  },
   "android": {
     "showUnocoin": false,
     "showShapeshift": true,
