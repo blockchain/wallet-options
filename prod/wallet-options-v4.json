@@ -30,7 +30,8 @@
         "availability": {
           "send": true,
           "request": true,
-          "exchange": true,
+          "exchangeTo": true,
+          "exchangeFrom": true,
           "lockbox": true,
           "history": true,
           "report": true,
@@ -44,18 +45,29 @@
         "availability": {
           "send": true,
           "request": true,
-          "exchange": true,
+          "exchangeTo": true,
+          "exchangeFrom": true,
           "lockbox": true,
           "history": true,
           "report": true,
           "fiat": true
         }
       },
+      "bsv": {
+        "availability": {
+          "send": true,
+          "request": false,
+          "lockbox": false,
+          "exchangeTo": false,
+          "exchangeFrom": true
+        }
+      },
       "eth": {
         "availability": {
           "send": true,
           "request": true,
-          "exchange": true,
+          "exchangeTo": true,
+          "exchangeFrom": true,
           "lockbox": true,
           "history": true,
           "fiat": true
@@ -69,7 +81,8 @@
         "availability": {
           "send": true,
           "request": true,
-          "exchange": true,
+          "exchangeTo": true,
+          "exchangeFrom": true,
           "lockbox": true,
           "history": true,
           "fiat": true
