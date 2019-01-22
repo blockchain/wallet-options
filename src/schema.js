@@ -122,7 +122,8 @@ const v4 = object({
         availability: object({
           send: bool(),
           request: bool(),
-          exchange: bool(),
+          exchangeTo: bool(),
+          exchangeFrom: bool(),
           lockbox: bool(),
           history: bool(),
           report: bool(),
@@ -136,18 +137,29 @@ const v4 = object({
         availability: object({
           send: bool(),
           request: bool(),
-          exchange: bool(),
+          exchangeTo: bool(),
+          exchangeFrom: bool(),
           lockbox: bool(),
           history: bool(),
           report: bool(),
           fiat: bool()
         })
       }),
+      bsv: object({
+        availability: object({
+          send: bool(),
+          request: bool(),
+          exchangeTo: bool(),
+          exchangeFrom: bool(),
+          lockbox: bool()
+        })
+      }),
       eth: object({
         availability: object({
           send: bool(),
           request: bool(),
-          exchange: bool(),
+          exchangeTo: bool(),
+          exchangeFrom: bool(),
           lockbox: bool(),
           history: bool(),
           fiat: bool()
@@ -161,7 +173,8 @@ const v4 = object({
         availability: object({
           send: bool(),
           request: bool(),
-          exchange: bool(),
+          exchangeTo: bool(),
+          exchangeFrom: bool(),
           lockbox: bool(),
           history: bool(),
           fiat: bool()
