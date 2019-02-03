@@ -22,9 +22,7 @@
             },
             "sections": [],
             "action": {}
-          },
-          "sendBch": {},
-          "receiveBch": {}
+          }
         }
       },
       "btc": {
