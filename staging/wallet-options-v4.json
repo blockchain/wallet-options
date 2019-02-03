@@ -2,6 +2,7 @@
   "platforms": {
     "web": {
       "application": {
+        "analyticsSiteId": 3,
         "enableDomainMigrationRedirects": true,
         "announcements": {
           "public": {},
