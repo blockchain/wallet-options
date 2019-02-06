@@ -110,12 +110,11 @@ const v4 = object({
   platforms: object({
     web: object({
       application: object({
+        analyticsSiteId: number(),
         enableDomainMigrationRedirects: bool(),
         announcements: optional(object({
           public: optional(webServiceAlert()),
-          wallet: optional(webServiceAlert()),
-          sendBch: optional(webServiceAlert()),
-          receiveBch: optional(webServiceAlert())
+          wallet: optional(webServiceAlert())
         }))
       }),
       btc: object({
