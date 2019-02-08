@@ -6,7 +6,7 @@
         "enableDomainMigrationRedirects": true,
         "announcements": {
           "public": {
-            "id": "testnet-warning",
+            "id": "testnet-warning-public",
             "type": "danger",
             "icon": "alert-filled",
             "header": {
@@ -21,7 +21,7 @@
             ]
           },
           "wallet": {
-            "id": "testnet-warning",
+            "id": "testnet-warning-wallet",
             "type": "danger",
             "icon": "alert-filled",
             "header": {
