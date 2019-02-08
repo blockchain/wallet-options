@@ -19,7 +19,7 @@
                 }
               }
             ],
-            "actions":{}
+            "action": {}
           },
           "wallet": {
             "id": "testnet-warning-wallet",
@@ -35,7 +35,7 @@
                 }
               }
             ],
-            "actions": {}
+            "action": {}
           }
         }
       },
