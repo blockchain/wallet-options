@@ -10,12 +10,12 @@
             "type": "danger",
             "icon": "alert-filled",
             "header": {
-              "en": "TESTNET WARNING"
+              "en": "Warning!"
             },
             "sections": [
               {
                 "body": {
-                  "en": "This is the testnet3 blockchain. Your coins have no value here."
+                  "en": "This is the testnet3 blockchain. Testnet coins have no value."
                 }
               }
             ]
@@ -25,12 +25,12 @@
             "type": "danger",
             "icon": "alert-filled",
             "header": {
-              "en": "TESTNET WARNING"
+              "en": "Warning!"
             },
             "sections": [
               {
                 "body": {
-                  "en": "This is the testnet3 blockchain. Your coins have no value here."
+                  "en": "This is the testnet3 blockchain. Testnet coins have no value."
                 }
               }
             ]
