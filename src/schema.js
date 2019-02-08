@@ -114,7 +114,9 @@ const v4 = object({
         enableDomainMigrationRedirects: bool(),
         announcements: optional(object({
           public: optional(webServiceAlert()),
-          wallet: optional(webServiceAlert())
+          wallet: optional(webServiceAlert()),
+          sendBch: optional(webServiceAlert()),
+          receiveBch: optional(webServiceAlert())
         }))
       }),
       btc: object({
