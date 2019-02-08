@@ -2,6 +2,7 @@
   "platforms": {
     "web": {
       "application": {
+        "analyticsSiteId": 2,
         "enableDomainMigrationRedirects": true,
         "announcements": {
           "public": {
@@ -9,21 +10,31 @@
             "type": "danger",
             "icon": "alert-filled",
             "header": {
-              "en": "Warning! This is the testnet3 blockchain. Testnet coins have no value."
-            }
+              "en": "Warning!"
+            },
+            "sections": [
+              {
+                "body": {
+                  "en": "This is the testnet3 blockchain. Testnet coins have no value."
+                }
+              }
+            ]
           },
           "wallet": {
             "id": "testnet-warning-wallet",
             "type": "danger",
             "icon": "alert-filled",
             "header": {
-              "en": "Warning! This is the testnet3 blockchain. Testnet coins have no value."
+              "en": "Warning!"
             },
-            "sections": [],
-            "action": {}
-          },
-          "sendBch": {},
-          "receiveBch": {}
+            "sections": [
+              {
+                "body": {
+                  "en": "This is the testnet3 blockchain. Testnet coins have no value."
+                }
+              }
+            ]
+          }
         }
       },
       "btc": {

@@ -2,28 +2,11 @@
   "platforms": {
     "web": {
       "application": {
+        "analyticsSiteId": 3,
         "enableDomainMigrationRedirects": true,
         "announcements": {
           "public": {},
-          "wallet": {},
-          "sendBch": {
-            "id": "bch-lockbox-send-service-update",
-            "type": "info",
-            "icon": "alert-filled",
-            "hideType": "collapse",
-            "header": {
-              "en": "BCH Service Update"
-            },
-            "sections": [
-              {
-                "body": {
-                  "en": "Due to the Bitcoin Cash fork on Thursday 15th November, Lockbox Bitcoin Cash services are currently limited to payment requests. We will resume full services soon."
-                }
-              }
-            ],
-            "action": {}
-          },
-          "receiveBch": {}
+          "wallet": {}
         }
       },
       "btc": {

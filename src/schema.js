@@ -110,6 +110,7 @@ const v4 = object({
   platforms: object({
     web: object({
       application: object({
+        analyticsSiteId: optional(number()),
         enableDomainMigrationRedirects: bool(),
         announcements: optional(object({
           public: optional(webServiceAlert()),
