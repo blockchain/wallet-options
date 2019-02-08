@@ -18,7 +18,8 @@
                   "en": "This is the testnet3 blockchain. Testnet coins have no value."
                 }
               }
-            ]
+            ],
+            "actions":{}
           },
           "wallet": {
             "id": "testnet-warning-wallet",
@@ -33,7 +34,8 @@
                   "en": "This is the testnet3 blockchain. Testnet coins have no value."
                 }
               }
-            ]
+            ],
+            "actions": {}
           }
         }
       },
