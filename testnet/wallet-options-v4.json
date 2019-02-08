@@ -6,22 +6,34 @@
         "enableDomainMigrationRedirects": true,
         "announcements": {
           "public": {
-            "id": "testnet-warning-public",
+            "id": "testnet-warning",
             "type": "danger",
             "icon": "alert-filled",
             "header": {
-              "en": "Warning! This is the testnet3 blockchain. Testnet coins have no value."
-            }
+              "en": "TESTNET WARNING"
+            },
+            "sections": [
+              {
+                "body": {
+                  "en": "This is the testnet3 blockchain. Your coins have no value here."
+                }
+              }
+            ]
           },
           "wallet": {
-            "id": "testnet-warning-wallet",
+            "id": "testnet-warning",
             "type": "danger",
             "icon": "alert-filled",
             "header": {
-              "en": "Warning! This is the testnet3 blockchain. Testnet coins have no value."
+              "en": "TESTNET WARNING"
             },
-            "sections": [],
-            "action": {}
+            "sections": [
+              {
+                "body": {
+                  "en": "This is the testnet3 blockchain. Your coins have no value here."
+                }
+              }
+            ]
           }
         }
       },
