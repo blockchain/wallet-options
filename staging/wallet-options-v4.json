@@ -30,7 +30,7 @@
           "request": true,
           "exchangeTo": true,
           "exchangeFrom": true,
-          "lockbox": false,
+          "lockbox": true,
           "history": true,
           "report": true,
           "fiat": true
