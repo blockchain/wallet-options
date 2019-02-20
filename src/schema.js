@@ -189,6 +189,7 @@ const v4 = object({
         config: object({
           partnerId: enumOf([19, 24]),
           production: bool(),
+          coinifyPaymentDomain: string(),
           iSignThisDomain: string()
         })
       }),

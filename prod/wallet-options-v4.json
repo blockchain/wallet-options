@@ -143,6 +143,7 @@
         "config": {
           "partnerId": 19,
           "production": true,
+          "coinifyPaymentDomain": "https://pay.coinify.com",
           "iSignThisDomain": "https://verify.isignthis.com"
         }
       },
