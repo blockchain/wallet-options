@@ -274,6 +274,9 @@
     "showShapeshift": true,
     "showSfox": false
   },
+  "mobile_notice": {
+    "en": "Please update to the latest version of Blockchain Wallet which offers a more robust experience for sending, receiving, and exchanging crypto."
+  },
   "web": {
     "serviceAlert": {}
   },
