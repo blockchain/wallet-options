@@ -230,7 +230,7 @@
     "showShapeshift": true,
     "showSfox": true
   },
-  "mobile_notice":{
+  "mobile_notice": {
     "en": "To ensure your Blockchain Wallet is secure and you are able to access features like trading your crypto, please update to the latest version (2.8.3)."
   },
   "web": {
