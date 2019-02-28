@@ -76,6 +76,9 @@ const v3 = object({
   bcash: object({
     feePerByte: integer()
   }),
+  xlm: object({
+    operationFee: integer()
+  }),
   iosBuyPercent: fraction(),
   androidBuyPercent: fraction(),
   web: object({

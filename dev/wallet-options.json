@@ -209,6 +209,9 @@
   "bcash": {
     "feePerByte": 4
   },
+  "xlm": {
+    "operationFee": 1500
+  },
   "iosBuyPercent": 1,
   "androidBuyPercent": 1,
   "mobile": {

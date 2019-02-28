@@ -29,6 +29,9 @@
   "bcash": {
     "feePerByte": 2
   },
+  "xlm": {
+    "operationFee": 1500
+  },
   "partners": {
     "coinify": {
       "disabled": false,
