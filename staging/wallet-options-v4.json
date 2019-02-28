@@ -4,6 +4,7 @@
       "application": {
         "analyticsSiteId": 4,
         "enableDomainMigrationRedirects": true,
+        "environment": "staging",
         "announcements": {
           "public": {},
           "wallet": {}
@@ -126,6 +127,7 @@
         "config": {
           "partnerId": 24,
           "production": false,
+          "coinifyPaymentDomain": "https://pay.sandbox.coinify.com",
           "iSignThisDomain": "https://stage-verify.isignthis.com"
         }
       },

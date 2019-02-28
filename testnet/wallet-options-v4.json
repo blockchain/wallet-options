@@ -4,6 +4,7 @@
       "application": {
         "analyticsSiteId": 2,
         "enableDomainMigrationRedirects": true,
+        "environment": "testnet",
         "announcements": {
           "public": {
             "id": "testnet-warning-public",
@@ -156,6 +157,7 @@
         "config": {
           "partnerId": 24,
           "production": false,
+          "coinifyPaymentDomain": "https://pay.sandbox.coinify.com",
           "iSignThisDomain": "https://stage-verify.isignthis.com"
         }
       },

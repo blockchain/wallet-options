@@ -112,6 +112,7 @@ const v4 = object({
       application: object({
         analyticsSiteId: optional(number()),
         enableDomainMigrationRedirects: bool(),
+        environment: enumOf(['dev', 'testnet', 'staging', 'prod']),
         announcements: optional(object({
           public: optional(webServiceAlert()),
           wallet: optional(webServiceAlert()),
@@ -189,6 +190,7 @@ const v4 = object({
         config: object({
           partnerId: enumOf([19, 24]),
           production: bool(),
+          coinifyPaymentDomain: string(),
           iSignThisDomain: string()
         })
       }),
