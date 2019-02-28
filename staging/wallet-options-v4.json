@@ -4,6 +4,7 @@
       "application": {
         "analyticsSiteId": 3,
         "enableDomainMigrationRedirects": true,
+        "environment": "staging",
         "announcements": {
           "public": {},
           "wallet": {}
