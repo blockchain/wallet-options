@@ -4,6 +4,7 @@
       "application": {
         "analyticsSiteId": 2,
         "enableDomainMigrationRedirects": true,
+        "environment": "testnet",
         "announcements": {
           "public": {
             "id": "testnet-warning-public",

@@ -3,6 +3,7 @@
     "web": {
       "application": {
         "enableDomainMigrationRedirects": true,
+        "environment": "prod",
         "announcements": {
           "public": {},
           "wallet": {},
