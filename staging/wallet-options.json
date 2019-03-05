@@ -162,7 +162,16 @@
     "surveyLinks": [
       "https://blockchain.co1.qualtrics.com/jfe/form/SV_7Q987NPvIT4f6xn",
       "https://blockchain.co1.qualtrics.com/jfe/form/SV_b8A9pKaGE30Qb9X"
-    ]
+    ],
+    "defaultFees": {
+      "gasLimit": 21000,
+      "regular": 23,
+      "priority": 23,
+      "limits": {
+        "max": 23,
+        "min": 23
+      }
+    }
   },
   "shapeshift": {
     "disabled": false,
@@ -214,7 +223,20 @@
     ]
   },
   "bcash": {
-    "feePerByte": 4
+    "feePerByte": 4,
+    "defaultFees": {
+      "regular": 4,
+      "priority": 4
+    }
+  },
+  "btc": {
+    "defaultFees": {
+      "regular": 5,
+      "priority": 11,
+      "limits": {
+        "max": 2,
+        "min": 16
+      }
   },
   "xlm": {
     "operationFee": 1500
