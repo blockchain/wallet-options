@@ -260,7 +260,7 @@
     "feePerByte": 4
   },
   "xlm": {
-    "operationFee": 50000
+    "operationFee": 1500
   },
   "showMobileLogin": true,
   "iosBuyPercent": 1,
