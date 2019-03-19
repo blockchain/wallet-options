@@ -30,7 +30,7 @@
     "feePerByte": 2
   },
   "xlm": {
-    "operationFee": 1500
+    "operationFee": 50000
   },
   "partners": {
     "coinify": {

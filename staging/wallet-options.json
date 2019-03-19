@@ -217,7 +217,7 @@
     "feePerByte": 4
   },
   "xlm": {
-    "operationFee": 1500
+    "operationFee": 50000
   },
   "iosBuyPercent": 1,
   "androidBuyPercent": 1,
