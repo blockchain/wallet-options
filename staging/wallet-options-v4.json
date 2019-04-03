@@ -35,6 +35,12 @@
           "history": true,
           "report": true,
           "fiat": true
+        },
+        "config": {
+          "fees": {
+            "regular": 4,
+            "priority": 4
+          }
         }
       },
       "bsv": {
@@ -44,6 +50,12 @@
           "lockbox": false,
           "exchangeTo": false,
           "exchangeFrom": true
+        },
+        "config": {
+          "fees": {
+            "regular": 4,
+            "priority": 4
+          }
         }
       },
       "eth": {
