@@ -148,6 +148,12 @@ const v4 = object({
           history: bool(),
           report: bool(),
           fiat: bool()
+        }),
+        config: object({
+          fees: object({
+            regular: integer(),
+            priority: integer()
+          })
         })
       }),
       bsv: object({
@@ -157,6 +163,12 @@ const v4 = object({
           exchangeTo: bool(),
           exchangeFrom: bool(),
           lockbox: bool()
+        }),
+        config: object({
+          fees: object({
+            regular: integer(),
+            priority: integer()
+          })
         })
       }),
       eth: object({
