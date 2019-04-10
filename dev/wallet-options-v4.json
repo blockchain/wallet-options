@@ -84,7 +84,8 @@
           "fiat": true
         },
         "config": {
-          "network": "public"
+          "network": "public",
+          "sendTimeOutSeconds": 10
         }
       },
       "coinify": {

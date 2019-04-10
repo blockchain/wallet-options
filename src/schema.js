@@ -197,7 +197,8 @@ const v4 = object({
           fiat: bool()
         }),
         config: object({
-          network: enumOf(['public', 'testnet'])
+          network: enumOf(['public', 'testnet']),
+          sendTimeOutSeconds: integer()
         })
       }),
       coinify: object({
