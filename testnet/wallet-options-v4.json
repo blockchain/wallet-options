@@ -114,7 +114,8 @@
           "fiat": true
         },
         "config": {
-          "network": "testnet"
+          "network": "testnet",
+          "sendTimeOutSeconds": 10
         }
       },
       "coinify": {
