@@ -30,7 +30,8 @@
     "feePerByte": 2
   },
   "xlm": {
-    "operationFee": 1500
+    "operationFee": 1500,
+    "sendTimeOutSeconds": 10
   },
   "partners": {
     "coinify": {
