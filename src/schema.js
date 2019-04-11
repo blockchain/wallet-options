@@ -77,7 +77,8 @@ const v3 = object({
     feePerByte: integer()
   }),
   xlm: object({
-    operationFee: integer()
+    operationFee: integer(),
+    sendTimeOutSeconds: integer(),
   }),
   iosBuyPercent: fraction(),
   androidBuyPercent: fraction(),
