@@ -115,7 +115,7 @@
         },
         "config": {
           "network": "testnet",
-          "sendTimeOutSeconds": 10
+          "sendTimeOutSeconds": 300
         }
       },
       "coinify": {
