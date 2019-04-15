@@ -85,7 +85,7 @@
         },
         "config": {
           "network": "public",
-          "sendTimeOutSeconds": 10
+          "sendTimeOutSeconds": 300
         }
       },
       "coinify": {
