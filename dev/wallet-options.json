@@ -211,7 +211,7 @@
   },
   "xlm": {
     "operationFee": 1500,
-    "sendTimeOutSeconds": 10
+    "sendTimeOutSeconds": 300
   },
   "iosBuyPercent": 1,
   "androidBuyPercent": 1,
