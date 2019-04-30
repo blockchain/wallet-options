@@ -179,7 +179,7 @@
           "coinCode": "ETH",
           "coinTicker": "ETH",
           "colorCode": "eth",
-          "displayName": "Ethereum",
+          "displayName": "Ether",
           "config": {
             "network": 1
           },
