@@ -1,4 +1,22 @@
-const { object, string, bool, either, number, nullable, optional, arrayOf, enumOf, just, country, state, integer, fraction, localizedMessage, webServiceAlert } = require('./types')
+const {
+  arrayOf,
+  bool,
+  coin,
+  country,
+  either,
+  enumOf,
+  fraction,
+  integer,
+  just,
+  localizedMessage,
+  number,
+  nullable,
+  object,
+  optional,
+  state,
+  string,
+  webServiceAlert
+} = require('./types')
 
 const v3 = object({
   enableDomainMigrationRedirects: bool(),
@@ -202,6 +220,14 @@ const v4 = object({
           sendTimeOutSeconds: integer()
         })
       }),
+      coins: object({
+        BTC: coin(),
+        BCH: coin(),
+        BSV: coin(),
+        ETH: coin(),
+        PAX: coin(),
+        XLM: coin()
+      }),
       coinify: object({
         countries: arrayOf(country()),
         config: object({
@@ -253,7 +279,4 @@ const v4 = object({
   })
 })
 
-module.exports = {
-  v3,
-  v4
-}
+module.exports = { v3, v4 }
