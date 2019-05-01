@@ -249,16 +249,8 @@ const v4 = object({
         })
       }),
       shapeshift: object({
-        availability: object({
-          buy: bool(),
-          sell: bool(),
-          history: bool()
-        }),
-        countries: enumOf([arrayOf(country()), '*']),
-        states: arrayOf(state()),
         config: object({
-          apiKey: string(),
-          upperLimit: number()
+          apiKey: string()
         })
       })
     }),
