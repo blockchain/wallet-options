@@ -203,7 +203,7 @@ const v4 = object({
       coinify: object({
         countries: arrayOf(country()),
         config: object({
-          partnerId: enumOf([19, 24]),
+          partnerId: enumOf([19, 24, 35]),
           production: bool(),
           coinifyPaymentDomain: string(),
           iSignThisDomain: string()
