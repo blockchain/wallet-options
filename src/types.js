@@ -72,6 +72,7 @@ exports.coin = () => exports.object({
   })),
   contractAddress: exports.optional(exports.string()),
   displayName: exports.string(),
+  exchangeAddresses: exports.optional(exports.arrayOf(exports.string())),
   hasLockboxSupport: exports.bool(),
   icons: {
     default: exports.string(),
