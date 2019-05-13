@@ -229,11 +229,11 @@
   "android": {
     "showUnocoin": false,
     "showShapeshift": true,
-    "showSfox": true
+    "showSfox": false
   },
   "ios": {
     "showShapeshift": true,
-    "showSfox": true
+    "showSfox": false
   },
   "web": {
     "serviceAlert": {}
