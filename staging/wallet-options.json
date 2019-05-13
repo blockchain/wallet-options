@@ -67,7 +67,8 @@
         "SI",
         "ES",
         "SE",
-        "CH"
+        "CH",
+        "US"
       ],
       "partnerId": 24,
       "iSignThisDomain": "https://stage-verify.isignthis.com",
@@ -228,11 +229,11 @@
   "android": {
     "showUnocoin": false,
     "showShapeshift": true,
-    "showSfox": true
+    "showSfox": false
   },
   "ios": {
     "showShapeshift": true,
-    "showSfox": true
+    "showSfox": false
   },
   "web": {
     "serviceAlert": {}
