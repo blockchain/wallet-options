@@ -7,7 +7,27 @@
         "environment": "prod",
         "announcements": {
           "public": {},
-          "wallet": {},
+          "wallet": {
+            "id": "bch-disabled-swap-may-fork-info",
+            "type": "info",
+            "icon": "bch-circle-filled",
+            "hideType": "dismiss",
+            "header": {
+              "en": "BCH Trading Announcement"
+            },
+            "sections": [
+              {
+                "body": {
+                  "en": "BCH trading is temporarily disabled while the BCH network undergoes an upgrade. Normal service will be resumed shortly."
+                }
+              }
+            ],
+            "action": {
+              "title": {
+
+              }
+            }
+          },
           "sendBch": {},
           "receiveBch": {}
         }
