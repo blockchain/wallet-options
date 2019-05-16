@@ -161,7 +161,7 @@
           "displayName": "Stellar",
           "config": {
             "network": "public",
-            "sendTimeOutSeconds": 300
+            "sendTimeOutSeconds": 600
           },
           "hasLockboxSupport": true,
           "icons": {
