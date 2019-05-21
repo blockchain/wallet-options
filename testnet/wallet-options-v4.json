@@ -6,7 +6,6 @@
         "enableDomainMigrationRedirects": true,
         "environment": "testnet",
         "announcements": {
-          "ba": {},
           "public": {
             "id": "testnet-warning-public",
             "type": "danger",
