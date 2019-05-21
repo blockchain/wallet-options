@@ -136,10 +136,10 @@ const v4 = object({
         enableDomainMigrationRedirects: bool(),
         environment: enumOf(['dev', 'testnet', 'staging', 'prod']),
         announcements: optional(object({
+          lockbox: optional(webServiceAlert()),
           public: optional(webServiceAlert()),
-          wallet: optional(webServiceAlert()),
-          sendBch: optional(webServiceAlert()),
-          receiveBch: optional(webServiceAlert())
+          swap: optional(webServiceAlert()),
+          wallet: optional(webServiceAlert())
         }))
       }),
       coins: object({
