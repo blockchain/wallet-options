@@ -39,23 +39,34 @@ echo "Syncing: ${LOCAL_DIR} => ${REMOTE_BUCKET}"
 echo "Dry run ..."
 gsutil -m rsync -e -r -n ${LOCAL_DIR} ${REMOTE_BUCKET}
 
+WALLET_OPTIONS_V4_URL=""
+WALLET_OPTIONS_URL=""
 if [ "$BC_ENV" == "prod" ]; then
-    # compare to current prod before uploading
-    printf "\nwallet-options-v4 changes against prod:\n"
-    curl -s https://login.blockchain.com/Resources/wallet-options-v4.json | diff - prod/wallet-options-v4.json || true
+    WALLET_OPTIONS_V4_URL="https://login.blockchain.com/Resources/wallet-options-v4.json"
+    WALLET_OPTIONS_URL="https://blockchain.info/Resources/wallet-options.json"
+elif [ "$BC_ENV" == "testnet" ]; then
+    WALLET_OPTIONS_V4_URL="https://login-testnet.blockchain.com/Resources/wallet-options-v4.json"
+    WALLET_OPTIONS_URL="https://testnet.blockchain.info/Resources/wallet-options.json"
+else
+    WALLET_OPTIONS_V4_URL="https://login-${BC_ENV}.blockchain.com/Resources/wallet-options-v4.json"
+    WALLET_OPTIONS_URL="https://explorer.${BC_ENV}.blockchain.info/Resources/wallet-options.json"
+fi
 
-    printf "\nwallet-options changes against prod:\n"
-    curl -s https://blockchain.info/Resources/wallet-options.json | diff - prod/wallet-options.json || true
+# compare to deployed version before uploading
+printf "\nwallet-options-v4 changes against ${BC_ENV}:\n"
+curl -s ${WALLET_OPTIONS_V4_URL} | diff - ${BC_ENV}/wallet-options-v4.json || true
 
-    printf "\nDo you want to proceed (YES/NO)? "
-    read ANSWER
+printf "\nwallet-options changes against ${BC_ENV}:\n"
+curl -s ${WALLET_OPTIONS_URL=} | diff - ${BC_ENV}/wallet-options.json || true
 
-    if echo "${ANSWER}" | grep -q "^YES" ; then
-        echo "Uploading to production bucket ..."
-    else
-        echo "Upload canceled"
-        exit 1
-    fi
+printf "\nDo you want to proceed (YES/NO)? "
+read ANSWER
+
+if echo "${ANSWER}" | grep -q "^YES" ; then
+    echo "Uploading to ${BC_ENV=} bucket ..."
+else
+    echo "Upload canceled"
+    exit 1
 fi
 
 echo "Copying wallet-options file tree and setting cache to 10 minutes"
