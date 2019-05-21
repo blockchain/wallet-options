@@ -6,10 +6,10 @@
         "enableDomainMigrationRedirects": true,
         "environment": "prod",
         "announcements": {
+          "lockbox": {},
           "public": {},
-          "wallet": {},
-          "sendBch": {},
-          "receiveBch": {}
+          "swap": {},
+          "wallet": {}
         }
       },
       "coins": {
