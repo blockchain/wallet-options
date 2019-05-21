@@ -6,7 +6,9 @@
         "enableDomainMigrationRedirects": true,
         "environment": "staging",
         "announcements": {
+          "lockbox": {},
           "public": {},
+          "swap": {},
           "wallet": {}
         }
       },

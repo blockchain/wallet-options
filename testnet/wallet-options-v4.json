@@ -6,6 +6,7 @@
         "enableDomainMigrationRedirects": true,
         "environment": "testnet",
         "announcements": {
+          "lockbox": {},
           "public": {
             "id": "testnet-warning-public",
             "type": "danger",
@@ -22,6 +23,7 @@
             ],
             "action": {}
           },
+          "swap": {},
           "wallet": {
             "id": "testnet-warning-wallet",
             "type": "danger",
