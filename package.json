@@ -19,10 +19,10 @@
     ]
   },
   "dependencies": {
-    "jest": "^21.2.1",
-    "jsonschema": "^1.2.0"
+    "jest": "24.8.0",
+    "jsonschema": "1.2.4"
   },
   "devDependencies": {
-    "standard": "^10.0.3"
+    "standard": "12.0.1"
   }
 }
