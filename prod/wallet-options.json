@@ -274,6 +274,9 @@
     "showShapeshift": true,
     "showSfox": false
   },
+  "mobileInfo": {
+    "en": "We are experiencing issues with the Stellar network. XLM Send and Swap functionality are currently affected. We aim to resolve this shortly."
+  },
   "ios": {
     "showShapeshift": true,
     "showSfox": false
