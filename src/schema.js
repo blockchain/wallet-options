@@ -26,7 +26,8 @@ const v3 = object({
     comWalletApp: nullable(string()),
     webSocket: string(),
     api: string(),
-    walletHelperUrl: string()
+    walletHelperUrl: string(),
+    stellarHorizon: string()
   }),
   network: enumOf(['bitcoin', 'testnet']),
   showBuySellTab: arrayOf(country()),
