@@ -6,7 +6,8 @@
     "comWalletApp": "https://login.blockchain.com",
     "webSocket": "wss://ws.blockchain.info/inv",
     "api": "https://api.blockchain.info",
-    "walletHelperUrl": "https://wallet-helper.blockchain.com"
+    "walletHelperUrl": "https://wallet-helper.blockchain.com",
+    "stellarHorizon": "https://horizon.stellar.org"
   },
   "network": "bitcoin",
   "showBuySellTab": [
@@ -273,6 +274,9 @@
     "showUnocoin": false,
     "showShapeshift": true,
     "showSfox": false
+  },
+  "mobileInfo": {
+    "en": "The technical issue affecting Stellar XLM functionality has been fixed. Please update the app to see the fix reflected."
   },
   "ios": {
     "showShapeshift": true,

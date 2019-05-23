@@ -6,7 +6,8 @@
     "comWalletApp": "https://login-dev.blockchain.com",
     "webSocket": "wss://ws.dev.blockchain.info/inv",
     "api": "https://api.dev.blockchain.info",
-    "walletHelperUrl": "https://wallet-helper.dev.blockchain.info"
+    "walletHelperUrl": "https://wallet-helper.dev.blockchain.info",
+    "stellarHorizon": "https://horizon.stellar.org"
   },
   "network": "bitcoin",
   "showBuySellTab": [
