@@ -6,7 +6,8 @@
     "comWalletApp": null,
     "webSocket": "wss://ws.testnet.blockchain.info/inv",
     "api": "https://api-testnet.blockchain.info",
-    "walletHelperUrl": "https://wallet-testnet3-helper.blockchain.info"
+    "walletHelperUrl": "https://wallet-testnet3-helper.blockchain.info",
+    "stellarHorizon": "https://horizon-testnet.stellar.org"
   },
   "network": "testnet",
   "showBuySellTab": [
