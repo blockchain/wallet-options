@@ -275,9 +275,6 @@
     "showShapeshift": true,
     "showSfox": false
   },
-  "mobileInfo": {
-    "en": "The technical issue affecting Stellar XLM functionality has been fixed. Please update the app to see the fix reflected."
-  },
   "ios": {
     "showShapeshift": true,
     "showSfox": false
