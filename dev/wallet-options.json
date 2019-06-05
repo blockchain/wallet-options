@@ -212,7 +212,9 @@
   },
   "xlm": {
     "operationFee": 1500,
-    "sendTimeOutSeconds": 600,
+    "sendTimeOutSeconds": 600
+  },
+  "xlmExchange": {
     "exchangeAddresses": [
       "GA4BYMUO5D7OLGVJWZ2D5FCWU7SB63FNZ4QUU574SMNA6ELK5TZD3SO3",
       "GA5XIGA5C7QTPTWXQHY6MCJRMTRZDOSHR6EFIBNDQTCQHG262N4GGKTM",
