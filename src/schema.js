@@ -98,6 +98,8 @@ const v3 = object({
   xlm: object({
     operationFee: integer(),
     sendTimeOutSeconds: integer(),
+  }),
+  xlmExchange:object({
     exchangeAddresses: arrayOf(string())
   }),
   iosBuyPercent: fraction(),
