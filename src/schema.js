@@ -123,6 +123,10 @@ const v3 = object({
     showSfox: bool()
   }),
   ios: object({
+    update: object({
+      updateType: string(),
+      latestStoreVersion: string()
+    }),
     showShapeshift: bool(),
     showSfox: bool()
   }),

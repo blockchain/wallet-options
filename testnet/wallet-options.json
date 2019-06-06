@@ -199,6 +199,10 @@
     "walletRoot": "https://testnet.blockchain.info/wallet"
   },
   "ios": {
+    "update": {
+      "updateType": "none",
+      "latestStoreVersion": ""
+    },
     "showShapeshift": false,
     "showSfox": true
   },
