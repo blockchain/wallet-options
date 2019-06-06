@@ -264,6 +264,10 @@
     "showSfox": true
   },
   "ios": {
+    "update": {
+      "updateType": "none",
+      "latestStoreVersion": ""
+    },
     "showShapeshift": true,
     "showSfox": true
   },
