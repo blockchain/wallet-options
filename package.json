@@ -24,7 +24,7 @@
     ]
   },
   "dependencies": {
-    "husky": "2.3.0",
+    "husky": "2.4.0",
     "jest": "24.8.0",
     "jsonschema": "1.2.4"
   },
