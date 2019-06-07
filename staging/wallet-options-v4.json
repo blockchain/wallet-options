@@ -6,7 +6,27 @@
         "enableDomainMigrationRedirects": true,
         "environment": "staging",
         "announcements": {
-          "lockbox": {},
+          "lockbox": {
+            "id": "lockbox-service-annc2",
+            "type": "warning",
+            "icon": "hardware",
+            "header": {
+              "en": "Lockbox Service Announcement"
+            },
+            "sections": [
+              {
+                "body": {
+                  "en": "Lockbox devices are experiencing inconsistent connection with the Blockchain web wallet. Some functionality, such as setup, managing applications, and sending funds from the device is affected. Funds can still be received and are backed up by the 24-word recovery phrase. Updates will be communicated when the issue is resolved."
+                }
+              }
+            ],
+            "action": {
+              "title": {
+                "en": "Learn More"
+              },
+              "link": "https://support.ledger.com/hc/en-us/articles/360018810413-U2F-timeout-in-Chrome-browser"
+            }
+          },
           "public": {},
           "swap": {},
           "wallet": {}
