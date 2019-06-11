@@ -323,7 +323,7 @@
     "showSfox": false
   },
   "mobile_notice": {
-    "en": "The technical issue affecting Stellar XLM and Swap functionality has been fixed. Please update the app to see the fix reflected."
+    "en": "The issue with XLM and Swap functionality has been fixed. Please update to the latest app version via the App Store."
   },
   "web": {
     "serviceAlert": {}
