@@ -146,6 +146,8 @@ const v4 = object({
         announcements: optional(object({
           lockbox: optional(webServiceAlert()),
           public: optional(webServiceAlert()),
+          request: optional(webServiceAlert()),
+          send: optional(webServiceAlert()),
           swap: optional(webServiceAlert()),
           wallet: optional(webServiceAlert())
         }))

@@ -28,6 +28,8 @@
             }
           },
           "public": {},
+          "request": {},
+          "send": {},
           "swap": {},
           "wallet": {}
         }
