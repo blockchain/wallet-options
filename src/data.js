@@ -25,7 +25,6 @@ exports.countries = [
   'UG', 'UA', 'AE', 'GB', 'US', 'UM', 'UY', 'UZ', 'VU', 'VE',
   'VN', 'VI', 'WF', 'EH', 'YE', 'ZM', 'ZW'
 ]
-
 exports.states = [
   'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA',
   'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD',
@@ -33,3 +32,4 @@ exports.states = [
   'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC',
   'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY'
 ]
+exports.supportedCoins = ['BTC', 'BCH', 'ETH', 'PAX', 'XLM']
