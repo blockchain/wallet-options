@@ -322,6 +322,9 @@
     "showShapeshift": true,
     "showSfox": false
   },
+  "mobile_notice": {
+    "en": "We’re currently experiencing temporary technical issues with the Stellar network and our Swap product. Rest assured your funds are safe. In the meantime you can still view your funds and trade on our web wallet."
+  },
   "web": {
     "serviceAlert": {}
   },
