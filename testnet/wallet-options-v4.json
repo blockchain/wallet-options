@@ -23,6 +23,8 @@
             ],
             "action": {}
           },
+          "request": {},
+          "send": {},
           "swap": {},
           "wallet": {
             "id": "testnet-warning-wallet",
