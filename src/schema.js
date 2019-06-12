@@ -152,6 +152,9 @@ const v4 = object({
           wallet: optional(webServiceAlert())
         }))
       }),
+      ads: object({
+        blacklist: arrayOf()
+      }),
       coins: object({
         BTC: coin(),
         BCH: coin(),

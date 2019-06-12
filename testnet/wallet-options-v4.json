@@ -44,6 +44,14 @@
           }
         }
       },
+      "ads": {
+        "blacklist": [
+          "LT",
+          "LU",
+          "UK",
+          "US"
+        ]
+      },
       "coins": {
         "BTC": {
           "availability": {
