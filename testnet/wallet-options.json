@@ -193,7 +193,11 @@
   "android": {
     "showUnocoin": false,
     "showShapeshift": false,
-    "showSfox": true
+    "showSfox": true,
+    "update": {
+      "updateType": "none",
+      "latestStoreVersion": ""
+    }
   },
   "mobile": {
     "walletRoot": "https://testnet.blockchain.info/wallet"
