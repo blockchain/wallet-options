@@ -122,6 +122,10 @@ const v3 = object({
     showShapeshift: bool(),
     showSfox: bool()
   }),
+  android_update: object({
+    updateType: string(),
+      latestStoreVersion: string()
+  }),
   ios: object({
     update: object({
       updateType: string(),

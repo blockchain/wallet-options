@@ -314,6 +314,10 @@
     "showShapeshift": true,
     "showSfox": false
   },
+  "android_update": {
+    "updateType": "none",
+    "latestStoreVersion": ""
+  },
   "ios": {
     "update": {
       "updateType": "none",

@@ -195,6 +195,10 @@
     "showShapeshift": false,
     "showSfox": true
   },
+  "android_update": {
+    "updateType": "none",
+    "latestStoreVersion": ""
+  },
   "mobile": {
     "walletRoot": "https://testnet.blockchain.info/wallet"
   },
