@@ -66,7 +66,7 @@ exports.coin = () => exports.object({
   coinTicker: exports.string(),
   colorCode: exports.string(),
   config: exports.optional(exports.object({
-    network: exports.optional(exports.enumOf(['bitcoin', 'public', 1])),
+    network: exports.optional(exports.enumOf(['bitcoin', 'public', 'testnet', 1])),
     fees: exports.optional(exports.object({
       regular: exports.optional(exports.number()),
       priority: exports.optional(exports.number())
