@@ -261,11 +261,7 @@
   "android": {
     "showUnocoin": false,
     "showShapeshift": true,
-    "showSfox": true,
-    "update": {
-      "updateType": "none",
-      "latestStoreVersion": ""
-    }
+    "showSfox": true
   },
   "android_update": {
     "updateType": "none",
