@@ -122,7 +122,7 @@ const v3 = object({
     showShapeshift: bool(),
     showSfox: bool()
   }),
-  update: object({
+  android_update: object({
     updateType: string(),
       latestStoreVersion: string()
   }),
