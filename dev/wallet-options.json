@@ -267,6 +267,10 @@
       "latestStoreVersion": ""
     }
   },
+  "android_update": {
+      "updateType": "none",
+      "latestStoreVersion": ""
+  },
   "ios": {
     "update": {
       "updateType": "none",

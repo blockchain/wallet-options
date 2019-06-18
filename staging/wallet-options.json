@@ -269,11 +269,11 @@
   "android": {
     "showUnocoin": false,
     "showShapeshift": true,
-    "showSfox": false,
-    "update": {
-      "updateType": "none",
-      "latestStoreVersion": ""
-    }
+    "showSfox": false
+  },
+  "android_update": {
+    "updateType": "none",
+    "latestStoreVersion": ""
   },
   "ios": {
     "update": {

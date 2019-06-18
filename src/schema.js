@@ -118,13 +118,13 @@ const v3 = object({
     walletRoot: string()
   }),
   android: object({
-    update: object({
-      updateType: string(),
-      latestStoreVersion: string()
-    }),
     showUnocoin: bool(),
     showShapeshift: bool(),
     showSfox: bool()
+  }),
+  update: object({
+    updateType: string(),
+      latestStoreVersion: string()
   }),
   ios: object({
     update: object({
