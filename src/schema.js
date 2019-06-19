@@ -206,7 +206,8 @@ const v4 = object({
     ledger: string(),
     ledgerSocket: string(),
     horizon: string(),
-    veriff: string()
+    veriff: string(),
+    coinify: string()
   })
 })
 
