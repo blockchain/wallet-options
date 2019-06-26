@@ -192,6 +192,9 @@ const v4 = object({
         config: object({
           apiKey: string()
         })
+      }),
+      sift: object({
+        apiKey: string()
       })
     }),
     ios: object({}),
