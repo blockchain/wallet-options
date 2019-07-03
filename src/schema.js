@@ -173,7 +173,6 @@ const v4 = object({
         config: object({
           partnerId: enumOf([19, 24, 35]),
           production: bool(),
-          coinifyPaymentDomain: string(),
           iSignThisDomain: string()
         })
       }),
@@ -201,17 +200,18 @@ const v4 = object({
     android: object({})
   }),
   domains: object({
-    root: string(),
     api: string(),
-    webSocket: string(),
-    walletHelper: string(),
-    comWalletApp: string(),
+    coinify: string(),
+    coinifyPaymentDomain: string(),
     comRoot: string(),
+    comWalletApp: string(),
+    horizon: string(),
     ledger: string(),
     ledgerSocket: string(),
-    horizon: string(),
+    root: string(),
     veriff: string(),
-    coinify: string()
+    walletHelper: string(),
+    webSocket: string(),
   })
 })
 
