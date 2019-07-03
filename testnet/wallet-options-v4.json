@@ -384,6 +384,6 @@
     "root": "https://testnet.blockchain.info",
     "veriff": "https://magic.veriff.me",
     "walletHelper": "https://wallet-testnet3-helper.blockchain.info",
-    "webSocket": "wss://ws.testnet.blockchain.info",
+    "webSocket": "wss://ws.testnet.blockchain.info"
   }
 }

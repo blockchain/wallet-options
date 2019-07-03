@@ -375,6 +375,6 @@
     "root": "https://explorer.dev.blockchain.info",
     "veriff": "https://magic.veriff.me",
     "walletHelper": "https://wallet-helper.dev.blockchain.info",
-    "webSocket": "wss://ws.dev.blockchain.info",
+    "webSocket": "wss://ws.dev.blockchain.info"
   }
 }
