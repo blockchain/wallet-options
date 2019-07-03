@@ -312,7 +312,6 @@
         "config": {
           "partnerId": 35,
           "production": false,
-          "coinifyPaymentDomain": "https://pay.sandbox.coinify.com",
           "iSignThisDomain": "https://stage-verify.isignthis.com"
         }
       },
@@ -374,16 +373,17 @@
     "android": {}
   },
   "domains": {
-    "root": "https://testnet.blockchain.info",
     "api": "https://api-testnet.blockchain.info",
-    "webSocket": "wss://ws.testnet.blockchain.info",
-    "walletHelper": "https://wallet-testnet3-helper.blockchain.info",
-    "comWalletApp": "https://wallet-frontend-v4.testnet.blockchain.info",
+    "coinify": "https://app-api.coinify.com",
+    "coinifyPaymentDomain": "https://pay.sandbox.coinify.com",
     "comRoot": "https://testnet.blockchain.com",
+    "comWalletApp": "https://wallet-frontend-v4.testnet.blockchain.info",
+    "horizon": "https://horizon-testnet.stellar.org",
     "ledger": "https://manager.api.live.ledger.com",
     "ledgerSocket": "wss://api.ledgerwallet.com",
-    "horizon": "https://horizon-testnet.stellar.org",
+    "root": "https://testnet.blockchain.info",
     "veriff": "https://magic.veriff.me",
-    "coinify": "https://app-api.coinify.com"
+    "walletHelper": "https://wallet-testnet3-helper.blockchain.info",
+    "webSocket": "wss://ws.testnet.blockchain.info",
   }
 }
