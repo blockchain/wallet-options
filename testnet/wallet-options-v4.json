@@ -110,7 +110,7 @@
         },
         "BSV": {
           "availability": {
-            "send": true,
+            "send": false,
             "request": false,
             "lockbox": false,
             "exchangeTo": false,
