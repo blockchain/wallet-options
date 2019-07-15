@@ -373,6 +373,7 @@
     "ledger": "https://manager.api.live.ledger.com",
     "ledgerSocket": "wss://api.ledgerwallet.com",
     "root": "https://explorer.dev.blockchain.info",
+    "thePit": "https://pit.dev.blockchain.info",
     "veriff": "https://magic.veriff.me",
     "walletHelper": "https://wallet-helper.dev.blockchain.info",
     "webSocket": "wss://ws.dev.blockchain.info"
