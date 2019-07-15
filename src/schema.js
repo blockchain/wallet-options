@@ -209,7 +209,7 @@ const v4 = object({
     ledger: string(),
     ledgerSocket: string(),
     root: string(),
-    thePit: string(),
+    thePit: optional(string()),
     veriff: string(),
     walletHelper: string(),
     webSocket: string(),
