@@ -312,6 +312,9 @@
           "iSignThisDomain": "https://stage-verify.isignthis.com"
         }
       },
+      "thePit": {
+        "countries": []
+      },
       "sfox": {
         "countries": [
           "US"
