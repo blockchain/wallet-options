@@ -312,6 +312,9 @@
           "iSignThisDomain": "https://verify.isignthis.com"
         }
       },
+      "thePit": {
+        "countries": []
+      },
       "sfox": {
         "countries": [
           "US"

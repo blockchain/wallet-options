@@ -176,6 +176,9 @@ const v4 = object({
           iSignThisDomain: string()
         })
       }),
+      thePit: object({
+        countries: either(just('*'), arrayOf(country()))
+      }),
       sfox: object({
         countries: arrayOf(country()),
         states: arrayOf(state()),
