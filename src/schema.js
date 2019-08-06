@@ -204,6 +204,7 @@ const v4 = object({
   }),
   domains: object({
     api: string(),
+    bitpay: string(),
     coinify: string(),
     coinifyPaymentDomain: string(),
     comRoot: string(),
