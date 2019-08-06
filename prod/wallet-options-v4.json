@@ -374,6 +374,7 @@
   },
   "domains": {
     "api": "https://api.blockchain.info",
+    "bitpay": "https://bitpay.com",
     "coinify": "https://app-api.coinify.com",
     "coinifyPaymentDomain": "https://pay.coinify.com",
     "comRoot": "https://www.blockchain.com",

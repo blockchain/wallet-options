@@ -383,6 +383,7 @@
   },
   "domains": {
     "api": "https://api-testnet.blockchain.info",
+    "bitpay": "https://bitpay.com",
     "coinify": "https://app-api.coinify.com",
     "coinifyPaymentDomain": "https://pay.sandbox.coinify.com",
     "comRoot": "https://testnet.blockchain.com",
