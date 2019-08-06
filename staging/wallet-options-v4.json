@@ -374,6 +374,7 @@
   },
   "domains": {
     "api": "https://api.staging.blockchain.info",
+    "bitpay": "https://bitpay.com",
     "coinify": "https://app-api.sandbox.coinify.com",
     "coinifyPaymentDomain": "https://pay.sandbox.coinify.com",
     "comRoot": "https://staging.blockchain.com",
