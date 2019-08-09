@@ -315,7 +315,7 @@
     "showSfox": false
   },
   "android_update": {
-    "updateType": "recommended",
+    "updateType": "RECOMMENDED",
     "latestStoreVersion": "6.27.2"
   },
   "ios": {
