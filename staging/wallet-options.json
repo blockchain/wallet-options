@@ -215,7 +215,9 @@
       "https://blockchain.co1.qualtrics.com/jfe/form/SV_3QV1OgysGUC0hXD"
     ]
   },
-  "bcash": {},
+  "bcash": {
+    "feePerByte": 4
+  },
   "xlm": {
     "operationFee": 1500,
     "sendTimeOutSeconds": 600

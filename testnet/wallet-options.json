@@ -27,7 +27,9 @@
     "upperLimit": 500,
     "rolloutFraction": 1
   },
-  "bcash": {},
+  "bcash": {
+    "feePerByte": 2
+  },
   "xlm": {
     "operationFee": 1500,
     "sendTimeOutSeconds": 600
