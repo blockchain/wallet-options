@@ -92,9 +92,7 @@ const v3 = object({
     upperLimit: integer(),
     surveyLinks: arrayOf(nullable(string()))
   }),
-  bcash: object({
-    feePerByte: integer()
-  }),
+  bcash: object({}),
   xlm: object({
     operationFee: integer(),
     sendTimeOutSeconds: integer(),

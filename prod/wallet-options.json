@@ -257,9 +257,7 @@
     ],
     "disabled": false
   },
-  "bcash": {
-    "feePerByte": 4
-  },
+  "bcash": {},
   "xlm": {
     "operationFee": 1500,
     "sendTimeOutSeconds": 600
