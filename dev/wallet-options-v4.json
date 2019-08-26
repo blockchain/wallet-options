@@ -369,7 +369,7 @@
     "coinifyPaymentDomain": "https://pay.sandbox.coinify.com",
     "comRoot": "https://dev.blockchain.com",
     "comWalletApp": "https://login-dev.blockchain.com",
-    "horizon": "https://horizon.stellar.org",
+    "horizon": "https://horizon.blockchain.info",
     "ledger": "https://manager.api.live.ledger.com",
     "ledgerSocket": "wss://api.ledgerwallet.com",
     "root": "https://explorer.dev.blockchain.info",
