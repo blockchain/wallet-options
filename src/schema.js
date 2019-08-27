@@ -172,9 +172,11 @@ const v4 = object({
         config: object({
           partnerId: enumOf([19, 24, 35]),
           production: bool(),
-          coinifyPaymentDomain: string(),
           iSignThisDomain: string()
         })
+      }),
+      thePit: object({
+        countries: either(just('*'), arrayOf(country()))
       }),
       sfox: object({
         countries: arrayOf(country()),
@@ -200,17 +202,20 @@ const v4 = object({
     android: object({})
   }),
   domains: object({
-    root: string(),
     api: string(),
-    webSocket: string(),
-    walletHelper: string(),
-    comWalletApp: string(),
+    bitpay: string(),
+    coinify: string(),
+    coinifyPaymentDomain: string(),
     comRoot: string(),
+    comWalletApp: string(),
+    horizon: string(),
     ledger: string(),
     ledgerSocket: string(),
-    horizon: string(),
+    root: string(),
+    thePit: optional(string()),
     veriff: string(),
-    coinify: string()
+    walletHelper: string(),
+    webSocket: string(),
   })
 })
 

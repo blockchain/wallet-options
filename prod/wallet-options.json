@@ -7,7 +7,7 @@
     "webSocket": "wss://ws.blockchain.info/inv",
     "api": "https://api.blockchain.info",
     "walletHelperUrl": "https://wallet-helper.blockchain.com",
-    "stellarHorizon": "https://horizon.stellar.org"
+    "stellarHorizon": "https://horizon.blockchain.com"
   },
   "network": "bitcoin",
   "showBuySellTab": [
@@ -315,8 +315,8 @@
     "showSfox": false
   },
   "android_update": {
-    "updateType": "none",
-    "latestStoreVersion": ""
+    "updateType": "RECOMMENDED",
+    "latestStoreVersion": "6.27.2"
   },
   "ios": {
     "update": {

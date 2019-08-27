@@ -7,7 +7,7 @@
     "webSocket": "wss://ws.staging.blockchain.info/inv",
     "api": "https://api.staging.blockchain.info",
     "walletHelperUrl": "https://wallet-helper.staging.blockchain.info",
-    "stellarHorizon": "https://horizon.stellar.org"
+    "stellarHorizon": "https://horizon.blockchain.com"
   },
   "network": "bitcoin",
   "showBuySellTab": [
@@ -272,8 +272,8 @@
     "showSfox": false
   },
   "android_update": {
-    "updateType": "none",
-    "latestStoreVersion": ""
+    "updateType": "recommended",
+    "latestStoreVersion": "6.27.2"
   },
   "ios": {
     "update": {

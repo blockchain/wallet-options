@@ -49,7 +49,8 @@
             "request": true,
             "lockbox": true,
             "exchangeTo": true,
-            "exchangeFrom": true
+            "exchangeFrom": true,
+            "syncToPit": true
           },
           "coinCode": "BTC",
           "coinTicker": "BTC",
@@ -75,18 +76,14 @@
             "request": true,
             "lockbox": true,
             "exchangeTo": true,
-            "exchangeFrom": true
+            "exchangeFrom": true,
+            "syncToPit": true
           },
           "coinCode": "BCH",
           "coinTicker": "BCH",
           "colorCode": "bch",
           "displayName": "Bitcoin Cash",
-          "config": {
-            "fees": {
-              "regular": 4,
-              "priority": 4
-            }
-          },
+          "config": {},
           "hasLockboxSupport": true,
           "icons": {
             "default": "bch",
@@ -99,22 +96,18 @@
         },
         "BSV": {
           "availability": {
-            "send": true,
+            "send": false,
             "request": false,
             "lockbox": false,
             "exchangeTo": false,
-            "exchangeFrom": true
+            "exchangeFrom": true,
+            "syncToPit": false
           },
           "coinCode": "BSV",
           "coinTicker": "BSV",
           "colorCode": "bsv",
           "displayName": "Bitcoin SV",
-          "config": {
-            "fees": {
-              "regular": 4,
-              "priority": 4
-            }
-          },
+          "config": {},
           "hasLockboxSupport": false,
           "icons": {
             "default": "bsv"
@@ -128,7 +121,8 @@
             "request": true,
             "lockbox": true,
             "exchangeTo": true,
-            "exchangeFrom": true
+            "exchangeFrom": true,
+            "syncToPit": true
           },
           "coinCode": "ETH",
           "coinTicker": "ETH",
@@ -154,7 +148,8 @@
             "request": true,
             "lockbox": false,
             "exchangeTo": true,
-            "exchangeFrom": true
+            "exchangeFrom": true,
+            "syncToPit": true
           },
           "coinCode": "PAX",
           "coinTicker": "PAX",
@@ -182,7 +177,8 @@
             "request": true,
             "lockbox": true,
             "exchangeTo": true,
-            "exchangeFrom": true
+            "exchangeFrom": true,
+            "syncToPit": true
           },
           "campaign": "sunriver",
           "coinCode": "XLM",
@@ -244,59 +240,69 @@
       },
       "coinify": {
         "countries": [
-          "GB",
           "AT",
+          "AU",
           "BE",
           "BG",
-          "HR",
+          "BL",
+          "BR",
+          "CH",
           "CY",
           "CZ",
+          "DE",
           "DK",
           "EE",
+          "ES",
           "FI",
           "FR",
+          "GB",
           "GF",
-          "DE",
-          "GI",
-          "GR",
-          "GP",
           "GG",
+          "GI",
+          "GP",
+          "GR",
+          "HR",
           "HU",
-          "IS",
+          "ID",
           "IE",
           "IM",
+          "IS",
           "IT",
           "JE",
-          "LV",
           "LI",
           "LT",
           "LU",
-          "MT",
-          "MQ",
-          "YT",
+          "LV",
           "MC",
+          "MF",
+          "MQ",
+          "MT",
+          "MY",
           "NL",
           "NO",
+          "NZ",
+          "PH",
           "PL",
+          "PM",
           "PT",
           "RE",
           "RO",
-          "BL",
-          "MF",
-          "PM",
-          "SM",
-          "SK",
-          "SI",
-          "ES",
           "SE",
-          "CH"
+          "SI",
+          "SK",
+          "SM",
+          "TR",
+          "US",
+          "YT"
         ],
         "config": {
           "partnerId": 24,
           "production": false,
-          "coinifyPaymentDomain": "https://pay.sandbox.coinify.com",
           "iSignThisDomain": "https://stage-verify.isignthis.com"
         }
+      },
+      "thePit": {
+        "countries": []
       },
       "sfox": {
         "countries": [
@@ -356,16 +362,19 @@
     "android": {}
   },
   "domains": {
-    "root": "https://explorer.dev.blockchain.info",
     "api": "https://api.dev.blockchain.info",
-    "webSocket": "wss://ws.dev.blockchain.info",
-    "walletHelper": "https://wallet-helper.dev.blockchain.info",
-    "comWalletApp": "https://login-dev.blockchain.com",
+    "bitpay": "https://bitpay.com",
+    "coinify": "https://app-api.sandbox.coinify.com",
+    "coinifyPaymentDomain": "https://pay.sandbox.coinify.com",
     "comRoot": "https://dev.blockchain.com",
+    "comWalletApp": "https://login-dev.blockchain.com",
+    "horizon": "https://horizon.blockchain.com",
     "ledger": "https://manager.api.live.ledger.com",
     "ledgerSocket": "wss://api.ledgerwallet.com",
-    "horizon": "https://horizon.stellar.org",
+    "root": "https://explorer.dev.blockchain.info",
+    "thePit": "https://pit.dev.blockchain.info",
     "veriff": "https://magic.veriff.me",
-    "coinify": "https://app-api.coinify.com"
+    "walletHelper": "https://wallet-helper.dev.blockchain.info",
+    "webSocket": "wss://ws.dev.blockchain.info"
   }
 }
