@@ -145,7 +145,6 @@ const v4 = object({
     web: object({
       application: object({
         analyticsSiteId: optional(number()),
-        enableDomainMigrationRedirects: bool(),
         environment: enumOf(['dev', 'testnet', 'staging', 'prod']),
         announcements: optional(object({
           lockbox: optional(webServiceAlert()),

@@ -3,7 +3,6 @@
     "web": {
       "application": {
         "analyticsSiteId": 3,
-        "enableDomainMigrationRedirects": true,
         "environment": "prod",
         "announcements": {
           "lockbox": {
