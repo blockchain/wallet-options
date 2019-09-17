@@ -6,7 +6,26 @@
         "environment": "dev",
         "announcements": {
           "lockbox": {},
-          "public": {},
+          "public": {
+            "id": "dev-prototype-announcement",
+            "type": "danger",
+            "header": {
+              "en": "Dev Environment Instability"
+            },
+            "sections": [
+              {
+                "body": {
+                  "en": "This environment is currently being used as a testbed for a security project and is therefore unstable to use.  If you'd still like to use a dev wallet, follow the link below."
+                }
+              }
+            ],
+            "action": {
+              "title": {
+                "en": "Use Working Domain"
+              },
+              "link": "https://login-dev.blockchain.com/#/login"
+            }
+          },
           "request": {},
           "send": {},
           "swap": {},
