@@ -281,7 +281,10 @@
         }
       },
       "thePit": {
-        "countries": []
+        "countries": [
+          "CA",
+          "NL"
+        ]
       },
       "sfox": {
         "countries": [
