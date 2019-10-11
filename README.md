@@ -7,13 +7,13 @@ Settings file used by Blockchain wallet clients:
 
 ## Validation
 
-Install node modules: `yarn`
+Install node modules: `npm install`
 
-Validate options files: `yarn test`
+Validate options files: `npm test`
 
-Watch mode: `yarn test --watch`
+Watch mode: `npm test -- --watch`
 
-JSON format options: `yarn format [env?]`
+JSON format options: `npm run format [env?]`
 
 ## Deploy
 
