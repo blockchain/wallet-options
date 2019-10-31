@@ -16,7 +16,7 @@ const {
   state,
   string,
   webServiceAlert
-} = require('./types')
+} = require("./types");
 
 const v3 = object({
   enableDomainMigrationRedirects: bool(),
@@ -29,7 +29,7 @@ const v3 = object({
     walletHelperUrl: string(),
     stellarHorizon: string()
   }),
-  network: enumOf(['bitcoin', 'testnet']),
+  network: enumOf(["bitcoin", "testnet"]),
   showBuySellTab: arrayOf(country()),
   partners: object({
     coinify: object({
@@ -77,7 +77,7 @@ const v3 = object({
   }),
   ethereum: object({
     mew: bool(),
-    countries: either(just('*'), arrayOf(country())),
+    countries: either(just("*"), arrayOf(country())),
     lastTxFuse: number(),
     rolloutFraction: fraction(),
     surveyLinks: arrayOf(nullable(string()))
@@ -97,9 +97,9 @@ const v3 = object({
   }),
   xlm: object({
     operationFee: integer(),
-    sendTimeOutSeconds: integer(),
+    sendTimeOutSeconds: integer()
   }),
-  xlmExchange:object({
+  xlmExchange: object({
     exchangeAddresses: arrayOf(string())
   }),
   iosBuyPercent: fraction(),
@@ -124,7 +124,7 @@ const v3 = object({
   }),
   android_update: object({
     updateType: string(),
-      latestStoreVersion: string()
+    latestStoreVersion: string()
   }),
   ios: object({
     update: object({
@@ -138,22 +138,24 @@ const v3 = object({
   mobileInfo: optional(localizedMessage()),
   webHardFork: object({}),
   maintenance: bool()
-})
+});
 
 const v4 = object({
   platforms: object({
     web: object({
       application: object({
         analyticsSiteId: optional(number()),
-        environment: enumOf(['dev', 'testnet', 'staging', 'prod']),
-        announcements: optional(object({
-          lockbox: optional(webServiceAlert()),
-          public: optional(webServiceAlert()),
-          request: optional(webServiceAlert()),
-          send: optional(webServiceAlert()),
-          swap: optional(webServiceAlert()),
-          wallet: optional(webServiceAlert())
-        }))
+        environment: enumOf(["dev", "testnet", "staging", "prod"]),
+        announcements: optional(
+          object({
+            lockbox: optional(webServiceAlert()),
+            public: optional(webServiceAlert()),
+            request: optional(webServiceAlert()),
+            send: optional(webServiceAlert()),
+            swap: optional(webServiceAlert()),
+            wallet: optional(webServiceAlert())
+          })
+        )
       }),
       ads: object({
         blacklist: arrayOf(),
@@ -165,6 +167,7 @@ const v4 = object({
         BSV: coin(),
         ETH: coin(),
         PAX: coin(),
+        STX: coin(),
         XLM: coin()
       }),
       coinify: object({
@@ -176,7 +179,7 @@ const v4 = object({
         })
       }),
       thePit: object({
-        countries: either(just('*'), arrayOf(country()))
+        countries: either(just("*"), arrayOf(country()))
       }),
       sfox: object({
         countries: arrayOf(country()),
@@ -185,7 +188,7 @@ const v4 = object({
           production: bool(),
           apiKey: string(),
           plaid: string(),
-          plaidEnv: enumOf(['production', 'sandbox']),
+          plaidEnv: enumOf(["production", "sandbox"]),
           siftScience: string()
         })
       }),
@@ -215,8 +218,8 @@ const v4 = object({
     thePit: optional(string()),
     veriff: string(),
     walletHelper: string(),
-    webSocket: string(),
+    webSocket: string()
   })
-})
+});
 
-module.exports = { v3, v4 }
+module.exports = { v3, v4 };
