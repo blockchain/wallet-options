@@ -60,7 +60,8 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true
+            "syncToPit": true,
+            "syncToExchange": true
           },
           "coinCode": "BTC",
           "coinTicker": "BTC",
@@ -87,7 +88,8 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true
+            "syncToPit": true,
+            "syncToExchange": true
           },
           "coinCode": "BCH",
           "coinTicker": "BCH",
@@ -111,7 +113,8 @@
             "lockbox": false,
             "exchangeTo": false,
             "exchangeFrom": true,
-            "syncToPit": false
+            "syncToPit": false,
+            "syncToExchange": true
           },
           "coinCode": "BSV",
           "coinTicker": "BSV",
@@ -132,7 +135,8 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true
+            "syncToPit": true,
+            "syncToExchange": true
           },
           "coinCode": "ETH",
           "coinTicker": "ETH",
@@ -159,7 +163,8 @@
             "lockbox": false,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true
+            "syncToPit": true,
+            "syncToExchange": true
           },
           "coinCode": "PAX",
           "coinTicker": "PAX",
@@ -183,7 +188,8 @@
             "lockbox": false,
             "exchangeTo": false,
             "exchangeFrom": false,
-            "syncToPit": false
+            "syncToPit": false,
+            "syncToExchange": false
           },
           "campaign": "BLOCKSTACK",
           "coinCode": "STX",
@@ -205,7 +211,8 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true
+            "syncToPit": true,
+            "syncToExchange": true
           },
           "campaign": "sunriver",
           "coinCode": "XLM",
@@ -327,9 +334,6 @@
           "iSignThisDomain": "https://stage-verify.isignthis.com"
         }
       },
-      "thePit": {
-        "countries": []
-      },
       "sfox": {
         "countries": [
           "US"
@@ -394,6 +398,7 @@
     "coinifyPaymentDomain": "https://pay.sandbox.coinify.com",
     "comRoot": "https://testnet.blockchain.com",
     "comWalletApp": "https://wallet-frontend-v4.testnet.blockchain.info",
+    "exchange": "https://exchange.dev.blockchain.info",
     "horizon": "https://horizon-testnet.stellar.org",
     "ledger": "https://manager.api.live.ledger.com",
     "ledgerSocket": "wss://api.ledgerwallet.com",

@@ -178,9 +178,6 @@ const v4 = object({
           iSignThisDomain: string()
         })
       }),
-      thePit: object({
-        countries: either(just("*"), arrayOf(country()))
-      }),
       sfox: object({
         countries: arrayOf(country()),
         states: arrayOf(state()),
@@ -211,13 +208,14 @@ const v4 = object({
     coinifyPaymentDomain: string(),
     comRoot: string(),
     comWalletApp: string(),
+    exchange: string(),
     horizon: string(),
     ledger: string(),
     ledgerSocket: string(),
     mainProcess: string(),
     root: string(),
     securityProcess: string(),
-    thePit: optional(string()),
+    thePit: string(),
     veriff: string(),
     walletHelper: string(),
     webSocket: string()
