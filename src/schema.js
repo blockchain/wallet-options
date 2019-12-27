@@ -215,7 +215,6 @@ const v4 = object({
     mainProcess: string(),
     root: string(),
     securityProcess: string(),
-    thePit: string(),
     veriff: string(),
     walletHelper: string(),
     webSocket: string()

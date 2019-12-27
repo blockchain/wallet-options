@@ -44,7 +44,6 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true,
             "syncToExchange": true
           },
           "coinCode": "BTC",
@@ -72,7 +71,6 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true,
             "syncToExchange": true
           },
           "coinCode": "BCH",
@@ -97,7 +95,6 @@
             "lockbox": false,
             "exchangeTo": false,
             "exchangeFrom": true,
-            "syncToPit": false,
             "syncToExchange": false
           },
           "coinCode": "BSV",
@@ -119,7 +116,6 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true,
             "syncToExchange": true
           },
           "coinCode": "ETH",
@@ -147,7 +143,6 @@
             "lockbox": false,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true,
             "syncToExchange": true
           },
           "coinCode": "PAX",
@@ -172,7 +167,6 @@
             "lockbox": false,
             "exchangeTo": false,
             "exchangeFrom": false,
-            "syncToPit": false,
             "syncToExchange": false
           },
           "campaign": "BLOCKSTACK",
@@ -195,7 +189,6 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true,
             "syncToExchange": true
           },
           "campaign": "sunriver",
@@ -390,7 +383,6 @@
     "mainProcess": "https://wallet-main.blockchain.com",
     "root": "https://blockchain.info",
     "securityProcess": "https://wallet-security.blockchain.com",
-    "thePit": "https://pit.blockchain.com",
     "veriff": "https://magic.veriff.me",
     "walletHelper": "https://wallet-helper.blockchain.com",
     "webSocket": "wss://ws.blockchain.info"
