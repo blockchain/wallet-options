@@ -44,7 +44,6 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true,
             "syncToExchange": true
           },
           "coinCode": "BTC",
@@ -72,7 +71,6 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true,
             "syncToExchange": true
           },
           "coinCode": "BCH",
@@ -97,7 +95,6 @@
             "lockbox": false,
             "exchangeTo": false,
             "exchangeFrom": true,
-            "syncToPit": false,
             "syncToExchange": false
           },
           "coinCode": "BSV",
@@ -119,7 +116,6 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true,
             "syncToExchange": true
           },
           "coinCode": "ETH",
@@ -147,7 +143,6 @@
             "lockbox": false,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true,
             "syncToExchange": true
           },
           "coinCode": "PAX",
@@ -172,7 +167,6 @@
             "lockbox": false,
             "exchangeTo": false,
             "exchangeFrom": false,
-            "syncToPit": false,
             "syncToExchange": false
           },
           "campaign": "BLOCKSTACK",
@@ -195,7 +189,6 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": true,
             "syncToExchange": true
           },
           "campaign": "sunriver",
@@ -383,14 +376,13 @@
     "coinifyPaymentDomain": "https://pay.sandbox.coinify.com",
     "comRoot": "https://staging.blockchain.com",
     "comWalletApp": "https://wallet-frontend-v4.staging.blockchain.info",
-    "exchange": "https://pit.staging.blockchain.info",
+    "exchange": "https://exchange.staging.blockchain.info",
     "horizon": "https://horizon.blockchain.info",
     "ledger": "https://manager.api.live.ledger.com",
     "ledgerSocket": "wss://api.ledgerwallet.com",
     "mainProcess": "https://wallet-main-staging.blockchain.com",
     "root": "https://explorer.staging.blockchain.info",
     "securityProcess": "https://wallet-security-staging.blockchain.com",
-    "thePit": "https://pit.staging.blockchain.info",
     "veriff": "https://magic.veriff.me",
     "walletHelper": "https://wallet-helper.staging.blockchain.info",
     "webSocket": "wss://ws.staging.blockchain.info"
