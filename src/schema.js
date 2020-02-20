@@ -43,22 +43,6 @@ const v3 = object({
       showSellFraction: fraction(),
       showRecurringBuy: bool()
     }),
-    sfox: object({
-      disabled: bool(),
-      disabledReason: optional(localizedMessage()),
-      production: bool(),
-      countries: arrayOf(country()),
-      states: arrayOf(state()),
-      showBuyFraction: fraction(),
-      inviteFormFraction: fraction(),
-      showCheckoutFraction: fraction(),
-      apiKey: string(),
-      plaid: string(),
-      plaidEnv: string(),
-      siftScience: string(),
-      surveyLinks: arrayOf(nullable(string())),
-      buySurveyLinks: arrayOf(nullable(string()))
-    }),
     unocoin: object({
       disabled: bool(),
       disabledReason: optional(localizedMessage()),
@@ -80,16 +64,6 @@ const v3 = object({
     countries: either(just("*"), arrayOf(country())),
     lastTxFuse: number(),
     rolloutFraction: fraction(),
-    surveyLinks: arrayOf(nullable(string()))
-  }),
-  shapeshift: object({
-    disabled: bool(),
-    disabledReason: optional(localizedMessage()),
-    apiKey: string(),
-    countriesBlacklist: arrayOf(country()),
-    statesWhitelist: arrayOf(state()),
-    rolloutFraction: fraction(),
-    upperLimit: integer(),
     surveyLinks: arrayOf(nullable(string()))
   }),
   bcash: object({
@@ -118,9 +92,7 @@ const v3 = object({
     walletRoot: string()
   }),
   android: object({
-    showUnocoin: bool(),
-    showShapeshift: bool(),
-    showSfox: bool()
+    showUnocoin: bool()
   }),
   android_update: object({
     updateType: string(),
@@ -130,9 +102,7 @@ const v3 = object({
     update: object({
       updateType: string(),
       latestStoreVersion: string()
-    }),
-    showShapeshift: bool(),
-    showSfox: bool()
+    })
   }),
   mobile_notice: optional(localizedMessage()),
   mobileInfo: optional(localizedMessage()),
@@ -176,22 +146,6 @@ const v4 = object({
           partnerId: enumOf([19, 24, 35]),
           production: bool(),
           iSignThisDomain: string()
-        })
-      }),
-      sfox: object({
-        countries: arrayOf(country()),
-        states: arrayOf(state()),
-        config: object({
-          production: bool(),
-          apiKey: string(),
-          plaid: string(),
-          plaidEnv: enumOf(["production", "sandbox"]),
-          siftScience: string()
-        })
-      }),
-      shapeshift: object({
-        config: object({
-          apiKey: string()
         })
       }),
       sift: object({

@@ -327,56 +327,6 @@
           "iSignThisDomain": "https://stage-verify.isignthis.com"
         }
       },
-      "sfox": {
-        "countries": [
-          "US"
-        ],
-        "states": [
-          "AK",
-          "AZ",
-          "CA",
-          "CO",
-          "DE",
-          "ID",
-          "IL",
-          "IN",
-          "KY",
-          "LA",
-          "MA",
-          "MD",
-          "ME",
-          "MI",
-          "MO",
-          "MT",
-          "NE",
-          "NH",
-          "NJ",
-          "NV",
-          "OK",
-          "OH",
-          "PA",
-          "RI",
-          "TN",
-          "TX",
-          "UT",
-          "VA",
-          "WI",
-          "WV",
-          "WY"
-        ],
-        "config": {
-          "production": false,
-          "apiKey": "6CD61A0E965D48A7B1883A860490DC9E",
-          "plaid": "0b041cd9e9fbf1e7d93a0d5a39f5b9",
-          "plaidEnv": "sandbox",
-          "siftScience": "3884e5fae5"
-        }
-      },
-      "shapeshift": {
-        "config": {
-          "apiKey": "b7a7c320c19ea3a8e276c8921bc3ff79ec064d2cd9d98ab969acc648246b4be5ab2379af704c5d3a3021c0ddf82b3e479590718847c1301e1a85331d2d2a8370"
-        }
-      },
       "sift": {
         "apiKey": "0ecd212038"
       }
