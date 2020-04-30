@@ -391,6 +391,7 @@
     "coinifyPaymentDomain": "https://pay.sandbox.coinify.com",
     "comRoot": "https://testnet.blockchain.com",
     "comWalletApp": "https://wallet-frontend-v4.testnet.blockchain.info",
+    "everypay": "https://igw-demo.every-pay.com",
     "exchange": "https://exchange.dev.blockchain.info",
     "horizon": "https://horizon-testnet.stellar.org",
     "ledger": "https://manager.api.live.ledger.com",
