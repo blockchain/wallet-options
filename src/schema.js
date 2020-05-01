@@ -208,6 +208,7 @@ const v4 = object({
     coinifyPaymentDomain: string(),
     comRoot: string(),
     comWalletApp: string(),
+    everypay: string(),
     exchange: string(),
     horizon: string(),
     ledger: string(),

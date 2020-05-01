@@ -365,6 +365,7 @@
     "coinifyPaymentDomain": "https://pay.coinify.com",
     "comRoot": "https://www.blockchain.com",
     "comWalletApp": "https://login.blockchain.com",
+    "everypay": "https://pay.every-pay.eu",
     "exchange": "https://exchange.blockchain.com",
     "horizon": "https://horizon.blockchain.info",
     "ledger": "https://manager.api.live.ledger.com",
