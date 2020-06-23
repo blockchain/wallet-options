@@ -14,12 +14,7 @@
         }
       },
       "ads": {
-        "blacklist": [
-          "LT",
-          "LU",
-          "UK",
-          "US"
-        ],
+        "blacklist": ["LT", "LU", "UK", "US"],
         "url": "https://games.bitcoin.com/slots?cma=20190619_blockchainwalletS&utm_source=blockchainwallet_S&utm_medium=banner&utm_campaign=20190619_blockchainwalletS"
       },
       "coins": {
@@ -35,6 +30,7 @@
           "coinCode": "BTC",
           "coinTicker": "BTC",
           "colorCode": "btc",
+          "colorCodeLight": "btc-light",
           "displayName": "Bitcoin",
           "config": {
             "network": "bitcoin"
@@ -62,6 +58,7 @@
           "coinCode": "BCH",
           "coinTicker": "BCH",
           "colorCode": "bch",
+          "colorCodeLight": "bch-light",
           "displayName": "Bitcoin Cash",
           "config": {},
           "hasLockboxSupport": true,
@@ -108,6 +105,7 @@
           "coinCode": "ETH",
           "coinTicker": "ETH",
           "colorCode": "eth",
+          "colorCodeLight": "eth-light",
           "displayName": "Ether",
           "config": {
             "network": 1
@@ -136,6 +134,7 @@
           "coinCode": "PAX",
           "coinTicker": "USD-D",
           "colorCode": "usd-d",
+          "colorCodeLight": "usd-d-light",
           "contractAddress": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
           "displayName": "USD Digital",
           "hasLockboxSupport": false,
@@ -184,6 +183,7 @@
           "coinCode": "XLM",
           "coinTicker": "XLM",
           "colorCode": "xlm",
+          "colorCodeLight": "xlm-light",
           "config": {
             "network": "public",
             "sendTimeOutSeconds": 600
@@ -302,9 +302,7 @@
         }
       },
       "sfox": {
-        "countries": [
-          "US"
-        ],
+        "countries": ["US"],
         "states": [
           "AK",
           "AZ",
