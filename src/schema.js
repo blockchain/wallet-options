@@ -166,9 +166,11 @@ const v4 = object({
         BCH: coin(),
         BSV: coin(),
         ETH: coin(),
+        USDT: coin(),
         PAX: coin(),
         STX: coin(),
-        XLM: coin()
+        XLM: coin(),
+        ALGO: coin()
       }),
       coinify: object({
         countries: arrayOf(country()),
