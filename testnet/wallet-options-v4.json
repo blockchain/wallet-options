@@ -307,7 +307,7 @@
             "circle": "algo",
             "circleFilled": "algo"
           },
-          "learnMoreLink": "",
+          "learnMoreLink": "https://support.blockchain.com/hc/en-us/articles/360045226292-What-is-Algorand-",
           "minConfirmations": 3,
           "txExplorerBaseUrl": "",
           "txListAppRoute": "/algo/transactions"
