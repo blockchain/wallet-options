@@ -124,6 +124,31 @@
           "txExplorerBaseUrl": "https://www.blockchain.com/eth/tx",
           "txListAppRoute": "/eth/transactions"
         },
+        "USDT": {
+          "availability": {
+            "send": false,
+            "request": false,
+            "lockbox": false,
+            "exchangeTo": false,
+            "exchangeFrom": false,
+            "syncToPit": false
+          },
+          "coinCode": "USDT",
+          "coinTicker": "USDT",
+          "colorCode": "usdt",
+          "contractAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "displayName": "USD Tether",
+          "hasLockboxSupport": false,
+          "icons": {
+            "default": "usdt",
+            "circle": "usdt",
+            "circleFilled": "usdt"
+          },
+          "learnMoreLink": " https://support.blockchain.com/hc/en-us/articles/360044952032",
+          "minConfirmations": 12,
+          "txExplorerBaseUrl": "https://www.blockchain.com/eth/tx",
+          "txListAppRoute": "/usdt/transactions"
+        },
         "PAX": {
           "availability": {
             "send": true,
@@ -236,6 +261,30 @@
           "minConfirmations": 1,
           "txExplorerBaseUrl": "https://stellarchain.io/tx",
           "txListAppRoute": "/xlm/transactions"
+        },
+        "ALGO": {
+          "availability": {
+            "send": false,
+            "request": false,
+            "lockbox": false,
+            "exchangeTo": false,
+            "exchangeFrom": false,
+            "syncToPit": false
+          },
+          "coinCode": "ALGO",
+          "coinTicker": "ALGO",
+          "colorCode": "algo",
+          "displayName": "Algorand",
+          "hasLockboxSupport": false,
+          "icons": {
+            "default": "algo",
+            "circle": "algo",
+            "circleFilled": "algo"
+          },
+          "learnMoreLink": "https://support.blockchain.com/hc/en-us/articles/360045226292-What-is-Algorand-",
+          "minConfirmations": 3,
+          "txExplorerBaseUrl": "",
+          "txListAppRoute": "/algo/transactions"
         }
       },
       "coinify": {
