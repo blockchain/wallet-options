@@ -131,7 +131,7 @@
             "lockbox": false,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToPit": false
+            "syncToPit": true
           },
           "coinCode": "USDT",
           "coinTicker": "USDT",
