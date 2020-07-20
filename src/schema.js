@@ -157,10 +157,6 @@ const v4 = object({
           })
         )
       }),
-      ads: object({
-        blacklist: arrayOf(),
-        url: string()
-      }),
       coins: object({
         BTC: coin(),
         BCH: coin(),
