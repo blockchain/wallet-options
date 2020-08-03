@@ -44,6 +44,42 @@
         }
       },
       "coins": {
+        "EUR": {
+          "availability": {
+            "send": false,
+            "request": false
+          },
+          "coinCode": "EUR",
+          "coinTicker": "EUR",
+          "colorCode": "fiat",
+          "displayName": "Euros",
+          "icons": {
+            "default": "eur",
+            "circle": "eur",
+            "circleFilled": "eur"
+          },
+          "learnMoreLink": "",
+          "minConfirmations": 0,
+          "txListAppRoute": "/eur/transactions"
+        },
+        "GBP": {
+          "availability": {
+            "send": false,
+            "request": false
+          },
+          "coinCode": "GBP",
+          "coinTicker": "GBP",
+          "colorCode": "fiat",
+          "displayName": "Pounds",
+          "icons": {
+            "default": "gbp",
+            "circle": "gbp",
+            "circleFilled": "gbp"
+          },
+          "learnMoreLink": "",
+          "minConfirmations": 0,
+          "txListAppRoute": "/gbp/transactions"
+        },
         "BTC": {
           "availability": {
             "send": true,

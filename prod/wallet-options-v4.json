@@ -14,6 +14,44 @@
         }
       },
       "coins": {
+        "EUR": {
+          "availability": {
+            "send": false,
+            "request": false
+          },
+          "coinCode": "EUR",
+          "coinTicker": "EUR",
+          "colorCode": "fiat",
+          "displayName": "Euros",
+          "icons": {
+            "default": "eur",
+            "circle": "eur",
+            "circleFilled": "eur"
+          },
+          "learnMoreLink": "",
+          "minConfirmations": 0,
+          "showNewTagSidenav": true,
+          "txListAppRoute": "/eur/transactions"
+        },
+        "GBP": {
+          "availability": {
+            "send": false,
+            "request": false
+          },
+          "coinCode": "GBP",
+          "coinTicker": "GBP",
+          "colorCode": "fiat",
+          "displayName": "Pounds",
+          "icons": {
+            "default": "gbp",
+            "circle": "gbp",
+            "circleFilled": "gbp"
+          },
+          "learnMoreLink": "",
+          "minConfirmations": 0,
+          "showNewTagSidenav": true,
+          "txListAppRoute": "/gbp/transactions"
+        },
         "BTC": {
           "availability": {
             "send": true,
@@ -138,8 +176,7 @@
           "learnMoreLink": " https://support.blockchain.com/hc/en-us/articles/360044952032",
           "minConfirmations": 12,
           "txExplorerBaseUrl": "https://www.blockchain.com/eth/tx",
-          "txListAppRoute": "/usdt/transactions",
-          "showNewTagSidenav": true
+          "txListAppRoute": "/usdt/transactions"
         },
         "PAX": {
           "availability": {
@@ -276,8 +313,7 @@
           "learnMoreLink": "https://support.blockchain.com/hc/en-us/articles/360045226292-What-is-Algorand-",
           "minConfirmations": 3,
           "txExplorerBaseUrl": "",
-          "txListAppRoute": "/algo/transactions",
-          "showNewTagSidenav": true
+          "txListAppRoute": "/algo/transactions"
         }
       },
       "coinify": {
