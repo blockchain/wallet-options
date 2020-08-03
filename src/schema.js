@@ -5,6 +5,7 @@ const {
   country,
   either,
   enumOf,
+  fiat,
   fraction,
   integer,
   just,
@@ -158,6 +159,8 @@ const v4 = object({
         )
       }),
       coins: object({
+        EUR: fiat(),
+        GBP: fiat(),
         BTC: coin(),
         BCH: coin(),
         BSV: coin(),

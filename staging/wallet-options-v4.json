@@ -30,7 +30,6 @@
           },
           "learnMoreLink": "",
           "minConfirmations": 0,
-          "txExplorerBaseUrl": "",
           "txListAppRoute": "/eur/transactions"
         },
         "GBP": {
@@ -49,7 +48,6 @@
           },
           "learnMoreLink": "",
           "minConfirmations": 0,
-          "txExplorerBaseUrl": "",
           "txListAppRoute": "/gbp/transactions"
         },
         "BTC": {
