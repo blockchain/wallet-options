@@ -196,7 +196,8 @@ const v4 = object({
         })
       }),
       sift: object({
-        apiKey: string()
+        apiKey: string(),
+        paymentKey: string()
       })
     }),
     ios: object({}),
