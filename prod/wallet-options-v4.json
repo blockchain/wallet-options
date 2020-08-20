@@ -430,7 +430,8 @@
         }
       },
       "sift": {
-        "apiKey": "3c629728c4"
+        "apiKey": "3c629728c4",
+        "paymentKey": "4a0510ff14"
       }
     },
     "ios": {},
