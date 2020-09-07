@@ -161,6 +161,7 @@ const v4 = object({
       coins: object({
         EUR: fiat(),
         GBP: fiat(),
+        USD: fiat(),
         BTC: coin(),
         BCH: coin(),
         BSV: coin(),
