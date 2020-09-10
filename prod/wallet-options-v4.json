@@ -17,7 +17,9 @@
         "EUR": {
           "availability": {
             "send": false,
-            "request": false
+            "request": false,
+            "deposit": true,
+            "withdrawal": true
           },
           "coinCode": "EUR",
           "coinTicker": "EUR",
@@ -36,7 +38,9 @@
         "GBP": {
           "availability": {
             "send": false,
-            "request": false
+            "request": false,
+            "deposit": true,
+            "withdrawal": true
           },
           "coinCode": "GBP",
           "coinTicker": "GBP",
@@ -55,7 +59,9 @@
         "USD": {
           "availability": {
             "send": false,
-            "request": false
+            "request": false,
+            "deposit": false,
+            "withdrawal": false
           },
           "coinCode": "USD",
           "coinTicker": "USD",
@@ -127,6 +133,8 @@
           "availability": {
             "send": false,
             "request": false,
+            "deposit": true,
+            "withdrawal": true,
             "lockbox": false,
             "exchangeTo": false,
             "exchangeFrom": true,
@@ -226,6 +234,8 @@
           "availability": {
             "send": false,
             "request": false,
+            "deposit": true,
+            "withdrawal": true,
             "lockbox": false,
             "exchangeTo": false,
             "exchangeFrom": false,
@@ -314,6 +324,8 @@
           "availability": {
             "send": false,
             "request": false,
+            "deposit": true,
+            "withdrawal": true,
             "lockbox": false,
             "exchangeTo": false,
             "exchangeFrom": false,
@@ -450,7 +462,7 @@
       },
       "sift": {
         "apiKey": "3c629728c4",
-        "paymentKey": "4a0510ff14"
+        "paymentKey": "6cfc253dcd"
       }
     },
     "ios": {},

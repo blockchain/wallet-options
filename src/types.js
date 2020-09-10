@@ -118,7 +118,9 @@ exports.fiat = () =>
   exports.object({
     availability: {
       send: exports.bool(),
-      request: exports.bool()
+      request: exports.bool(),
+      deposit: exports.bool(),
+      withdrawal: exports.bool()
     },
     coinCode: exports.string(),
     coinTicker: exports.string(),
