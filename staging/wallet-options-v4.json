@@ -58,7 +58,7 @@
           "coinCode": "USD",
           "coinTicker": "USD",
           "colorCode": "fiat",
-          "displayName": "U.S Dollars",
+          "displayName": "U.S. Dollars",
           "icons": {
             "default": "usd",
             "circle": "usd",
