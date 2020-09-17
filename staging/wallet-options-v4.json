@@ -193,8 +193,7 @@
           "learnMoreLink": " https://support.blockchain.com/hc/en-us/articles/360044952032",
           "minConfirmations": 12,
           "txExplorerBaseUrl": "https://www.blockchain.com/eth/tx",
-          "txListAppRoute": "/usdt/transactions",
-          "showNewTagSidenav": true
+          "txListAppRoute": "/usdt/transactions"
         },
         "PAX": {
           "availability": {
@@ -331,8 +330,7 @@
           "learnMoreLink": "https://support.blockchain.com/hc/en-us/articles/360045226292-What-is-Algorand-",
           "minConfirmations": 3,
           "txExplorerBaseUrl": "",
-          "txListAppRoute": "/algo/transactions",
-          "showNewTagSidenav": true
+          "txListAppRoute": "/algo/transactions"
         }
       },
       "coinify": {
