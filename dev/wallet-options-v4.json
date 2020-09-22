@@ -76,7 +76,7 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToExchange": true
+            "syncToPit": true
           },
           "coinCode": "BTC",
           "coinTicker": "BTC",
@@ -103,7 +103,7 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToExchange": true
+            "syncToPit": true
           },
           "coinCode": "BCH",
           "coinTicker": "BCH",
@@ -128,7 +128,7 @@
             "lockbox": false,
             "exchangeTo": false,
             "exchangeFrom": true,
-            "syncToExchange": false
+            "syncToPit": false
           },
           "coinCode": "BSV",
           "coinTicker": "BSV",
@@ -149,7 +149,7 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToExchange": true
+            "syncToPit": true
           },
           "coinCode": "ETH",
           "coinTicker": "ETH",
@@ -202,7 +202,7 @@
             "lockbox": false,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToExchange": true
+            "syncToPit": true
           },
           "coinCode": "PAX",
           "coinTicker": "USD-D",
@@ -227,7 +227,7 @@
             "lockbox": false,
             "exchangeTo": false,
             "exchangeFrom": false,
-            "syncToExchange": false
+            "syncToPit": false
           },
           "campaign": "BLOCKSTACK",
           "coinCode": "STX",
@@ -249,7 +249,7 @@
             "lockbox": true,
             "exchangeTo": true,
             "exchangeFrom": true,
-            "syncToExchange": true
+            "syncToPit": true
           },
           "campaign": "sunriver",
           "coinCode": "XLM",
