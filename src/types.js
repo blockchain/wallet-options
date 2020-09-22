@@ -77,7 +77,8 @@ exports.coin = () =>
       request: exports.bool(),
       lockbox: exports.bool(),
       exchangeTo: exports.bool(),
-      exchangeFrom: exports.bool()
+      exchangeFrom: exports.bool(),
+      syncToPit: exports.bool()
     },
     campaign: exports.optional(exports.string()),
     coinCode: exports.string(),
