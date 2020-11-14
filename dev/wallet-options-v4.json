@@ -119,11 +119,11 @@
         },
         "BCH": {
           "availability": {
-            "send": true,
+            "send": false,
             "request": true,
-            "lockbox": true,
-            "exchangeTo": true,
-            "exchangeFrom": true,
+            "lockbox": false,
+            "exchangeTo": false,
+            "exchangeFrom": false,
             "syncToPit": true
           },
           "coinCode": "BCH",
