@@ -10,28 +10,7 @@
           "request": {},
           "send": {},
           "swap": {},
-          "wallet": {
-            "id": "bch-hardfork",
-            "type": "info",
-            "icon": "alert-filled",
-            "hideType": "collapse",
-            "header": {
-              "en": "BCH Service Interruption"
-            },
-            "sections": [
-              {
-                "body": {
-                  "en": "On November 15th Bitcoin Cash will experience a hard fork. To keep your funds safe, we will temporarily suspend the ability to send and exchange Bitcoin Cash from your wallet. We will reintroduce these features as soon as the network stabilizes."
-                }
-              }
-            ],
-            "action": {
-              "title": {
-                "en": "Learn More"
-              },
-              "link": "https://medium.com/blockchain/a-note-on-the-bitcoin-cash-fork-on-15-november-2020-ac9e09012197"
-            }
-          }
+          "wallet": {}
         }
       },
       "coins": {
@@ -119,11 +98,11 @@
         },
         "BCH": {
           "availability": {
-            "send": false,
+            "send": true,
             "request": true,
-            "lockbox": false,
-            "exchangeTo": false,
-            "exchangeFrom": false,
+            "lockbox": true,
+            "exchangeTo": true,
+            "exchangeFrom": true,
             "syncToPit": true
           },
           "coinCode": "BCH",
@@ -487,9 +466,7 @@
     "horizon": "https://horizon.stellar.org",
     "ledger": "https://manager.api.live.ledger.com",
     "ledgerSocket": "wss://api.ledgerwallet.com",
-    "mainProcess": "https://wallet-main-dev.blockchain.com",
     "root": "https://explorer.dev.blockchain.info",
-    "securityProcess": "https://wallet-security-dev.blockchain.com",
     "veriff": "https://magic.veriff.me",
     "walletHelper": "https://wallet-helper.dev.blockchain.info",
     "webSocket": "wss://ws.dev.blockchain.info"
