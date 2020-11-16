@@ -216,9 +216,7 @@ const v4 = object({
     horizon: string(),
     ledger: string(),
     ledgerSocket: string(),
-    mainProcess: string(),
     root: string(),
-    securityProcess: string(),
     veriff: string(),
     walletHelper: string(),
     webSocket: string()
