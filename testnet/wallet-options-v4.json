@@ -96,7 +96,7 @@
           },
           "learnMoreLink": "",
           "minConfirmations": 0,
-          "showNewTagSidenav": true,
+          "showNewTagSidenav": false,
           "txListAppRoute": "/usd/transactions"
         },
         "BTC": {
@@ -357,6 +357,32 @@
           "minConfirmations": 3,
           "txExplorerBaseUrl": "",
           "txListAppRoute": "/algo/transactions"
+        },
+        "WDGLD": {
+          "availability": {
+            "send": true,
+            "request": true,
+            "lockbox": false,
+            "exchangeTo": true,
+            "exchangeFrom": true,
+            "syncToPit": true
+          },
+          "coinCode": "WDGLD",
+          "coinTicker": "WDGLD",
+          "colorCode": "wdgld",
+          "contractAddress": "0x123151402076fc819B7564510989e475c9cD93CA",
+          "displayName": "Wrapped-DGLD",
+          "hasLockboxSupport": false,
+          "showNewTagSidenav": false,
+          "icons": {
+            "default": "wdgld",
+            "circle": "wdgld",
+            "circleFilled": "wdgld"
+          },
+          "learnMoreLink": "https://support.blockchain.com/hc/en-us/articles/360052952171",
+          "minConfirmations": 12,
+          "txExplorerBaseUrl": "https://www.blockchain.com/eth/tx",
+          "txListAppRoute": "/wdgld/transactions"
         }
       },
       "coinify": {
