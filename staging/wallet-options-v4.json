@@ -72,7 +72,6 @@
           },
           "learnMoreLink": "",
           "minConfirmations": 0,
-          "showNewTagSidenav": true,
           "txListAppRoute": "/usd/transactions"
         },
         "BTC": {

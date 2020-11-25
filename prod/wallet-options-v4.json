@@ -32,7 +32,6 @@
           },
           "learnMoreLink": "",
           "minConfirmations": 0,
-          "showNewTagSidenav": true,
           "txListAppRoute": "/eur/transactions"
         },
         "GBP": {
@@ -53,7 +52,6 @@
           },
           "learnMoreLink": "",
           "minConfirmations": 0,
-          "showNewTagSidenav": true,
           "txListAppRoute": "/gbp/transactions"
         },
         "USD": {
@@ -74,7 +72,6 @@
           },
           "learnMoreLink": "",
           "minConfirmations": 0,
-          "showNewTagSidenav": true,
           "txListAppRoute": "/usd/transactions"
         },
         "BTC": {
