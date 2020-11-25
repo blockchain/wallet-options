@@ -159,18 +159,18 @@ const v4 = object({
         )
       }),
       coins: object({
-        EUR: fiat(),
-        GBP: fiat(),
-        USD: fiat(),
-        BTC: coin(),
+        ALGO: coin(),
         BCH: coin(),
+        BTC: coin(),
         BSV: coin(),
         ETH: coin(),
-        USDT: coin(),
+        EUR: fiat(),
+        GBP: fiat(),
         PAX: coin(),
         STX: coin(),
-        XLM: coin(),
-        ALGO: coin()
+        USD: fiat(),
+        USDT: coin(),
+        XLM: coin()
       }),
       coinify: object({
         countries: arrayOf(country()),
