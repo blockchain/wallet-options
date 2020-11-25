@@ -170,6 +170,7 @@ const v4 = object({
         STX: coin(),
         USD: fiat(),
         USDT: coin(),
+        WDGLD: coin(),
         XLM: coin()
       }),
       coinify: object({
