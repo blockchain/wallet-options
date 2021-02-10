@@ -486,6 +486,9 @@
       "sift": {
         "apiKey": "3c629728c4",
         "paymentKey": "6cfc253dcd"
+      },
+      "mobile_auth": {
+        "enabled": false
       }
     },
     "ios": {},
