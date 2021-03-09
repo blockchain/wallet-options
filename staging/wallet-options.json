@@ -303,7 +303,7 @@
     }
   },
   "webHardFork": {},
-  "maintenance": true,
+  "maintenance": false,
   "mobileInfo": {
     "en": "We are experiencing an outage with the wallet. Please rest assured your funds are safe."
   }
