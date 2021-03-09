@@ -10,7 +10,28 @@
           "request": {},
           "send": {},
           "swap": {},
-          "wallet": {}
+          "wallet": {
+            "id": "mar-downtime",
+            "type": "info",
+            "icon": "alert-filled",
+            "hideType": "collapse",
+            "header": {
+              "en": "Outage in Wallet Products"
+            },
+            "sections": [
+              {
+                "body": {
+                  "en": "We are experiencing an outage with the wallet. Please rest assured your funds are safe."
+                }
+              }
+            ],
+            "action": {
+              "title": {
+                "en": "See status"
+              },
+              "link": "https://www.blockchain-status.com"
+            }
+          }
         }
       },
       "coins": {
