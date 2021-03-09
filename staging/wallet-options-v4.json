@@ -6,7 +6,28 @@
         "environment": "staging",
         "announcements": {
           "lockbox": {},
-          "public": {},
+          "public": {
+            "id": "wallet-outage",
+            "type": "info",
+            "icon": "alert-filled",
+            "hideType": "collapse",
+            "header": {
+              "en": "Wallet Service Interruption"
+            },
+            "sections": [
+              {
+                "body": {
+                  "en": "We are currently experiencing an outage with our wallet and are investigating. During this time, you will be unable to access your wallets momentarily but rest assured your funds remain safe."
+                }
+              }
+            ],
+            "action": {
+              "title": {
+                "en": "Learn More"
+              },
+              "link": "https://www.blockchain-status.com/"
+            }
+          },
           "request": {},
           "send": {},
           "swap": {},
@@ -480,6 +501,9 @@
       "sift": {
         "apiKey": "0ecd212038",
         "paymentKey": "4a0510ff14"
+      },
+      "mobile_auth": {
+        "enabled": true
       }
     },
     "ios": {},
@@ -497,7 +521,7 @@
     "horizon": "https://horizon.stellar.org",
     "ledger": "https://manager.api.live.ledger.com",
     "ledgerSocket": "wss://api.ledgerwallet.com",
-    "root": "https://explorer.staging.blockchain.info",
+    "root": "https://staging.blockchain.info",
     "veriff": "https://magic.veriff.me",
     "walletHelper": "https://wallet-helper.staging.blockchain.info",
     "webSocket": "wss://ws.staging.blockchain.info"
