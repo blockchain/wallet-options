@@ -200,6 +200,9 @@ const v4 = object({
       sift: object({
         apiKey: string(),
         paymentKey: string()
+      }),
+      mobile_auth: object({
+        enabled: bool()
       })
     }),
     ios: object({}),

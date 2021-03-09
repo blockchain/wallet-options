@@ -6,7 +6,28 @@
         "environment": "prod",
         "announcements": {
           "lockbox": {},
-          "public": {},
+          "public": {
+            "id": "wallet-outage",
+            "type": "info",
+            "icon": "alert-filled",
+            "hideType": "collapse",
+            "header": {
+              "en": "Wallet Service Interruption"
+            },
+            "sections": [
+              {
+                "body": {
+                  "en": "We are currently experiencing an outage with our wallet and are investigating. During this time, you will be unable to access your wallets momentarily but rest assured your funds remain safe."
+                }
+              }
+            ],
+            "action": {
+              "title": {
+                "en": "Learn More"
+              },
+              "link": "https://www.blockchain-status.com/"
+            }
+          },
           "request": {},
           "send": {},
           "swap": {},
@@ -486,6 +507,9 @@
       "sift": {
         "apiKey": "3c629728c4",
         "paymentKey": "6cfc253dcd"
+      },
+      "mobile_auth": {
+        "enabled": false
       }
     },
     "ios": {},
