@@ -7,7 +7,8 @@
     "webSocket": "wss://ws.blockchain.info/inv",
     "api": "https://api.blockchain.info",
     "walletHelperUrl": "https://wallet-helper.blockchain.com",
-    "stellarHorizon": "https://horizon.stellar.org"
+    "stellarHorizon": "https://horizon.stellar.org",
+    "yapilyCallbackUrl": "https://www.blockchain.com/brokerage-link-success"
   },
   "network": "bitcoin",
   "showBuySellTab": [
