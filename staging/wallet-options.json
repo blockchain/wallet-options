@@ -7,7 +7,7 @@
     "webSocket": "wss://ws.staging.blockchain.info/inv",
     "api": "https://api.staging.blockchain.info",
     "walletHelperUrl": "https://wallet-helper.staging.blockchain.info",
-    "stellarHorizon": "https://api.blockchain.info/stellar"
+    "stellarHorizon": "https://horizon.stellar.org"
   },
   "network": "bitcoin",
   "showBuySellTab": [
