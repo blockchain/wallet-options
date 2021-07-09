@@ -49,7 +49,7 @@ elif [ "$BC_ENV" == "testnet" ]; then
     WALLET_OPTIONS_URL="https://testnet.blockchain.info/Resources/wallet-options.json"
 else
 #    WALLET_OPTIONS_V4_URL="https://login-${BC_ENV}.blockchain.com/Resources/wallet-options-v4.json"
-    WALLET_OPTIONS_URL="https://explorer.${BC_ENV}.blockchain.info/Resources/wallet-options.json"
+    WALLET_OPTIONS_URL="https://${BC_ENV}.blockchain.info/Resources/wallet-options.json"
 fi
 
 # compare to deployed version before uploading
