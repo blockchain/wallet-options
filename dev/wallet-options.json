@@ -275,6 +275,23 @@
     "showShapeshift": true,
     "showSfox": true
   },
+  "hotWalletAddresses": {
+    "swap": {
+      "eth": "0x619b99779B0502b63C01a7b99f08870Fd36d4980"
+    },
+    "exchange": {
+      "eth": "0xee23B629b414d1dF733A0beC2E9480b3efF03dE4"
+    },
+    "simplebuy": {
+      "eth": "0xe08Ae0c6702769304c8797D85f1E128B0bc38DE8"
+    },
+    "lending": {
+      "eth": "0x714b10756A4eD325792887c3406b8b818A28d6D9"
+    },
+    "rewards": {
+      "eth": "0xeB44C3ce01140BB1746e35882D3BC612B2c1e28D"
+    }
+  },
   "web": {
     "serviceAlert": {
       "public": {
