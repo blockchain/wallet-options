@@ -135,6 +135,23 @@ const v3 = object({
     showShapeshift: bool(),
     showSfox: bool()
   }),
+  hotWalletAddresses: optional(object({
+    swap: optional(object({
+      eth: string(),
+    })),
+    exchange: optional(object({
+      eth: string()
+    })),
+    simplebuy: optional(object({
+      eth: string()
+    })),
+    lending: optional(object({
+      eth: string()
+    })),
+    rewards: optional(object({
+      eth: string()
+    }))
+  })),
   mobile_notice: optional(localizedMessage()),
   mobileInfo: optional(localizedMessage()),
   webHardFork: object({}),
