@@ -327,20 +327,23 @@
     "showSfox": false
   },
   "hotWalletAddresses": {
-    "swap": {
-      "eth": "0xC88F7666330b4b511358b7742dC2a3234710e7B1"
-    },
     "exchange": {
       "eth": "0x9AA65464b4cFbe3Dc2BDB3dF412AeE2B3De86687"
-    },
-    "simplebuy": {
-      "eth": "0x23f4569002a5A07f0Ecf688142eEB6bcD883eeF8"
     },
     "lending": {
       "eth": "0x67f889e6C1CE3E817705E00D528eB7F8be492B9E"
     },
     "rewards": {
       "eth": "0xA00E2A7652248AbEb209398227DAE413E9479e52"
+    },
+    "simplebuy": {
+      "eth": "0x23f4569002a5A07f0Ecf688142eEB6bcD883eeF8"
+    },
+    "staking": {
+      "eth": "0xF2c3CF8666DE6d41E94069C99E70BF8d412bBc7B"
+    },
+    "swap": {
+      "eth": "0xC88F7666330b4b511358b7742dC2a3234710e7B1"
     }
   },
   "web": {
